@@ -1,4 +1,6 @@
 import torch
+import torch.nn.functional as F
+from qwen_vl_utils import process_vision_info
 
 def get_layer_representation(model, processor, image_input, layer_idx, prompt="Describe this image."):
     activations = {}
@@ -11,9 +13,7 @@ def get_layer_representation(model, processor, image_input, layer_idx, prompt="D
             activations['value'] = output.detach()
 
     # --- VERSION-AWARE LAYER ACCESS ---
-    # We check the attributes of model.language_model directly
     if hasattr(model, "language_model"):
-        # This handles the 'Qwen2VLTextModel' structure you have
         if hasattr(model.language_model, "layers"):
             target_layer = model.language_model.layers[layer_idx]
         elif hasattr(model.language_model, "model") and hasattr(model.language_model.model, "layers"):
@@ -21,7 +21,6 @@ def get_layer_representation(model, processor, image_input, layer_idx, prompt="D
         else:
             raise AttributeError("Could not find layers in model.language_model.")
     else:
-        # Fallback for other versions
         target_layer = model.model.layers[layer_idx]
     
     handle = target_layer.register_forward_hook(hook_fn)
@@ -34,45 +33,84 @@ def get_layer_representation(model, processor, image_input, layer_idx, prompt="D
     image_inputs, _ = process_vision_info(messages)
     inputs = processor(text=[text], images=image_inputs, return_tensors="pt").to(model.device)
 
-    # Run forward pass (don't need .generate for simple vector extraction)
+    # Run forward pass to trigger the hook
     with torch.no_grad():
-        model(**inputs)
+        # We don't need to generate a full response, just one token is enough to trigger the hook
+        model(**inputs) 
 
     handle.remove()
-    return activations.get('value')
+    
+    if 'value' in activations:
+        return activations['value']
+    else:
+        return "Error: Hook did not capture any activations."
 
 def generate_with_vector_insertion(model, processor, image_input, layer_idx, injection_vector, alpha=1.0, prompt="Describe the expression."):
     """
-    Inserts or adds a custom vector at a specific layer during generation.
-    alpha: 1.0 = replace entirely, 0.5 = mix 50/50, etc.
+    Adds a steering vector to the model's hidden state (Activation Addition).
+    Math: New_State = Original_State + (alpha * Injection_Vector)
     """
     
+    # 1. VALIDATION
+    if not isinstance(injection_vector, torch.Tensor):
+        print(f"Error: injection_vector is {type(injection_vector)}, expected torch.Tensor.")
+        return "Steering Error: Invalid injection vector."
+
     def insertion_hook(module, input, output):
-        # hidden_states is the first element of the output tuple
-        original_hs = output[0]
+        original_hs = output[0] # Shape: [batch, seq_len, hidden_dim]
         
-        # Ensure injection_vector matches shape [batch, seq_len, hidden_dim]
-        # For simplicity, we assume injection_vector is already shaped or we broadcast it
-        modified_hs = (1 - alpha) * original_hs + (alpha * injection_vector)
+        # 2. KV-CACHE CHECK: Only steer during the initial 'prefill' pass (full image processing).
+        # When seq_len is 1, it's just generating the next text token; we skip steering to be safe.
+        if original_hs.shape[1] == 1:
+            return output
+
+        # 3. SHAPE MATCHING: Resize injection_vector if token counts differ
+        if injection_vector.shape[1] != original_hs.shape[1]:
+            # Transpose to [batch, hidden_dim, seq_len] for interpolation
+            temp_v = injection_vector.transpose(1, 2).to(original_hs.dtype)
+            resized_v = F.interpolate(temp_v, size=original_hs.shape[1], mode='linear')
+            target_v = resized_v.transpose(1, 2)
+        else:
+            target_v = injection_vector.to(original_hs.dtype)
+
+        # 4. THE MATH FIX: ADDITION (Steering)
+        # Old way (Swap): modified_hs = (1 - alpha) * original_hs + (alpha * target_v)
+        # New way (Add):  modified_hs = original_hs + (alpha * target_v)
+        modified_hs = original_hs + (alpha * target_v)
         
         return (modified_hs,) + output[1:]
 
-    # Register the "Intervention" hook
-    target_layer = model.model.layers[layer_idx]
+    # 5. ROBUST LAYER ACCESS
+    try:
+        if hasattr(model, "language_model"):
+            if hasattr(model.language_model, "layers"):
+                target_layer = model.language_model.layers[layer_idx]
+            else:
+                target_layer = model.language_model.model.layers[layer_idx]
+        else:
+            target_layer = model.model.layers[layer_idx]
+    except Exception as e:
+        return f"Layer Access Error: {e}"
+
     handle = target_layer.register_forward_hook(insertion_hook)
 
-    # Prepare inputs
-    from qwen_vl_utils import process_vision_info
+    # 6. RUN GENERATION
     messages = [{"role": "user", "content": [{"type": "image", "image": image_input}, {"type": "text", "text": prompt}]}]
     text = processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
     image_inputs, _ = process_vision_info(messages)
+    
     inputs = processor(text=[text], images=image_inputs, return_tensors="pt").to(model.device)
 
-    # Generate with the injected "thought"
     with torch.no_grad():
         generated_ids = model.generate(**inputs, max_new_tokens=50)
     
-    # Clean up
-    handle.remove()
+    # 7. TRIM PROMPT FROM OUTPUT
+    input_len = inputs.input_ids.shape[1]
+    response = processor.batch_decode(
+        generated_ids[:, input_len:], 
+        skip_special_tokens=True,
+        clean_up_tokenization_spaces=False
+    )[0]
     
-    return processor.batch_decode(generated_ids, skip_special_tokens=True)[0]
+    handle.remove()
+    return response.strip()
