@@ -2,7 +2,7 @@ import torch
 import torch.nn.functional as F
 from qwen_vl_utils import process_vision_info
 
-def get_layer_representation(model, processor, image_input, layer_idx, prompt="Describe this image."):
+def get_layer_representation(model, processor, image_input, layer_idx, prompt="Describe this image.", LLM_use=True):
     activations = {}
 
     def hook_fn(module, input, output):
@@ -13,21 +13,32 @@ def get_layer_representation(model, processor, image_input, layer_idx, prompt="D
             activations['value'] = output.detach()
 
     # --- VERSION-AWARE LAYER ACCESS ---
-    if hasattr(model, "language_model"):
-        if hasattr(model.language_model, "layers"):
-            target_layer = model.language_model.layers[layer_idx]
-        elif hasattr(model.language_model, "model") and hasattr(model.language_model.model, "layers"):
-            target_layer = model.language_model.model.layers[layer_idx]
+    if LLM_use:
+        # Target Language Model Layers
+        if hasattr(model, "language_model"):
+            if hasattr(model.language_model, "layers"):
+                target_layer = model.language_model.layers[layer_idx]
+            elif hasattr(model.language_model, "model") and hasattr(model.language_model.model, "layers"):
+                target_layer = model.language_model.model.layers[layer_idx]
+            else:
+                raise AttributeError("Could not find layers in model.language_model.")
         else:
-            raise AttributeError("Could not find layers in model.language_model.")
+            # Fallback for models where the base is the LM (e.g. Qwen2.5 pure text, though unlikely here)
+            target_layer = model.model.layers[layer_idx]
     else:
-        target_layer = model.model.layers[layer_idx]
+        # Target Vision Model Layers
+        # Qwen2-VL usually stores the vision encoder in model.visual
+        if hasattr(model, "visual") and hasattr(model.visual, "blocks"):
+             target_layer = model.visual.blocks[layer_idx]
+        elif hasattr(model, "model") and hasattr(model.model, "visual") and hasattr(model.model.visual, "blocks"):
+             target_layer = model.model.visual.blocks[layer_idx]
+        else:
+             raise AttributeError("Could not find vision blocks in model.visual.")
     
     handle = target_layer.register_forward_hook(hook_fn)
     # ----------------------------------
 
     # Prepare inputs
-    from qwen_vl_utils import process_vision_info
     messages = [{"role": "user", "content": [{"type": "image", "image": image_input}, {"type": "text", "text": prompt}]}]
     text = processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
     image_inputs, _ = process_vision_info(messages)
@@ -35,7 +46,6 @@ def get_layer_representation(model, processor, image_input, layer_idx, prompt="D
 
     # Run forward pass to trigger the hook
     with torch.no_grad():
-        # We don't need to generate a full response, just one token is enough to trigger the hook
         model(**inputs) 
 
     handle.remove()
@@ -45,7 +55,7 @@ def get_layer_representation(model, processor, image_input, layer_idx, prompt="D
     else:
         return "Error: Hook did not capture any activations."
 
-def generate_with_vector_insertion(model, processor, image_input, layer_idx, injection_vector, alpha=1.0, prompt="Describe the expression."):
+def generate_with_vector_insertion(model, processor, image_input, layer_idx, injection_vector, alpha=1.0, prompt="Describe the expression.", LLM_use=True):
     """
     Adds a steering vector to the model's hidden state (Activation Addition).
     Math: New_State = Original_State + (alpha * Injection_Vector)
@@ -57,14 +67,22 @@ def generate_with_vector_insertion(model, processor, image_input, layer_idx, inj
         return "Steering Error: Invalid injection vector."
 
     def insertion_hook(module, input, output):
-        original_hs = output[0] # Shape: [batch, seq_len, hidden_dim]
-        
-        # 2. KV-CACHE CHECK: Only steer during the initial 'prefill' pass (full image processing).
-        # When seq_len is 1, it's just generating the next text token; we skip steering to be safe.
-        if original_hs.shape[1] == 1:
+        # Handle tuple output (common in transformers)
+        if isinstance(output, tuple):
+            original_hs = output[0] 
+        else:
+            original_hs = output
+
+        # 2. KV-CACHE CHECK (Only relevant for LLM)
+        # If we are steering the LLM, we only want to steer during prefill (seq_len > 1).
+        # If steering Vision, this check is usually irrelevant as vision runs once per image, 
+        # but the check 'original_hs.shape[1] == 1' is still safe to keep.
+        if LLM_use and original_hs.shape[1] == 1:
             return output
 
         # 3. SHAPE MATCHING: Resize injection_vector if token counts differ
+        # Vision tokens (spatial) vs LLM tokens (text) will have very different lengths.
+        # F.interpolate handles this dynamic resizing.
         if injection_vector.shape[1] != original_hs.shape[1]:
             # Transpose to [batch, hidden_dim, seq_len] for interpolation
             temp_v = injection_vector.transpose(1, 2).to(original_hs.dtype)
@@ -73,22 +91,35 @@ def generate_with_vector_insertion(model, processor, image_input, layer_idx, inj
         else:
             target_v = injection_vector.to(original_hs.dtype)
 
-        # 4. THE MATH FIX: ADDITION (Steering)
-        # Old way (Swap): modified_hs = (1 - alpha) * original_hs + (alpha * target_v)
-        # New way (Add):  modified_hs = original_hs + (alpha * target_v)
+        # 4. THE MATH: ADDITION (Steering)
         modified_hs = original_hs + (alpha * target_v)
         
-        return (modified_hs,) + output[1:]
+        # Return tuple if original was tuple, else return tensor
+        if isinstance(output, tuple):
+            return (modified_hs,) + output[1:]
+        else:
+            return modified_hs
 
     # 5. ROBUST LAYER ACCESS
     try:
-        if hasattr(model, "language_model"):
-            if hasattr(model.language_model, "layers"):
-                target_layer = model.language_model.layers[layer_idx]
+        if LLM_use:
+            # Target Language Model
+            if hasattr(model, "language_model"):
+                if hasattr(model.language_model, "layers"):
+                    target_layer = model.language_model.layers[layer_idx]
+                else:
+                    target_layer = model.language_model.model.layers[layer_idx]
             else:
-                target_layer = model.language_model.model.layers[layer_idx]
+                target_layer = model.model.layers[layer_idx]
         else:
-            target_layer = model.model.layers[layer_idx]
+            # Target Vision Model
+            if hasattr(model, "visual") and hasattr(model.visual, "blocks"):
+                 target_layer = model.visual.blocks[layer_idx]
+            elif hasattr(model, "model") and hasattr(model.model, "visual") and hasattr(model.model.visual, "blocks"):
+                 target_layer = model.model.visual.blocks[layer_idx]
+            else:
+                 raise AttributeError("Could not find vision blocks in model.visual.")
+                 
     except Exception as e:
         return f"Layer Access Error: {e}"
 
