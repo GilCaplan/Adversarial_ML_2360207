@@ -60,7 +60,7 @@ def get_vlm_response(model, processor, image_path, prompt="Describe this image."
 
     # Generate output
     with torch.no_grad():
-        generated_ids = model.generate(**inputs, max_new_tokens=128)
+        generated_ids = model.generate(**inputs, max_new_tokens=128, num_beams=3, temperature=0.1)
 
     # Decode and trim (Qwen returns the input prompt + new text, we trim the prompt)
     output_text = processor.batch_decode(
