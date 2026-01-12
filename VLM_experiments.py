@@ -1,151 +1,265 @@
 import os
 import json
-import re
-import numpy as np
 import torch
-import matplotlib.pyplot as plt
+import numpy as np
+import tempfile
 from PIL import Image
 from tqdm import tqdm
+from datetime import datetime
 from Load_fer_dataset import load_fer_data
-from Load_VLM import load_qwen_model, get_vlm_response
+from Load_VLM import load_vlm_model, get_vlm_response
 from VLM_manipulation import get_layer_representation, generate_with_vector_insertion
 
-def load_file_image(info, experiment_name="blank"):
-    filename = f"json_results/emotion_steering_results_{experiment_name}.json"
-    if os.path.exists(filename):
-        with open(filename, "r") as f:
-            try:
-                data = json.load(f)
-            except json.JSONDecodeError:
-                data = []
-    else:
-        data = []
-    data.append(info)
+# --- Configuration ---
+RESULTS_DIR = "json_results"
+os.makedirs(RESULTS_DIR, exist_ok=True)
+DEFAULT_PROMPT = "Describe the image. If you see any specific emotion or object, describe it clearly."
 
+# Fixed alpha for the transformation experiment (since we only vary it for blank images)
+TRANSFORMATION_FIXED_ALPHA = 1.0 
+
+class TempImageHandler:
+    """
+    Context manager to handle PIL images for functions that strictly require file paths.
+    """
+    def __init__(self, image_input):
+        self.image_input = image_input
+        self.temp_path = None
+
+    def __enter__(self):
+        if isinstance(self.image_input, str):
+            return self.image_input
+        
+        # It is a PIL Image, save to temp
+        with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as tmp:
+            self.image_input.save(tmp.name)
+            self.temp_path = tmp.name
+        return self.temp_path
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        if self.temp_path and os.path.exists(self.temp_path):
+            os.remove(self.temp_path)
+
+def save_result_entry(experiment_name, model_name, entry):
+    """
+    Appends results to a single JSON file per Model + Experiment combo.
+    File format: json_results/exp_name_model_name.json
+    """
+    # Clean model name for filename (e.g., "qwen_2B")
+    safe_model_name = model_name.replace("/", "_").replace("-", "_")
+    filename = f"{RESULTS_DIR}/{experiment_name}_{safe_model_name}.json"
+    
+    data = []
+    if os.path.exists(filename):
+        try:
+            with open(filename, "r") as f:
+                data = json.load(f)
+        except json.JSONDecodeError:
+            data = []
+    
+    data.append(entry)
     with open(filename, "w") as f:
         json.dump(data, f, indent=2)
 
-def steering_images_by_layer(model, processor, images, steering_images, neutral, alpha=1, prompt="Caption the image, if pure noise say so as the caption, otherwise if you see an expression, provide a caption", emotion="happy", llm_use=True, layer_n=10, batch=10, num=5):
-    responses, steered_responses = [], []
-    system_prompt = prompt
+def create_noise_image(width=640, height=640):
+    """Generates a white noise image."""
+    base_array = np.full((height, width, 3), 255, dtype=np.float32)
+    noise = np.random.normal(0, 25, (height, width, 3))
+    noisy_array = base_array - np.abs(noise)
+    return Image.fromarray(np.clip(noisy_array, 0, 255).astype(np.uint8))
 
-    # Iterate through images in batches
-    for i in range(0, min(len(steering_images), num * batch), batch):
-        # --- Handle Test Image (Path vs Object) ---
-        if isinstance(images, list):
-            img_input = images[i]
-        else:
-            img_input = images
+def get_averaged_steering_vector(model, processor, pos_images, neg_images, layer_idx, use_llm, batch_size=30):
+    """Calculates Mean(Positive) - Mean(Neutral) vector."""
+    vectors = []
+    limit = min(len(pos_images), batch_size)
+    
+    for i in range(limit):
+        p_img = pos_images[i] if not isinstance(pos_images[i], str) else Image.open(pos_images[i]).convert("RGB")
+        n_img = neg_images[i] if not isinstance(neg_images[i], str) else Image.open(neg_images[i]).convert("RGB")
+        
+        p_img = p_img.resize((336, 336))
+        n_img = n_img.resize((336, 336))
+
+        vec = get_layer_representation(model, processor, p_img, layer_idx, LLM_use=use_llm) - \
+              get_layer_representation(model, processor, n_img, layer_idx, LLM_use=use_llm)
+        vectors.append(vec)
+    
+    # Return the average vector
+    return torch.stack(vectors).mean(dim=0)
+
+def process_steering_batch(model, processor, provider, target_images, steer_pos_imgs, steer_neg_imgs, 
+                           layer_idx, alpha, use_llm, prompt):
+    """
+    Computes steering vector -> Runs Baseline -> Runs Steered Generation.
+    Returns: results (list), vector_norm (float)
+    """
+    # 1. Compute Steering Vector
+    steering_vector = get_averaged_steering_vector(
+        model, processor, steer_pos_imgs, steer_neg_imgs, layer_idx, use_llm
+    )
+    
+    # 2. Calculate Norm (Strength of the steering direction)
+    vector_norm = steering_vector.norm().item()
+
+    results = []
+    
+    # 3. Process Target Images
+    for idx, img_input in enumerate(target_images[:5]): 
+        
         if isinstance(img_input, str):
-            test_img = Image.open(img_input).convert("RGB").resize((336, 336))
+            pil_img = Image.open(img_input).convert("RGB").resize((336, 336))
         else:
-            test_img = img_input.convert("RGB").resize((336, 336))
-        
-        # --- Create Steering Vector ---
-        vectors = []
-        for j in range(batch):
-            idx = (i + j) % len(steering_images)
-            s_input = steering_images[idx]
-            
-            # Handle Steering Image (Path vs Object)
-            if isinstance(s_input, str):
-                s_img = Image.open(s_input).convert("RGB").resize((336, 336))
-            else:
-                s_img = s_input.convert("RGB").resize((336, 336))
-            
-            # Get representation
-            n_img = Image.open(neutral[idx]).convert("RGB").resize((336, 336))
-            vec = get_layer_representation(model, processor, s_img, layer_n, LLM_use=llm_use) - get_layer_representation(model, processor, n_img, layer_n, LLM_use=llm_use)
-            vectors.append(vec)
-        
-        # Stack and Average (Fixes the list error)
-        steering_vector = torch.stack(vectors).mean(dim=0)
+            pil_img = img_input.convert("RGB").resize((336, 336))
 
-        # --- Generate Responses ---
-        # 1. Without Steering
-        response_wo = get_vlm_response(model, processor, test_img, system_prompt)
-        
-        # 2. With Steering
-        response_w = generate_with_vector_insertion(
-            model, processor, test_img, layer_n, steering_vector, 
-            alpha=alpha, prompt=system_prompt, LLM_use=llm_use
+        # --- Baseline Generation ---
+        with TempImageHandler(pil_img) as img_path:
+            baseline_resp = get_vlm_response(model, processor, provider, img_path, prompt)
+
+        # --- Steered Generation ---
+        steered_resp = generate_with_vector_insertion(
+            model, processor, pil_img, layer_idx, steering_vector, 
+            alpha=alpha, prompt=prompt, LLM_use=use_llm
         )
         
-        responses.append(response_wo)
-        steered_responses.append(response_w)
-            
-    return responses, steered_responses
-
-def steering_blank_images_emotion():
-    print("--- Loading Data ---")
-    happy, sad, neutral, angry, _, _, _ = load_fer_data()
-    print(f"Loaded {len(happy)} happy images.")
-
-    print("\n--- Loading Model ---")
-    model, processor = load_qwen_model()
-    
-    print(f"\n--- Running Emotion Manipulation on Blank images ---")
-    results = {}
-    
-    # Define emotions to steer with
-    emotions_map = {'happy': happy, 'sad': sad, 'angry': angry}
-
-    for emotion, steer_imgs in emotions_map.items():
-        results[emotion] = []
+        results.append({
+            "image_index": idx,
+            "baseline": baseline_resp,
+            "steered": steered_resp
+        })
         
-        width, height = 640, 640
-        base_array = np.full((height, width, 3), 255, dtype=np.float32)
-        noise = np.random.normal(0, 2, (height, width, 3))
-        noisy_array = base_array - np.abs(noise)
-        noisy_img = np.clip(noisy_array, 0, 255).astype(np.uint8)
-        blank_image_pil = Image.fromarray(noisy_img)
-        print(f"\nGenerated blank image for steering with '{emotion}'.")
+    return results, vector_norm
 
-        # prompt = "Describe the image. If you see any specific emotion or object, describe it clearly."
+# ==========================================
+# Experiment 1: Blank Images (Hallucination)
+# ==========================================
+def run_blank_image_experiment(model, processor, provider, model_name, emotions_dict, neutral_imgs):
+    experiment_name = "exp_blank_hallucination"
+    print(f"\n[Experiment] Running {experiment_name} on {model_name}...")
 
-        # --- LOOP 1: LLM LAYERS ---
-        print(f"  -> Running LLM steering...")
-        for layer in tqdm(range(1, model.config.num_hidden_layers, 2), desc=f"LLM {emotion}"):
-            res = steering_images_by_layer(
-                model, processor, blank_image_pil, steer_imgs, neutral,
-                alpha=5.0, emotion=emotion, 
-                llm_use=True,   # <--- Correct: True for LLM
-                layer_n=layer, batch=20
-            )
-            # Save with unique key for blanks
-            load_file_image([f"blank_{emotion}_{layer}", 'LLM', res])
-            results[emotion].append(res)
+    # We use a set of alphas here as requested
+    alpha_values = [1.0, 3.0, 5.0, 10.0]
+    
+    blank_img = create_noise_image()
+    target_inputs = [blank_img]
+
+    for emotion_name, emotion_imgs in emotions_dict.items():
+        print(f" > Steering with '{emotion_name}' vectors...")
         
-        # --- LOOP 2: VISION LAYERS ---
-        print(f"  -> Running Vision steering...")
-        for layer in tqdm(range(1, model.config.vision_config.depth, 2), desc=f"Vision {emotion}"):
-            res = steering_images_by_layer(
-                model, processor, blank_image_pil, steer_imgs, neutral,
-                alpha=5.0, emotion=emotion, 
-                llm_use=False,  # <--- Correct: False for Vision
-                layer_n=layer, batch=20
-            )
-            load_file_image([f"blank_{emotion}_{layer}", 'Vision', res])
-            results[emotion].append(res)
+        max_llm = model.config.num_hidden_layers
+        max_vis = model.config.vision_config.num_hidden_layers if hasattr(model.config.vision_config, "num_hidden_layers") else model.config.vision_config.depth
+        
+        layer_configs = [
+            ("LLM", True, range(1, max_llm, 4)), 
+            ("Vision", False, range(1, max_vis, 4))
+        ]
 
-def steering_images_emotion():
-    print("--- Loading Data ---")
-    happy, sad, _, _, _, _, _ = load_fer_data()
-    print(f"Loaded {len(happy)} happy images.")
+        for comp_name, is_llm, layer_range in layer_configs:
+            for layer in tqdm(layer_range, desc=f"{emotion_name} ({comp_name})"):
+                
+                # Iterate over alpha values for the blank experiment
+                for alpha in alpha_values:
+                    outputs, vec_norm = process_steering_batch(
+                        model, processor, provider, target_inputs, 
+                        steer_pos_imgs=emotion_imgs, 
+                        steer_neg_imgs=neutral_imgs,
+                        layer_idx=layer, 
+                        alpha=alpha, 
+                        use_llm=is_llm, 
+                        prompt="Describe the image. If it is just noise, say so. If you see a face, describe the expression."
+                    )
 
-    print("\n--- Loading Model ---")
-    model, processor = load_qwen_model()
-    # print(f"LLM Layers: {model.config.num_hidden_layers}") #28
-    # print(f"Vision Layers: {model.config.vision_config.depth}") #32
-    print(f"\n--- Running Emotion Manipulation PoC - LLM ---")
-    for layer in tqdm(range(1,model.config.num_hidden_layers,2)):
-        result = steering_images_by_layer(model, processor, happy, sad, alpha=5.0, layer_n=layer)
-        load_file_image([layer, 'LLM', result])
-    print(f"\n--- Running Emotion Manipulation PoC - Vision ---")
-    for layer in tqdm(range(1,model.config.vision_config.depth,2)):
-        result = steering_images_by_layer(model, processor, happy, sad, alpha=5.0, llm_use=False, layer_n=layer)
-        load_file_image([layer, 'Vision', result])
+                    # Save to JSON
+                    save_result_entry(experiment_name, model_name, {
+                        "layer": layer,
+                        "component": comp_name,
+                        "target_emotion": emotion_name,
+                        "alpha": alpha,       # Log the alpha
+                        "vector_norm": vec_norm, # Log the norm
+                        "results": outputs
+                    })
 
+# ==========================================
+# Experiment 2: Emotion Transformation
+# ==========================================
+def run_emotion_transformation_experiment(model, processor, provider, model_name, emotions_dict, neutral_imgs):
+    experiment_name = "exp_emotion_transfer"
+    print(f"\n[Experiment] Running {experiment_name} on {model_name}...")
 
+    pairs = [("happy", "sad"), ("sad", "happy"), ("neutral", "angry")]
+
+    for src_emo, target_emo in pairs:
+        print(f" > Turning {src_emo} -> {target_emo}...")
+        
+        target_inputs = emotions_dict[src_emo]
+        steer_pos = emotions_dict[target_emo]
+        
+        max_llm = model.config.num_hidden_layers
+        max_vis = model.config.vision_config.num_hidden_layers if hasattr(model.config.vision_config, "num_hidden_layers") else model.config.vision_config.depth
+
+        layer_configs = [
+            ("LLM", True, range(5, max_llm, 5)), 
+            ("Vision", False, range(5, max_vis, 5))
+        ]
+
+        for comp_name, is_llm, layer_range in layer_configs:
+            for layer in tqdm(layer_range, desc=f"{src_emo}->{target_emo}"):
+                
+                # Single fixed alpha for transformation experiment
+                outputs, vec_norm = process_steering_batch(
+                    model, processor, provider, target_inputs, 
+                    steer_pos_imgs=steer_pos, 
+                    steer_neg_imgs=neutral_imgs,
+                    layer_idx=layer, 
+                    alpha=TRANSFORMATION_FIXED_ALPHA, 
+                    use_llm=is_llm, 
+                    prompt=DEFAULT_PROMPT
+                )
+
+                save_result_entry(experiment_name, model_name, {
+                    "layer": layer,
+                    "component": comp_name,
+                    "source": src_emo,
+                    "target": target_emo,
+                    "alpha": TRANSFORMATION_FIXED_ALPHA,
+                    "vector_norm": vec_norm,
+                    "results": outputs
+                })
+
+# ==========================================
+# Main Execution
+# ==========================================
 if __name__ == "__main__":
-    steering_blank_images_emotion()
+    print("--- Loading FER Dataset ---")
+    happy, sad, neutral, angry, _, _, _ = load_fer_data()
+    emotions_dict = {"happy": happy, "sad": sad, "neutral": neutral, "angry": angry}
+
+    models_to_run = [
+        ("qwen", "2B", True),   # <--- Valid for Qwen2-VL
+        ("qwen", "7B", True),
+        # ("llama", "11B", True) 
+    ]
+
+    for provider, size, load_4bit in models_to_run:
+        full_name = f"{provider}_{size}"
+        print(f"\n{'='*40}\nProcessing Model: {full_name}\n{'='*40}")
+
+        try:
+            # UNPACK 3 VALUES
+            model, processor, provider_str = load_vlm_model(provider, size, load_in_4bit=load_4bit)
+            
+            # Experiment A: Hallucination (Iterates Alphas)
+            run_blank_image_experiment(model, processor, provider_str, full_name, emotions_dict, neutral)
+
+            # Experiment B: Transfer (Fixed Alpha)
+            run_emotion_transformation_experiment(model, processor, provider_str, full_name, emotions_dict, neutral)
+            
+            # Clean up VRAM
+            del model, processor
+            torch.cuda.empty_cache()
+
+        except Exception as e:
+            print(f"!!! Error processing {full_name}: {e}")
+            import traceback
+            traceback.print_exc()
+
+    print("\nAll experiments completed.")

@@ -1,0 +1,114 @@
+[
+  {
+    "layer": 1,
+    "component": "LLM",
+    "target_emotion": "happy",
+    "alpha": 1.0,
+    "vector_norm": 270.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a pattern of small, scattered dots on a light gray background. The dots are uniformly distributed, creating a random yet visually interesting pattern.",
+        "steered": "The image is a grayscale pattern with a few small, scattered blue dots. The background is a muted, light gray color. The dots are evenly distributed across the image, creating a subtle texture."
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "LLM",
+    "target_emotion": "happy",
+    "alpha": 3.0,
+    "vector_norm": 270.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a pattern of small, scattered dots on a light gray background. The dots are uniformly distributed, creating a random yet visually interesting pattern.",
+        "steered": "The expression on the face is one of curiosity and intrigue. The eyes are wide open, and the eyebrows are raised, suggesting that the person is intrigued by something or someone off-camera. The overall impression is one of excitement and wonder."
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "LLM",
+    "target_emotion": "happy",
+    "alpha": 5.0,
+    "vector_norm": 270.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a pattern of small, scattered dots on a light gray background. The dots are uniformly distributed, creating a random yet visually interesting pattern.",
+        "steered": "The expression \"blocky\" is a playful and creative way to describe someone who is thinking deeply about something, possibly with a sense of curiosity or contemplation. It suggests that the person is deeply engaged in a particular topic or activity."
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "LLM",
+    "target_emotion": "happy",
+    "alpha": 10.0,
+    "vector_norm": 270.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a pattern of small, scattered dots on a light gray background. The dots are uniformly distributed, creating a random yet visually interesting pattern.",
+        "steered": "The activity is: The activity is: The activity is: The activity is: The activity is: The activity is: The activity is: The activity is: The activity is: The activity is: The activity is: The activity is: The activity"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "target_emotion": "happy",
+    "alpha": 1.0,
+    "vector_norm": 260.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a pattern of small, scattered dots on a light gray background. The dots are uniformly distributed, creating a random yet visually interesting pattern.",
+        "steered": "The image is a monochrome pattern with a subtle gradient from light to dark. The background is a muted grayish-beige color, and there are small, scattered dots of varying sizes and colors. The dots are primarily shades of blue and purple,"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "target_emotion": "happy",
+    "alpha": 3.0,
+    "vector_norm": 260.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a pattern of small, scattered dots on a light gray background. The dots are uniformly distributed, creating a random yet visually interesting pattern.",
+        "steered": "The image appears to be a digital or computer-generated representation of a pattern or texture. It does not depict a specific scene or object."
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "target_emotion": "happy",
+    "alpha": 5.0,
+    "vector_norm": 260.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a pattern of small, scattered dots on a light gray background. The dots are uniformly distributed, creating a random yet visually interesting pattern.",
+        "steered": "The expression is neutral."
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "target_emotion": "happy",
+    "alpha": 10.0,
+    "vector_norm": 260.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a pattern of small, scattered dots on a light gray background. The dots are uniformly distributed, creating a random yet visually interesting pattern.",
+        "steered": "The answer is no. The statement is asking for a description of the image, but the answer is not about the image."
+      }
+    ]
+  }
+]

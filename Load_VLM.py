@@ -1,78 +1,96 @@
 import torch
-from transformers import Qwen2VLForConditionalGeneration, AutoProcessor
-from qwen_vl_utils import process_vision_info
+from PIL import Image
+from transformers import (
+    Qwen2VLForConditionalGeneration,  # Back to the specific, stable class
+    MllamaForConditionalGeneration,
+    AutoProcessor,
+    BitsAndBytesConfig
+)
 
-def load_qwen_model():
-    # 1. Force MPS explicitly instead of relying on auto-map
-    if torch.backends.mps.is_available():
-        device = torch.device("mps")
-        # bfloat16 is often better supported on newer M-series chips
-        dtype = torch.bfloat16 
-    else:
-        device = torch.device("cpu")
-        dtype = torch.float32
+def get_optimal_device():
+    if torch.cuda.is_available(): return "cuda"
+    if torch.backends.mps.is_available(): return "mps"
+    return "cpu"
 
-    print(f"Loading Qwen2-VL-2B on {device}...")
-
-    # 2. Optimized Loading Parameters
-    model = Qwen2VLForConditionalGeneration.from_pretrained(
-        "Qwen/Qwen2-VL-2B-Instruct",
-        torch_dtype=dtype,
-        # Avoid device_map="auto" for MPS to prevent CPU-offloading slowness
-        device_map=None, 
-        low_cpu_mem_usage=True
-    ).to(device) # Move the whole model to MPS at once
+def load_vlm_model(provider="qwen", size="7B", load_in_4bit=False):
+    device = get_optimal_device()
+    dtype = torch.bfloat16 if device != "cpu" else torch.float32
     
-    processor = AutoProcessor.from_pretrained("Qwen/Qwen2-VL-2B-Instruct")
-        
-    print("Model loaded successfully.")
-    return model, processor
+    if provider.lower() == "qwen":
+        # SWITCHED BACK TO Qwen2-VL (Stable)
+        # Valid sizes: 2B, 7B, 72B
+        model_id = f"Qwen/Qwen2-VL-{size}-Instruct" 
+        model_class = Qwen2VLForConditionalGeneration
+    elif provider.lower() == "llama":
+        model_id = f"meta-llama/Llama-3.2-{size}-Vision-Instruct"
+        model_class = MllamaForConditionalGeneration
+    else:
+        raise ValueError("Provider must be 'qwen' or 'llama'")
 
-def get_vlm_response(model, processor, image_path, prompt="Describe this image."):
-    """
-    Generates a response for a single image and prompt.
-    """
-    # Create the conversation structure
+    print(f"Loading {model_id}...")
+    bnb_config = None
+    if load_in_4bit and device == "cuda":
+        bnb_config = BitsAndBytesConfig(
+            load_in_4bit=True,
+            bnb_4bit_compute_dtype=dtype,
+            bnb_4bit_quant_type="nf4",
+            bnb_4bit_use_double_quant=True,
+        )
+
+    model = model_class.from_pretrained(
+        model_id,
+        torch_dtype=dtype,
+        quantization_config=bnb_config,
+        device_map="auto" if device == "cuda" else None,
+        low_cpu_mem_usage=True
+    )
+    
+    if device != "cuda" and not load_in_4bit:
+        model = model.to(device)
+    
+    processor = AutoProcessor.from_pretrained(model_id)
+    return model, processor, provider.lower()
+
+def get_vlm_response(model, processor, provider, image_path, prompt):
+    device = model.device
     messages = [
-        {
-            "role": "user",
-            "content": [
-                {"type": "image", "image": image_path},
-                {"type": "text", "text": prompt},
-            ],
-        }
+        {"role": "user", "content": [
+            {"type": "image", "image": image_path},
+            {"type": "text", "text": prompt}
+        ]}
     ]
 
-    # Prepare inputs using Qwen's specific utilities
-    text_prompt = processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
-    image_inputs, video_inputs = process_vision_info(messages)
-    
-    inputs = processor(
-        text=[text_prompt],
-        images=image_inputs,
-        videos=video_inputs,
-        padding=True,
-        return_tensors="pt",
-    )
+    # Manual image loading to avoid external dependencies
+    if isinstance(image_path, str):
+        image_obj = Image.open(image_path).convert("RGB")
+    else:
+        image_obj = image_path.convert("RGB")
 
-    # Move inputs to the correct device
-    inputs = inputs.to(model.device)
+    if provider == "qwen":
+        text_prompt = processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+        inputs = processor(
+            text=[text_prompt],
+            images=[image_obj],
+            padding=True,
+            return_tensors="pt",
+        )
+    else:
+        text_prompt = processor.apply_chat_template(messages, add_generation_prompt=True)
+        inputs = processor(image_obj, text_prompt, return_tensors="pt")
 
-    # Generate output
+    inputs = {k: v.to(device) if isinstance(v, torch.Tensor) else v for k, v in inputs.items()}
+
     with torch.no_grad():
-        generated_ids = model.generate(**inputs, max_new_tokens=128, num_beams=3, temperature=0.1)
+        output_ids = model.generate(
+            **inputs, 
+            max_new_tokens=256,
+            do_sample=False,
+            # Add these 3 lines to silence warnings:
+            temperature=None,
+            top_p=None,
+            top_k=None
+        )
 
-    # Decode and trim (Qwen returns the input prompt + new text, we trim the prompt)
-    output_text = processor.batch_decode(
-        generated_ids, skip_special_tokens=True, clean_up_tokenization_spaces=False
-    )
-    
-    # The output usually contains the prompt text; this split isolates the assistant's reply
-    # Note: Adjust logic if the model behavior changes, but usually the last part is the answer.
-    response = output_text[0]
-    
-    # Simple cleanup to remove the "system" or "user" prompt artifacts if they appear in raw decode
-    if "assistant\n" in response:
-        response = response.split("assistant\n")[-1]
-        
+    input_len = inputs["input_ids"].shape[1]
+    response = processor.batch_decode(output_ids[:, input_len:], skip_special_tokens=True)[0]
     return response.strip()
