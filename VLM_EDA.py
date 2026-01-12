@@ -54,4 +54,4 @@ def visualize_clean_words(json_path):
     plt.show()
 
 if __name__ == "__main__":
-    visualize_clean_words('/Users/USER/Desktop/University/Semester 7/CS Adverserial ML/Project/json_results/emotion_steering_results_blank_images.json')
+    visualize_clean_words('/Users/USER/Desktop/University/Semester 7/CS Adverserial ML/Project/json_results/emotion_steering_results_blank.json')
