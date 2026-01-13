@@ -992,5 +992,2371 @@
         "steered": "The image appears to be a pattern of small, colored dots on a neutral background. There is no face present in the image."
       }
     ]
+  },
+  {
+    "layer": 9,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 10.0,
+    "vector_norm": 251.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image shows a pattern of small, circular dots arranged in a grid-like structure. The dots are evenly spaced and appear to be of varying shades of brown and beige. The background is a solid light brown color. There is no face present in the"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 1.0,
+    "vector_norm": 251.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible face or any other recognizable object in the image."
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 3.0,
+    "vector_norm": 251.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no distinct shape or recognizable object in the image."
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 5.0,
+    "vector_norm": 251.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, colored dots scattered across a neutral background. The dots are primarily in shades of blue and purple, and they are arranged in a seemingly random fashion. There is no discernible face or any other recognizable object"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 10.0,
+    "vector_norm": 251.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a digital or abstract representation with a monochromatic color scheme. It the image is a digital or abstract representation with a monochromatic color scheme. The background is a solid color, and there are no distinct objects or figures"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 1.0,
+    "vector_norm": 258.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are primarily in shades of blue and purple, and they are distributed randomly across the image. There is no discernible face or any other specific object in the"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 3.0,
+    "vector_norm": 258.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are primarily in shades of blue and purple, and they are distributed randomly across the surface. The overall effect is somewhat abstract and does not resemble a face or"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 5.0,
+    "vector_norm": 258.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, colored dots scattered across a neutral background. The dots are primarily in shades of blue and purple, and they are distributed in a seemingly random fashion. The background color is shades of brown and beige. There"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 10.0,
+    "vector_norm": 258.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image consists of a pattern of small, light-colored dots on a brown background. The dots are evenly distributed and appear to be floating or suspended in the air. The overall effect is a simple and minimalistic design."
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 1.0,
+    "vector_norm": 284.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible face or any other specific objects in the image."
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 3.0,
+    "vector_norm": 284.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible face or any other specific objects in the image."
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 5.0,
+    "vector_norm": 284.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the surface. There is no discernible face or any other recognizable object in the image."
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 10.0,
+    "vector_norm": 284.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image consists of a pattern of small, light-colored dots scattered across a neutral, light brown background. The dots appear to be randomly distributed, creating a textured and somewhat abstract appearance. There is no distinct shape or figure present in the image."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 1.0,
+    "vector_norm": 392.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 3.0,
+    "vector_norm": 392.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 5.0,
+    "vector_norm": 392.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 10.0,
+    "vector_norm": 392.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, colored dots on a plain background. The dots are distributed randomly across the image, creating a speckledled effect. The background color is shades of brown, and the dots are in various colors,"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 1.0,
+    "vector_norm": 5504.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a collage or composite of various elements, including text and possibly some graphical elements. The text includes phrases like \"Bible,\" \"Tribune,\" and \"Washington Post,\" among others. The overall appearance is somewhat chaotic and"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 3.0,
+    "vector_norm": 5504.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a photograph of a scene with a large, colorful flower arrangement in the foreground. The flower arrangement consists of various flowers, including what looks like pink and white blossoms, and green foliage. The background features a natural setting with"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 5.0,
+    "vector_norm": 5504.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image depicts a scene with a white background and a blue sky with some clouds. There are several objects in the image, including a white object that appears to be a piece of paper or a card, and a blue object that looks like a piece"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 10.0,
+    "vector_norm": 5504.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a photograph of a natural scene, possibly a forest or a wooded area. The background consists of tall trees with green foliage, and the ground is covered with leaves and possibly some underbrush. The sky is visible through the gaps"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 1.0,
+    "vector_norm": 5440.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a landscape scene with a mountainous area and a body of water, possibly a lake or river. The sky is clear with a few clouds, and the overall color palette includes shades of blue, green, and brown. There"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 3.0,
+    "vector_norm": 5440.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a photograph of a beach scene. There are tall, green palm trees in the background, and the sky is clear with a few clouds. The foreground features a sandy beach with a few people walking along the shore. The water"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 5.0,
+    "vector_norm": 5440.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a photograph of a natural scene, possibly a forest or a wooded area. The background consists of tall trees with green foliage, and the ground is covered with a mix of grass and fallen leaves. The sky is clear with a"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 10.0,
+    "vector_norm": 5440.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a photograph of a natural scene, possibly a forest or a wooded area. The background consists of tall trees with green foliage, and the ground is covered with leaves and possibly some underbrush. The sky is visible through the gaps"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 1.0,
+    "vector_norm": 5376.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a landscape scene with a prominent mountain range in the background. The sky is clear with a few clouds, and the overall color palette includes shades of blue, green, and brown. The foreground features a road or path that leads"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 3.0,
+    "vector_norm": 5376.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image depicts a scene with a large, orange, and white object that appears to be a boat or a similar structure. The background consists of a blue sky with some clouds and a green landscape. There are also several people in the image, some"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 5.0,
+    "vector_norm": 5376.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a photograph of a natural scene, possibly a forest or a wooded area. The background consists of tall trees with green foliage, and the ground is covered with grass and small plants life. The sky is clear and blue, indicating"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 10.0,
+    "vector_norm": 5376.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a photograph of a natural scene, possibly a forest or a wooded area. The background consists of tall trees with green foliage, and the ground is covered with leaves and possibly some underbrush. The sky is visible through the gaps"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 1.0,
+    "vector_norm": 5376.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a landscape scene with a forested area in the background. The sky is clear with a few clouds, and the ground is covered with greenery. There is a road or path running through the scene, and the overall color"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 3.0,
+    "vector_norm": 5376.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a photograph of a beach scene. There are tall, green palm trees in the background, and the sky is clear with a few clouds. The foreground features a sandy beach with a few people walking along the shore. The water"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 5.0,
+    "vector_norm": 5376.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a photograph of a natural scene, specifically a forested area with trees and foliage. The trees are tall and have green leaves, indicating a healthy forest environment. The ground is covered with a mix of grass and small plants life"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 10.0,
+    "vector_norm": 5376.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a photograph of a natural scene, possibly a forest or a wooded area. The background consists of tall trees with green foliage, and the ground is covered with leaves and possibly some underbrush. The sky is visible through the gaps"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 1.0,
+    "vector_norm": 5344.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a landscape scene with a body of water, possibly a lake or river, surrounded by trees and vegetation. The water has a light color, possibly due to reflections or the presence of algae. The trees in the foreground are tall"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 3.0,
+    "vector_norm": 5344.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a photograph of a beach scene. It shows a sandy beach with clear blue water and a few scattered rocks. There are also some palm trees in the background, and the sky is a light blue color with a few clouds."
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 5.0,
+    "vector_norm": 5344.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a photograph of a beach scene. It shows a sandy beach with clear blue water and a few people in the distance. The sky is bright and sunny, and there are some palm trees visible in the background. The overall atmosphere"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 10.0,
+    "vector_norm": 5344.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a photograph of a natural scene, possibly a forest or wooded area. The background consists of tall trees with green foliage, and the ground is covered with grass and small plants life. The sky is clear and blue, indicating a"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 1.0,
+    "vector_norm": 5344.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a landscape scene with a forested area in the background. The foreground shows a body of water, possibly a lake or river, with a rocky shore. The water is calm, and there are some trees and foliage visible in"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 3.0,
+    "vector_norm": 5344.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a photograph of a beach scene. The sky is clear with a few clouds, and the sun is shining brightly. The water is a light blue color, and there are waves crashing onto the shore. The sand is light-colored"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 5.0,
+    "vector_norm": 5344.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a photograph of a product display. The main object in the image is a bottle of liquid, which is placed on a white surface. The bottle has a label that includes text and possibly a logo. The background consists of a"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 10.0,
+    "vector_norm": 5344.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a photograph of a product display. The main object in the image is a bottle of liquid, which is placed on a white surface. The bottle has a label that includes text and possibly a logo. The background is a plain"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 1.0,
+    "vector_norm": 5312.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a placeholder or a generic image, often used in web design to indicate that the actual content is not available or is being loaded. It"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 3.0,
+    "vector_norm": 5312.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a product advertisement for a brand of coffee. The background is a light, pastel-colored gradient, possibly representing a sunrise or sunset. The foreground features a close-up of a coffee bean, which is prominently displayed against a white"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 5.0,
+    "vector_norm": 5312.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a close-up of a product, specifically a bottle of liquid. The bottle has a white label with text and a logo. The background is blurred, but it seems to be a light-colored surface. There are no faces or"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 10.0,
+    "vector_norm": 5312.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a photograph of a person holding a camera. The person is wearing a white shirt and is standing in front of a blurred background. The camera is held up to their face, and the person seems to be taking a photo."
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 1.0,
+    "vector_norm": 5344.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a patterned design with a repetitive motif of what looks like a combination of geometric shapes and possibly some text or symbols. The colors are primarily shades of brown and beige, with some areas that seem to be a darker brown or"
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 3.0,
+    "vector_norm": 5344.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a black and white photograph of a person holding a camera. The person is wearing a hat and is standing in front of a blurred background. The camera is pointed towards the person, and the person is holding it with both hands"
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 5.0,
+    "vector_norm": 5344.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a black and white photograph featuring a person wearing a hat and a jacket. The background is blurred, making it difficult to discern any specific details about the setting. The person is looking directly at the camera with a neutral expression."
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 10.0,
+    "vector_norm": 5344.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a collection of various objects and elements, including what looks like a white object with a blue and red design, a red and white object, and a yellow and black object. There are also some text elements and what seems to"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 1.0,
+    "vector_norm": 308.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a solid background. The dots are of different colors, including blue and purple, and they are distributed randomly across the surface. The background color is shades of brown and beige. There is"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 3.0,
+    "vector_norm": 308.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a simple, abstract pattern of small, blue dots scattered across a light brown background. The dots are irregularly distributed, creating a random and somewhat chaotic appearance. The overall effect is a minimalistic and somewhat whimsical design."
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 5.0,
+    "vector_norm": 308.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image depicts a close-up view of a face, but the face is not clearly visible due to the blurring effect applied to it. The face appears to be of a person with a neutral expression, with no distinct emotional expression. The background is"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 10.0,
+    "vector_norm": 308.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The expression \"a face\" refers to the face of a person."
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 1.0,
+    "vector_norm": 290.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible face or any other recognizable object in the image. It"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 3.0,
+    "vector_norm": 290.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a solid background. The dots are in various shades of blue and purple, and they are distributed randomly across the image. There is no discernible face or expression in this image."
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 5.0,
+    "vector_norm": 290.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a simple, abstract design with a light brown background. The pattern consists of small, scattered dots in various shades of brown and beige, creating a textured and somewhat random appearance. The overall design is minimalistic and does not depict"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 10.0,
+    "vector_norm": 290.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image is a simple and minimalistic design featuring a single, isolated object. The object appears to be a small, circular shape with a dark center and a lighter, circular outline surrounding it. The background is a solid, light color, providing a"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 1.0,
+    "vector_norm": 260.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible face or any other recognizable object in the image. It"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 3.0,
+    "vector_norm": 260.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a solid background. The dots are of varying sizes and are distributed randomly across the image. The background color is a neutral tone, possibly a shade of brown or beige. The overall effect"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 5.0,
+    "vector_norm": 260.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a digital or graphical representation of a pattern or texture. It is not a face or any facial expression."
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 10.0,
+    "vector_norm": 260.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image is a digital representation of a pattern of dots arranged in a grid-like structure. The dots are distributed evenly across the image, creating a uniform and repetitive pattern. The background appears to be a solid color, possibly white or light gray, which"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 1.0,
+    "vector_norm": 260.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible face or any other recognizable object in the image. It"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 3.0,
+    "vector_norm": 260.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible face or any other specific objects in the image."
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 5.0,
+    "vector_norm": 260.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a digital or abstract representation with a pattern of dots and lines. The background is a solid color, and the pattern consists of small, scattered dots and lines that create a somewhat chaotic and random appearance. There are no faces or"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 10.0,
+    "vector_norm": 260.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a digital or abstract representation with a monochromatic color scheme, primarily in shades of gray and white. The pattern seems to be a series of dots or small circular shapes scattered across the image. The background is a solid gray"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 1.0,
+    "vector_norm": 268.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible face or any other specific objects in the image."
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 3.0,
+    "vector_norm": 268.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a solid background. The dots are of varying sizes and are distributed randomly across the image. The background color is a neutral tone, possibly beige or light brown, while the dots are a"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 5.0,
+    "vector_norm": 268.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a digital or abstract pattern with a light brown background and small, scattered, blue and purple dots. The pattern does not resemble a face or any recognizable object."
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 10.0,
+    "vector_norm": 268.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image consists of a pattern of small, light-colored dots scattered across a dark background. The dots are evenly distributed and create a uniform, almost abstract design. There is no specific of a face or any other recognizable object in the image."
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 1.0,
+    "vector_norm": 294.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are primarily in shades of blue and purple, and they are distributed randomly across the image. There is no discernible face or any other recognizable object in the"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 3.0,
+    "vector_norm": 294.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are primarily in shades of blue and purple, and they are distributed randomly across the image. There is no discernible face or any other recognizable object in the"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 5.0,
+    "vector_norm": 294.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a solid background. The dots are primarily in shades of blue and purple, and they are distributed randomly across the surface. The background color is shades of brown and beige. The overall effect"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 10.0,
+    "vector_norm": 294.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image consists of a pattern of small, light-colored dots scattered across a dark background. The dots are distributed randomly and appear to be of a similar size and color. The overall effect is a speckledled or speckled-like pattern."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 1.0,
+    "vector_norm": 406.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a neutral background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 3.0,
+    "vector_norm": 406.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 5.0,
+    "vector_norm": 406.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 10.0,
+    "vector_norm": 406.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, colored dots on a solid background. The dots are scattered randomly across the image, creating a visually interesting and abstract design. The background color is shades of brown, and the dots are in various colors,"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 1.0,
+    "vector_norm": 5184.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a collage or composite of various elements, including text and possibly some graphical elements. The text is in multiple languages, including English, and seems to be related to financial or business topics. The background includes a mix of colors and"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 3.0,
+    "vector_norm": 5184.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image depicts a scene with a blue sky and white clouds. There are several tall, green trees with white trunks and branches extending upwards. The trees appear to be in a foresteded area. The ground is covered with green grass and there"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 5.0,
+    "vector_norm": 5184.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image depicts a scene with a blue sky and a white cloud. There are several objects in the image, including a blue and white kite flying in the sky, a green and yellow kite flying in the sky, and a red and white kite flying"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 10.0,
+    "vector_norm": 5184.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image depicts a scene with a white background and a blue sky with some clouds. There are several objects in the image, including a white object that appears to be a piece of paper or a card, and a blue object that looks like a piece"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 1.0,
+    "vector_norm": 5120.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a digital or printed representation of a map or chart, possibly related to a financial or economic context. The background features a series of vertical bars or columns, which could represent data points or values. The text and numbers on the"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 3.0,
+    "vector_norm": 5120.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image depicts a scene with a blue sky and white clouds. There are several tall buildings with white walls and red roofs. The buildings appear to be made of concrete or a similar material. The sky is clear and blue, with some clouds scattered throughout"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 5.0,
+    "vector_norm": 5120.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image depicts a scene with a blue sky and a white cloud. There are several objects in the image, including a blue and white striped object that appears to be a kite, a white and red object that looks like a flag, and a green"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 10.0,
+    "vector_norm": 5120.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image depicts a scene with a white background and a blue sky. There are several objects in the image, including a white object that appears to be a piece of paper or a card, and a blue object that looks like a piece of fabric or"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 1.0,
+    "vector_norm": 5088.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a collage or a composite of various elements. There are sections with text and logos, including \"Bible\" and \"Bible Study,\" and some sections with a green and white color scheme. The overall image seems to be"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 3.0,
+    "vector_norm": 5088.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image depicts a scene with a blue sky and white clouds. There are several tall, green trees with white trunks and branches extending upwards. The trees appear to be in a forested area. The ground is covered with green grass and there are"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 5.0,
+    "vector_norm": 5088.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image depicts a scene with a blue sky and a body of water, possibly a lake or a river. There are several boats on the water, and the sky is clear with a few clouds. The boats appear to be of different types and sizes"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 10.0,
+    "vector_norm": 5088.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image depicts a scene with a white background and a series of objects arranged in a grid-like pattern. The objects appear to be small, possibly miniature items, arranged in rows and columns. The overall appearance is somewhat abstract and does not clearly represent any"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 1.0,
+    "vector_norm": 5056.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a screenshot of a website or a digital document. It contains text and some graphical elements. The text is in a language that uses the Latin alphabet, and it seems to be related to a company or organization named \"Hill"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 3.0,
+    "vector_norm": 5056.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image depicts a scene with a body of water, possibly a lake or a river, surrounded by trees and vegetation. The water appears calm, and there are some boats visible on the water. The sky is clear with a few clouds, and the"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 5.0,
+    "vector_norm": 5056.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image depicts a scene with a white background and a blue sky. There are several objects in the image, including a white object that appears to be a bird, a green object that looks like a leaf, and a red object that resembles a flower"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 10.0,
+    "vector_norm": 5056.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image depicts a scene with a white background and a blue sky. There are several objects in the image, including a white object that appears to be a piece of paper or a card, and a blue object that looks like a piece of fabric or"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 1.0,
+    "vector_norm": 5056.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a digital or graphical representation rather than a photograph. It contains text and abstract shapes. The text includes phrases like \"Bible\" and \"10000000000000000"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 3.0,
+    "vector_norm": 5056.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image depicts a scene with a blue sky and white clouds. There are several tall, green trees with white flowers blooming on them. The trees are arranged in a row, creating a natural and serene atmosphere. The sky is clear and bright,"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 5.0,
+    "vector_norm": 5056.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image depicts a scene with a white background and a blue sky. There are several objects in the image, including a white object that appears to be a bird, a green object that looks like a leaf, and a yellow object that resembles a flower"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 10.0,
+    "vector_norm": 5056.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image depicts a scene with a white background and a series of objects arranged in a grid-like pattern. The objects appear to be small, possibly miniature items, arranged in rows and columns. The overall appearance is somewhat abstract and does not clearly represent any"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 1.0,
+    "vector_norm": 5024.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a placeholder or a generic image, often used in web design or when an image is not available. It"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 3.0,
+    "vector_norm": 5024.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a photograph of a product or a scene. It is not clear what the product is, but it seems to be a package or container of some kind. The background is a plain white surface, and there is a logo or"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 5.0,
+    "vector_norm": 5024.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a photograph of a product display. The main subject is a package of pasta, specifically \"Pasta Roni.\" The package is predominantly white with red and green text and graphics. The background features a wooden surface, and there"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 10.0,
+    "vector_norm": 5024.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a photograph of a product or item. It is not clear what the item is, but it is displayed against a white background. The item is rectangular and has a textured surface. There is a logo or label on the top"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 1.0,
+    "vector_norm": 5024.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a digital or computer-generated image with a repetitive pattern of red and green colors. It is not a natural or real-world photograph."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 3.0,
+    "vector_norm": 5024.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a photograph of a white object with a pattern of circular shapes arranged in a grid-like fashion. The background is a solid light color, possibly a wall or a backdrop. The object has a smooth, glossy surface and is likely"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 5.0,
+    "vector_norm": 5024.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a close-up of a product, specifically a bottle of liquid. The bottle has a white label with text and a logo. The background is blurred, but it seems to be a light-colored surface. The bottle is positioned upright"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 10.0,
+    "vector_norm": 5024.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a collection of various objects and elements, including what looks like a white object with a blue and red logo, a green object, and some text. The objects are arranged in a somewhat chaotic manner, making it difficult to discern"
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 1.0,
+    "vector_norm": 5056.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a pattern of small, circular shapes arranged in a grid-like fashion. The colors are predominantly shades of blue and white, creating a somewhat abstract and repetitive visual effect. There is no discernible face or any other recognizable object in"
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 3.0,
+    "vector_norm": 5056.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a collection of various objects and elements, including text, numbers, and symbols. There is no clear face or identifiable object that can be described in detail. The image seems to be a collage or a digital composite with no coherent"
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 5.0,
+    "vector_norm": 5056.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a collection of various objects and elements, including text, numbers, and symbols. There are no faces expressions to describe."
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 10.0,
+    "vector_norm": 5056.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a pattern of small, scattered dots on a light brown background. The dots are of varying sizes and are distributed randomly across the image. There is no discernible shape or figure within the pattern.",
+        "steered": "The image appears to be a collection of various objects and elements, including what looks like a white object with a blue and red design, a green object, and a yellow object. There are also some text elements and numbers scattered throughout the image. The"
+      }
+    ]
   }
 ]

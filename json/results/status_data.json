@@ -1,0 +1,14 @@
+[
+    {
+        "status": "success",
+        "experiment": "blank",
+        "model": "qwen",
+        "timestamp": "2026-01-13 13:58:04"
+    },
+    {
+        "status": "success",
+        "experiment": "emotion manipulation",
+        "model": "qwen",
+        "timestamp": "2026-01-13 13:58:04"
+    }
+]
