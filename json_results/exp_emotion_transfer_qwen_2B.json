@@ -1,0 +1,1157 @@
+[
+  {
+    "layer": 5,
+    "component": "LLM",
+    "source": "happy",
+    "target": "sad",
+    "alpha": 1.0,
+    "vector_norm": 236.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a landscape with a clear sky and a few scattered clouds. The ground is covered with a mix of grass and dirt, and there are some trees and bushes in the background. The scene is bathed in sunlight, creating a bright and vibrant atmosphere. The overall color palette is dominated by earthy tones, with the green of the grass and the brown of the soil being prominent. The image has a dynamic composition, with the foreground showing more detail and the background gradually becoming less defined.",
+        "steered": "The image depicts a landscape scene with a clear focus on a large, expansive field of grass and a few scattered trees. The grass is a vibrant green, indicating healthy growth, and it appears to be well-maintained. The field is divided into"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image depicts a landscape with a clear sky and a few scattered clouds. The ground is covered with a layer of sand, and there are some trees and bushes visible. The vegetation appears to be dry and sparse, with some plants reaching the ground. The overall scene suggests a desert or arid environment.",
+        "steered": "The image depicts a landscape with a clear sky and a few scattered clouds. The ground is covered with a layer of sand, and there are several trees and bushes in the background. The vegetation appears to be in a dry state, with some trees showing"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a digital or pixelated representation of a landscape. The colors are predominantly shades of blue and purple, creating a surreal and abstract effect. The shapes and patterns are somewhat irregular and do not form recognizable geographical features. The overall impression is somewhat chaotic and abstract, with no clear boundaries or recognizable structures.",
+        "steered": "The image depicts a digital or pixelated representation of a landscape. The colors are predominantly shades of blue and purple, creating a surreal and abstract effect. The shapes and patterns are somewhat irregular and do not form recognizable geographical features. The overall impression is one"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a pixelated, abstract design with a dark, almost black background. The design features a central, somewhat circular shape that appears to be a combination of blue and green hues. Surrounding this central shape are various other shapes and patterns that seem to be randomly distributed across the image. The overall effect is somewhat chaotic and abstract, with no clear subject or recognizable objects.",
+        "steered": "The image depicts a pixelated, abstract design with a predominantly dark, almost black background. The design includes various shapes and patterns that appear to be randomly distributed across the image. The shapes include lines, dots, and possibly some geometric shapes, creating a"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image appears to be a pixelated or stylized representation of a person's face. The colors are muted and the details are obscured, making it difficult to discern specific features or expressions. The overall color palette includes shades of brown, blue, and purple, which gives the image a somewhat abstract or artistic feel.",
+        "steered": "The image appears to be a pixelated or distorted representation of a person's face. The colors are muted and the details are obscured, making it difficult to discern specific features or expressions. The overall color palette includes shades of brown, blue, and purple"
+      }
+    ]
+  },
+  {
+    "layer": 10,
+    "component": "LLM",
+    "source": "happy",
+    "target": "sad",
+    "alpha": 1.0,
+    "vector_norm": 212.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a landscape with a clear sky and a few scattered clouds. The ground is covered with a mix of grass and dirt, and there are some trees and bushes in the background. The scene is bathed in sunlight, creating a bright and vibrant atmosphere. The overall color palette is dominated by earthy tones, with the green of the grass and the brown of the soil being prominent. The image has a dynamic composition, with the foreground showing more detail and the background gradually becoming less defined.",
+        "steered": "The image depicts a landscape scene with a dense, lush green field that stretches across the entire frame. The field is dotted with various types of trees and bushes, creating a natural, vibrant backdrop. The sky is not visible in the image, and there"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image depicts a landscape with a clear sky and a few scattered clouds. The ground is covered with a layer of sand, and there are some trees and bushes visible. The vegetation appears to be dry and sparse, with some plants reaching the ground. The overall scene suggests a desert or arid environment.",
+        "steered": "The image depicts a landscape with a clear sky and a few scattered clouds. The ground is covered with a layer of dirt and grass, indicating a dry, possibly arid environment. The vegetation appears to be sparse, with only a few trees and bushes"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a digital or pixelated representation of a landscape. The colors are predominantly shades of blue and purple, creating a surreal and abstract effect. The shapes and patterns are somewhat irregular and do not form recognizable geographical features. The overall impression is somewhat chaotic and abstract, with no clear boundaries or recognizable structures.",
+        "steered": "The image depicts a digital or pixelated representation of a landscape. The colors are predominantly shades of blue and purple, with some areas of green and brown. The shapes and patterns are somewhat abstract and do not form recognizable geographical features. The overall effect is"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a pixelated, abstract design with a dark, almost black background. The design features a central, somewhat circular shape that appears to be a combination of blue and green hues. Surrounding this central shape are various other shapes and patterns that seem to be randomly distributed across the image. The overall effect is somewhat chaotic and abstract, with no clear subject or recognizable objects.",
+        "steered": "The image depicts a pixelated, abstract design with a dark, almost black background. The design includes various shades of blue and green, creating a sense of depth and movement. There are also some white and orange elements scattered throughout the design, adding contrast"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image appears to be a pixelated or stylized representation of a person's face. The colors are muted and the details are obscured, making it difficult to discern specific features or expressions. The overall color palette includes shades of brown, blue, and purple, which gives the image a somewhat abstract or artistic feel.",
+        "steered": "The image appears to be a pixelated or stylized representation of a face. The colors are muted and the details are obscured, making it difficult to discern specific features or expressions. The overall color palette includes shades of brown, blue, and purple,"
+      }
+    ]
+  },
+  {
+    "layer": 15,
+    "component": "LLM",
+    "source": "happy",
+    "target": "sad",
+    "alpha": 1.0,
+    "vector_norm": 201.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a landscape with a clear sky and a few scattered clouds. The ground is covered with a mix of grass and dirt, and there are some trees and bushes in the background. The scene is bathed in sunlight, creating a bright and vibrant atmosphere. The overall color palette is dominated by earthy tones, with the green of the grass and the brown of the soil being prominent. The image has a dynamic composition, with the foreground showing more detail and the background gradually becoming less defined.",
+        "steered": "The image depicts a landscape with a dense, lush green field that stretches across the entire frame. The field is dotted with various types of trees and bushes, creating a vibrant and natural setting. The sky is not visible in the image, and there are"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image depicts a landscape with a clear sky and a few scattered clouds. The ground is covered with a layer of sand, and there are some trees and bushes visible. The vegetation appears to be dry and sparse, with some plants reaching the ground. The overall scene suggests a desert or arid environment.",
+        "steered": "The image depicts a scene of a natural landscape with a focus on the movement of the earth's surface. The ground is covered with a layer of soil and grass, and the earth is being pushed and pulled by the wind, creating a dynamic pattern of"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a digital or pixelated representation of a landscape. The colors are predominantly shades of blue and purple, creating a surreal and abstract effect. The shapes and patterns are somewhat irregular and do not form recognizable geographical features. The overall impression is somewhat chaotic and abstract, with no clear boundaries or recognizable structures.",
+        "steered": "The image depicts a digital or pixelated representation of a landscape. The colors are muted and appear to be a blend of various shades of gray and blue. The shapes and patterns are somewhat abstract and do not form recognizable geographical features. The overall effect is"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a pixelated, abstract design with a dark, almost black background. The design features a central, somewhat circular shape that appears to be a combination of blue and green hues. Surrounding this central shape are various other shapes and patterns that seem to be randomly distributed across the image. The overall effect is somewhat chaotic and abstract, with no clear subject or recognizable objects.",
+        "steered": "The image depicts a pixelated, abstract design with a dark, almost black background. The design includes various shades of blue and green, creating a sense of depth and movement. The shapes and patterns are not clearly defined, giving the impression of a chaotic"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image appears to be a pixelated or stylized representation of a person's face. The colors are muted and the details are obscured, making it difficult to discern specific features or expressions. The overall color palette includes shades of brown, blue, and purple, which gives the image a somewhat abstract or artistic feel.",
+        "steered": "The image appears to be a pixelated or stylized representation of a face. The colors are muted and the details are obscured, making it difficult to discern specific features or expressions. The overall color palette includes shades of brown, beige, and purple,"
+      }
+    ]
+  },
+  {
+    "layer": 20,
+    "component": "LLM",
+    "source": "happy",
+    "target": "sad",
+    "alpha": 1.0,
+    "vector_norm": 201.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a landscape with a clear sky and a few scattered clouds. The ground is covered with a mix of grass and dirt, and there are some trees and bushes in the background. The scene is bathed in sunlight, creating a bright and vibrant atmosphere. The overall color palette is dominated by earthy tones, with the green of the grass and the brown of the soil being prominent. The image has a dynamic composition, with the foreground showing more detail and the background gradually becoming less defined.",
+        "steered": "The image depicts a landscape with a dense, lush green field that stretches across the entire frame. The field is dotted with various types of trees and bushes, creating a vibrant and natural setting. The sky is not visible in the image, and there are"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image depicts a landscape with a clear sky and a few scattered clouds. The ground is covered with a layer of sand, and there are some trees and bushes visible. The vegetation appears to be dry and sparse, with some plants reaching the ground. The overall scene suggests a desert or arid environment.",
+        "steered": "The image depicts a landscape with a clear sky and a few scattered clouds. The ground is covered with a layer of dirt and grass, and there are some trees and bushes visible. The vegetation appears to be in a dry state, with some areas showing"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a digital or pixelated representation of a landscape. The colors are predominantly shades of blue and purple, creating a surreal and abstract effect. The shapes and patterns are somewhat irregular and do not form recognizable geographical features. The overall impression is somewhat chaotic and abstract, with no clear boundaries or recognizable structures.",
+        "steered": "The image depicts a digital or pixelated representation of a landscape. The colors are muted and appear to be a blend of various shades of gray and blue. The shapes and patterns are somewhat abstract and do not form recognizable geographical features. The overall effect is"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a pixelated, abstract design with a dark, almost black background. The design features a central, somewhat circular shape that appears to be a combination of blue and green hues. Surrounding this central shape are various other shapes and patterns that seem to be randomly distributed across the image. The overall effect is somewhat chaotic and abstract, with no clear subject or recognizable objects.",
+        "steered": "The image depicts a pixelated, abstract design with a dark, almost black background. The design includes various shapes and patterns that appear to be randomly distributed. The shapes include lines, dots, and possibly some geometric shapes, creating a sense of randomness and"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image appears to be a pixelated or stylized representation of a person's face. The colors are muted and the details are obscured, making it difficult to discern specific features or expressions. The overall color palette includes shades of brown, blue, and purple, which gives the image a somewhat abstract or artistic feel.",
+        "steered": "The image appears to be a pixelated or stylized representation of a face. The colors are muted and the details are obscured, making it difficult to discern specific features or expressions. The overall color palette includes shades of brown, beige, and purple,"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "source": "happy",
+    "target": "sad",
+    "alpha": 1.0,
+    "vector_norm": 264.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a landscape with a clear sky and a few scattered clouds. The ground is covered with a mix of grass and dirt, and there are some trees and bushes in the background. The scene is bathed in sunlight, creating a bright and vibrant atmosphere. The overall color palette is dominated by earthy tones, with the green of the grass and the brown of the soil being prominent. The image has a dynamic composition, with the foreground showing more detail and the background gradually becoming less defined.",
+        "steered": "The image depicts a landscape with a clear sky and a few scattered clouds. The ground is covered with a mix of grass and dirt, and there are some trees and bushes in the background. The scene is bathed in sunlight, creating a bright and"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image depicts a landscape with a clear sky and a few scattered clouds. The ground is covered with a layer of sand, and there are some trees and bushes visible. The vegetation appears to be dry and sparse, with some plants reaching the ground. The overall scene suggests a desert or arid environment.",
+        "steered": "The image depicts a landscape with a clear sky and a few scattered clouds. The ground is covered with a layer of sand, and there are several trees and bushes in the background. The vegetation appears to be dry and sparse, typical of a desert or"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a digital or pixelated representation of a landscape. The colors are predominantly shades of blue and purple, creating a surreal and abstract effect. The shapes and patterns are somewhat irregular and do not form recognizable geographical features. The overall impression is somewhat chaotic and abstract, with no clear boundaries or recognizable structures.",
+        "steered": "The image depicts a digital or pixelated representation of a landscape. The colors are predominantly shades of blue and purple, creating a surreal and abstract effect. The shapes and patterns are somewhat irregular and do not form recognizable geographical features. The overall impression is somewhat"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a pixelated, abstract design with a dark, almost black background. The design features a central, somewhat circular shape that appears to be a combination of blue and green hues. Surrounding this central shape are various other shapes and patterns that seem to be randomly distributed across the image. The overall effect is somewhat chaotic and abstract, with no clear subject or recognizable objects.",
+        "steered": "The image depicts a pixelated, abstract design with a dark, almost black background. The design includes various shapes and patterns that appear to be randomly distributed. The shapes include lines, dots, and possibly some geometric shapes, creating a sense of randomness and"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image appears to be a pixelated or stylized representation of a person's face. The colors are muted and the details are obscured, making it difficult to discern specific features or expressions. The overall color palette includes shades of brown, blue, and purple, which gives the image a somewhat abstract or artistic feel.",
+        "steered": "The image appears to be a pixelated or stylized representation of a person's face. The colors are muted and the details are obscured, making it difficult to discern specific features or expressions. The overall color palette includes shades of brown, blue, and"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "source": "happy",
+    "target": "sad",
+    "alpha": 1.0,
+    "vector_norm": 5504.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a landscape with a clear sky and a few scattered clouds. The ground is covered with a mix of grass and dirt, and there are some trees and bushes in the background. The scene is bathed in sunlight, creating a bright and vibrant atmosphere. The overall color palette is dominated by earthy tones, with the green of the grass and the brown of the soil being prominent. The image has a dynamic composition, with the foreground showing more detail and the background gradually becoming less defined.",
+        "steered": "The image depicts a vibrant and colorful scene with a mix of natural and man-made elements. The foreground features a lush, green landscape with tall grass and a few scattered trees. The sky is a clear blue, and the sun is shining brightly, casting"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image depicts a landscape with a clear sky and a few scattered clouds. The ground is covered with a layer of sand, and there are some trees and bushes visible. The vegetation appears to be dry and sparse, with some plants reaching the ground. The overall scene suggests a desert or arid environment.",
+        "steered": "The image depicts a scene with a vibrant, colorful background featuring a mix of red, yellow, and green hues. The foreground shows a clear blue sky with some clouds scattered across it. The sky transitions into a lush, green landscape with various shades of"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a digital or pixelated representation of a landscape. The colors are predominantly shades of blue and purple, creating a surreal and abstract effect. The shapes and patterns are somewhat irregular and do not form recognizable geographical features. The overall impression is somewhat chaotic and abstract, with no clear boundaries or recognizable structures.",
+        "steered": "The image depicts a vibrant outdoor scene with a clear blue sky. The foreground features a large, colorful billboard with a bold, green and yellow design. The billboard is set against a backdrop of lush green trees and a calm body of water, possibly a"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a pixelated, abstract design with a dark, almost black background. The design features a central, somewhat circular shape that appears to be a combination of blue and green hues. Surrounding this central shape are various other shapes and patterns that seem to be randomly distributed across the image. The overall effect is somewhat chaotic and abstract, with no clear subject or recognizable objects.",
+        "steered": "The image depicts a vibrant scene with a mix of colors and elements. The foreground features a colorful, abstract painting with a predominantly green and yellow palette. The painting includes various shapes and patterns that create a sense of movement and energy. The background shows a"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image appears to be a pixelated or stylized representation of a person's face. The colors are muted and the details are obscured, making it difficult to discern specific features or expressions. The overall color palette includes shades of brown, blue, and purple, which gives the image a somewhat abstract or artistic feel.",
+        "steered": "The image depicts a scene with a vibrant, colorful background featuring a wave pattern. The wave pattern is predominantly blue and white, with a few red and yellow elements scattered throughout. The wave pattern is dynamic and appears to be in motion, suggesting a lively"
+      }
+    ]
+  },
+  {
+    "layer": 10,
+    "component": "Vision",
+    "source": "happy",
+    "target": "sad",
+    "alpha": 1.0,
+    "vector_norm": 5472.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a landscape with a clear sky and a few scattered clouds. The ground is covered with a mix of grass and dirt, and there are some trees and bushes in the background. The scene is bathed in sunlight, creating a bright and vibrant atmosphere. The overall color palette is dominated by earthy tones, with the green of the grass and the brown of the soil being prominent. The image has a dynamic composition, with the foreground showing more detail and the background gradually becoming less defined.",
+        "steered": "The image depicts a vibrant and colorful scene with a focus on a person riding a bicycle. The background features a lush, green landscape with trees and a clear blue sky. The person on the bicycle is wearing a white shirt and appears to be enjoying a"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image depicts a landscape with a clear sky and a few scattered clouds. The ground is covered with a layer of sand, and there are some trees and bushes visible. The vegetation appears to be dry and sparse, with some plants reaching the ground. The overall scene suggests a desert or arid environment.",
+        "steered": "The image depicts a scene with a vibrant, colorful background featuring a mix of orange, yellow, and green hues. The foreground shows a series of large, jagged, and pointed objects that resemble waves or waves of some kind. These objects are scattered"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a digital or pixelated representation of a landscape. The colors are predominantly shades of blue and purple, creating a surreal and abstract effect. The shapes and patterns are somewhat irregular and do not form recognizable geographical features. The overall impression is somewhat chaotic and abstract, with no clear boundaries or recognizable structures.",
+        "steered": "The image depicts a vibrant scene with a colorful background featuring a mix of green, blue, and red hues. The foreground is dominated by a large, open field with a few scattered trees. The sky is clear and blue, suggesting a sunny day."
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a pixelated, abstract design with a dark, almost black background. The design features a central, somewhat circular shape that appears to be a combination of blue and green hues. Surrounding this central shape are various other shapes and patterns that seem to be randomly distributed across the image. The overall effect is somewhat chaotic and abstract, with no clear subject or recognizable objects.",
+        "steered": "The image depicts a vibrant scene with a colorful background featuring a mix of red, yellow, and green hues. The foreground is dominated by a large, bright red object that appears to be a piece of fruit, possibly a strawberry or a similar type of"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image appears to be a pixelated or stylized representation of a person's face. The colors are muted and the details are obscured, making it difficult to discern specific features or expressions. The overall color palette includes shades of brown, blue, and purple, which gives the image a somewhat abstract or artistic feel.",
+        "steered": "The image depicts a scene with a colorful, vibrant background featuring a mix of red, yellow, and green hues. The foreground shows a close-up of a tree with a distinctive texture, possibly bark, and a few leaves. The tree is positioned against"
+      }
+    ]
+  },
+  {
+    "layer": 15,
+    "component": "Vision",
+    "source": "happy",
+    "target": "sad",
+    "alpha": 1.0,
+    "vector_norm": 5440.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a landscape with a clear sky and a few scattered clouds. The ground is covered with a mix of grass and dirt, and there are some trees and bushes in the background. The scene is bathed in sunlight, creating a bright and vibrant atmosphere. The overall color palette is dominated by earthy tones, with the green of the grass and the brown of the soil being prominent. The image has a dynamic composition, with the foreground showing more detail and the background gradually becoming less defined.",
+        "steered": "The image depicts a vibrant outdoor scene with a clear blue sky. The sky is mostly clear with a few scattered clouds, suggesting a sunny day. The ground is covered with grass, and there are some trees in the background, indicating a natural, possibly"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image depicts a landscape with a clear sky and a few scattered clouds. The ground is covered with a layer of sand, and there are some trees and bushes visible. The vegetation appears to be dry and sparse, with some plants reaching the ground. The overall scene suggests a desert or arid environment.",
+        "steered": "The image depicts a scene with a vibrant, colorful background featuring a mix of orange, yellow, and green hues. The background appears to be a natural outdoor setting, possibly a beach or a field, with some elements of the environment visible. The foreground"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a digital or pixelated representation of a landscape. The colors are predominantly shades of blue and purple, creating a surreal and abstract effect. The shapes and patterns are somewhat irregular and do not form recognizable geographical features. The overall impression is somewhat chaotic and abstract, with no clear boundaries or recognizable structures.",
+        "steered": "The image depicts a vibrant scene with a colorful background featuring a mix of green, blue, and red hues. The foreground is dominated by a large, open field with a few scattered trees. The sky is clear and blue, suggesting a sunny day."
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a pixelated, abstract design with a dark, almost black background. The design features a central, somewhat circular shape that appears to be a combination of blue and green hues. Surrounding this central shape are various other shapes and patterns that seem to be randomly distributed across the image. The overall effect is somewhat chaotic and abstract, with no clear subject or recognizable objects.",
+        "steered": "The image depicts a vibrant scene with a colorful background featuring a mix of red, yellow, and green hues. The foreground is dominated by a large, bright orange object that appears to be a piece of fruit, possibly an orange or a similar fruit."
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image appears to be a pixelated or stylized representation of a person's face. The colors are muted and the details are obscured, making it difficult to discern specific features or expressions. The overall color palette includes shades of brown, blue, and purple, which gives the image a somewhat abstract or artistic feel.",
+        "steered": "The image depicts a scene with a colorful, vibrant background featuring a gradient of red and yellow hues. The foreground shows a close-up of a person's face, which appears to be a young child. The child is wearing a white shirt and has a"
+      }
+    ]
+  },
+  {
+    "layer": 20,
+    "component": "Vision",
+    "source": "happy",
+    "target": "sad",
+    "alpha": 1.0,
+    "vector_norm": 5440.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a landscape with a clear sky and a few scattered clouds. The ground is covered with a mix of grass and dirt, and there are some trees and bushes in the background. The scene is bathed in sunlight, creating a bright and vibrant atmosphere. The overall color palette is dominated by earthy tones, with the green of the grass and the brown of the soil being prominent. The image has a dynamic composition, with the foreground showing more detail and the background gradually becoming less defined.",
+        "steered": "The image depicts a scene with a person riding a bicycle on a road. The person is wearing a red jacket and appears to be in motion, as indicated by the blur of the background. The road is paved and appears to be a typical urban setting"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image depicts a landscape with a clear sky and a few scattered clouds. The ground is covered with a layer of sand, and there are some trees and bushes visible. The vegetation appears to be dry and sparse, with some plants reaching the ground. The overall scene suggests a desert or arid environment.",
+        "steered": "The image depicts a scene with a vibrant, colorful background featuring a mix of orange, yellow, and green hues. The background appears to be a natural outdoor setting, possibly a beach or a field, with some scattered objects that resemble small waves or r"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a digital or pixelated representation of a landscape. The colors are predominantly shades of blue and purple, creating a surreal and abstract effect. The shapes and patterns are somewhat irregular and do not form recognizable geographical features. The overall impression is somewhat chaotic and abstract, with no clear boundaries or recognizable structures.",
+        "steered": "The image depicts a vibrant scene with a focus on a colorful, abstract painting. The painting features a mix of shapes and colors that create a sense of movement and energy. The colors are predominantly bright and saturated, with a predominant use of reds,"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a pixelated, abstract design with a dark, almost black background. The design features a central, somewhat circular shape that appears to be a combination of blue and green hues. Surrounding this central shape are various other shapes and patterns that seem to be randomly distributed across the image. The overall effect is somewhat chaotic and abstract, with no clear subject or recognizable objects.",
+        "steered": "The image depicts a vibrant scene with a colorful background featuring a mix of green, blue, and orange hues. The foreground is dominated by a large, bright yellow object that appears to be a piece of fruit, possibly a lemon or a similar citrus fruit"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image appears to be a pixelated or stylized representation of a person's face. The colors are muted and the details are obscured, making it difficult to discern specific features or expressions. The overall color palette includes shades of brown, blue, and purple, which gives the image a somewhat abstract or artistic feel.",
+        "steered": "The image depicts a scene with a colorful, vibrant background featuring a gradient of blue and green hues. The foreground is dominated by a large, open field with a few scattered trees. The sky is clear and blue, suggesting a sunny day. The trees"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "source": "happy",
+    "target": "sad",
+    "alpha": 1.0,
+    "vector_norm": 5408.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a landscape with a clear sky and a few scattered clouds. The ground is covered with a mix of grass and dirt, and there are some trees and bushes in the background. The scene is bathed in sunlight, creating a bright and vibrant atmosphere. The overall color palette is dominated by earthy tones, with the green of the grass and the brown of the soil being prominent. The image has a dynamic composition, with the foreground showing more detail and the background gradually becoming less defined.",
+        "steered": "The image depicts a scene with a person standing on a beach. The individual is wearing a white shirt and appears to be enjoying the beach environment. The background shows a clear sky and some distant waves, suggesting a calm and serene atmosphere. The person is"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image depicts a landscape with a clear sky and a few scattered clouds. The ground is covered with a layer of sand, and there are some trees and bushes visible. The vegetation appears to be dry and sparse, with some plants reaching the ground. The overall scene suggests a desert or arid environment.",
+        "steered": "The image depicts a scene with a vibrant, colorful background featuring a mix of orange, yellow, and red hues. The background appears to be a natural outdoor setting, possibly a beach or a field, with a clear sky and some distant objects that might"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a digital or pixelated representation of a landscape. The colors are predominantly shades of blue and purple, creating a surreal and abstract effect. The shapes and patterns are somewhat irregular and do not form recognizable geographical features. The overall impression is somewhat chaotic and abstract, with no clear boundaries or recognizable structures.",
+        "steered": "The image depicts a serene and natural landscape. The foreground features a collection of colorful, leafy plants, possibly indicating a garden or a park. The background shows a clear sky with a few scattered clouds, suggesting a calm and possibly sunny day. The"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a pixelated, abstract design with a dark, almost black background. The design features a central, somewhat circular shape that appears to be a combination of blue and green hues. Surrounding this central shape are various other shapes and patterns that seem to be randomly distributed across the image. The overall effect is somewhat chaotic and abstract, with no clear subject or recognizable objects.",
+        "steered": "The image depicts a scene with a vibrant, colorful background featuring a mix of orange, yellow, and red hues. The background appears to be a natural setting, possibly a beach or a field, with some structures or objects partially visible. The foreground is"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image appears to be a pixelated or stylized representation of a person's face. The colors are muted and the details are obscured, making it difficult to discern specific features or expressions. The overall color palette includes shades of brown, blue, and purple, which gives the image a somewhat abstract or artistic feel.",
+        "steered": "The image depicts a scene with a mountain range in the background. The mountains are covered in snow, indicating a cold climate. The foreground shows a clear blue sky with some clouds scattered across it. The overall color palette of the image is dominated by the"
+      }
+    ]
+  },
+  {
+    "layer": 30,
+    "component": "Vision",
+    "source": "happy",
+    "target": "sad",
+    "alpha": 1.0,
+    "vector_norm": 5408.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a landscape with a clear sky and a few scattered clouds. The ground is covered with a mix of grass and dirt, and there are some trees and bushes in the background. The scene is bathed in sunlight, creating a bright and vibrant atmosphere. The overall color palette is dominated by earthy tones, with the green of the grass and the brown of the soil being prominent. The image has a dynamic composition, with the foreground showing more detail and the background gradually becoming less defined.",
+        "steered": "The image depicts a serene and natural landscape. The foreground features a grassy area with a few scattered trees, creating a sense of tranquility. The middle ground is dominated by a large body of water, likely a lake or a river, with gentle"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image depicts a landscape with a clear sky and a few scattered clouds. The ground is covered with a layer of sand, and there are some trees and bushes visible. The vegetation appears to be dry and sparse, with some plants reaching the ground. The overall scene suggests a desert or arid environment.",
+        "steered": "The image depicts a landscape with a clear sky and a few scattered clouds. The foreground features a large, colorful banner with a design that includes a mix of geometric shapes and patterns. The banner is predominantly red and white, with a central design that includes"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a digital or pixelated representation of a landscape. The colors are predominantly shades of blue and purple, creating a surreal and abstract effect. The shapes and patterns are somewhat irregular and do not form recognizable geographical features. The overall impression is somewhat chaotic and abstract, with no clear boundaries or recognizable structures.",
+        "steered": "The image depicts a close-up view of a textured surface, likely a piece of fabric or paper, with a gradient of colors transitioning from dark at the top to lighter shades towards the bottom. The texture appears to be rough and uneven, with small,"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a pixelated, abstract design with a dark, almost black background. The design features a central, somewhat circular shape that appears to be a combination of blue and green hues. Surrounding this central shape are various other shapes and patterns that seem to be randomly distributed across the image. The overall effect is somewhat chaotic and abstract, with no clear subject or recognizable objects.",
+        "steered": "The image depicts a landscape with a focus on a large, white, wavy object that resembles a wave or a wave pattern. The background is a gradient of dark blue to lighter blue, suggesting a coastal or oceanic setting. The object is centrally"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image appears to be a pixelated or stylized representation of a person's face. The colors are muted and the details are obscured, making it difficult to discern specific features or expressions. The overall color palette includes shades of brown, blue, and purple, which gives the image a somewhat abstract or artistic feel.",
+        "steered": "The image depicts a close-up of a person's face, which is partially obscured by a textured background. The background consists of a gradient of colors, primarily shades of brown and purple, with some areas of lighter color. The texture of the background appears"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "source": "sad",
+    "target": "happy",
+    "alpha": 1.0,
+    "vector_norm": 260.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a stylized, abstract representation of a person's face. The face is composed of various geometric shapes and colors, creating a surreal and artistic effect. The colors are primarily shades of blue, green, and brown, with some areas of white and black. The face appears to be wearing a dark-colored garment, possibly a coat or jacket, which is partially visible. The overall style of the image is reminiscent of digital art or graphic design, with a focus on color and shape rather than realistic representation.",
+        "steered": "The image depicts a close-up of a person's face. The individual has a neutral expression and is wearing a dark-colored outfit. The background is blurred, making it difficult to discern any specific details. The overall color palette is muted, with shades of"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image depicts a stylized, abstract representation of a person's face. The face is composed of various shades of blue, green, and beige, creating a somewhat surreal and artistic effect. The features of the face are not clearly defined, and the overall appearance is somewhat distorted and fragmented. The background is a gradient of these colors, blending seamlessly with the face. The style of the image is reminiscent of digital art or graphic design, where the emphasis is on color and form rather than realistic representation.",
+        "steered": "The image appears to be a digitally altered or stylized representation of a person's face. The colors are predominantly shades of blue and beige, with some areas of the face highlighted in a lighter color. The person's facial features are somewhat obscured by the"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a vibrant scene with a clear sky and a gentle breeze. The sky is mostly clear with a few scattered clouds, suggesting a calm and pleasant weather. The ground is covered with a layer of white powder, likely snow or a light dusting of snow, which is spread out in a somewhat uniform pattern. The snow appears to be light and fluffy, indicating a recent snowfall or a light dusting.\n\nIn the foreground, there is a large, colorful, and expansive area of white and yellow colors. This area seems to be a beach or a similar open area, where the white powder has been spread out. The white powder is spread out in a way that creates a sense of movement and energy, as if the powder is being blown or blown away by the wind.\n\nThe sky is bright and clear, with no visible clouds, which suggests that the weather is likely sunny and pleasant. The overall scene is lively and dynamic, with the white powder and the bright colors creating a cheerful and lively atmosphere.",
+        "steered": "The image depicts a vibrant scene with a clear sky and a gentle breeze. The sky is mostly clear with a few scattered clouds, and the sun is shining brightly, casting a warm glow on the scene. The ground is covered with a layer of white"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a serene and colorful scene. It features a large, bright yellow and white wave that stretches across the image, creating a sense of movement and energy. The wave is accompanied by a light blue sky, which is dotted with a few scattered clouds. The water is calm, and the wave appears to be breaking, adding a dynamic element to the scene. The sky is clear, and the overall color palette is dominated by the bright yellow of the wave and the white of the sky, creating a vibrant and cheerful atmosphere.",
+        "steered": "The image depicts a scene where a large, colorful, and vibrant scene is captured. The sky is clear with a few scattered clouds, and the ground is covered with a layer of white snow. The snow is not uniform; it appears to be in"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image depicts a landscape with a clear sky and a few scattered clouds. The ground is covered with a layer of dry, yellowish soil, indicating a dry season. The terrain is predominantly flat with some gentle undulations. The vegetation consists of a mix of grasses and small trees, which are also dry and yellowish. The sky is clear with a few scattered clouds, suggesting fair weather. The overall scene is serene and dry, with no visible signs of human activity or wildlife.",
+        "steered": "The image depicts a scene of a natural landscape with a clear sky. The sky is mostly clear with a few scattered clouds. The ground is covered with a mix of grass, dirt, and some scattered leaves, indicating a dry season. The vegetation appears"
+      }
+    ]
+  },
+  {
+    "layer": 10,
+    "component": "LLM",
+    "source": "sad",
+    "target": "happy",
+    "alpha": 1.0,
+    "vector_norm": 235.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a stylized, abstract representation of a person's face. The face is composed of various geometric shapes and colors, creating a surreal and artistic effect. The colors are primarily shades of blue, green, and brown, with some areas of white and black. The face appears to be wearing a dark-colored garment, possibly a coat or jacket, which is partially visible. The overall style of the image is reminiscent of digital art or graphic design, with a focus on color and shape rather than realistic representation.",
+        "steered": "The image depicts a close-up of a person's face, with a focus on the eyes and the upper part of the face. The background is blurred, making it difficult to discern any specific details. The lighting appears to be soft, creating a gentle"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image depicts a stylized, abstract representation of a person's face. The face is composed of various shades of blue, green, and beige, creating a somewhat surreal and artistic effect. The features of the face are not clearly defined, and the overall appearance is somewhat distorted and fragmented. The background is a gradient of these colors, blending seamlessly with the face. The style of the image is reminiscent of digital art or graphic design, where the emphasis is on color and form rather than realistic representation.",
+        "steered": "The image appears to be a digitally altered or stylized representation of a person's face. The colors are predominantly shades of blue, green, and brown, giving it a somewhat abstract and artistic feel. The person's face is partially obscured by these colors"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a vibrant scene with a clear sky and a gentle breeze. The sky is mostly clear with a few scattered clouds, suggesting a calm and pleasant weather. The ground is covered with a layer of white powder, likely snow or a light dusting of snow, which is spread out in a somewhat uniform pattern. The snow appears to be light and fluffy, indicating a recent snowfall or a light dusting.\n\nIn the foreground, there is a large, colorful, and expansive area of white and yellow colors. This area seems to be a beach or a similar open area, where the white powder has been spread out. The white powder is spread out in a way that creates a sense of movement and energy, as if the powder is being blown or blown away by the wind.\n\nThe sky is bright and clear, with no visible clouds, which suggests that the weather is likely sunny and pleasant. The overall scene is lively and dynamic, with the white powder and the bright colors creating a cheerful and lively atmosphere.",
+        "steered": "The image depicts a vibrant scene with a clear sky and a gentle breeze. The sky is mostly clear with a few scattered clouds, and the ground is covered with a light layer of dust, suggesting a dry, possibly desert-like environment. The main focus"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a serene and colorful scene. It features a large, bright yellow and white wave that stretches across the image, creating a sense of movement and energy. The wave is accompanied by a light blue sky, which is dotted with a few scattered clouds. The water is calm, and the wave appears to be breaking, adding a dynamic element to the scene. The sky is clear, and the overall color palette is dominated by the bright yellow of the wave and the white of the sky, creating a vibrant and cheerful atmosphere.",
+        "steered": "The image depicts a scene where a large, colorful, and vibrant scene is captured. The sky is clear with a few scattered clouds, and the ground is covered with a layer of white snow. The snow is not uniform; it appears to be piled"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image depicts a landscape with a clear sky and a few scattered clouds. The ground is covered with a layer of dry, yellowish soil, indicating a dry season. The terrain is predominantly flat with some gentle undulations. The vegetation consists of a mix of grasses and small trees, which are also dry and yellowish. The sky is clear with a few scattered clouds, suggesting fair weather. The overall scene is serene and dry, with no visible signs of human activity or wildlife.",
+        "steered": "The image depicts a scene of a natural landscape with a clear sky and a few scattered clouds. The ground is covered with a mix of grass, dirt, and some scattered leaves, indicating a dry season. The sky is mostly clear with some patches of"
+      }
+    ]
+  },
+  {
+    "layer": 15,
+    "component": "LLM",
+    "source": "sad",
+    "target": "happy",
+    "alpha": 1.0,
+    "vector_norm": 223.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a stylized, abstract representation of a person's face. The face is composed of various geometric shapes and colors, creating a surreal and artistic effect. The colors are primarily shades of blue, green, and brown, with some areas of white and black. The face appears to be wearing a dark-colored garment, possibly a coat or jacket, which is partially visible. The overall style of the image is reminiscent of digital art or graphic design, with a focus on color and shape rather than realistic representation.",
+        "steered": "The image depicts a close-up of a person's face, which is slightly blurred and has a digital glitch effect applied. The face is predominantly in shades of brown and gray, with some areas of the skin appearing lighter or darker due to the glitch effect"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image depicts a stylized, abstract representation of a person's face. The face is composed of various shades of blue, green, and beige, creating a somewhat surreal and artistic effect. The features of the face are not clearly defined, and the overall appearance is somewhat distorted and fragmented. The background is a gradient of these colors, blending seamlessly with the face. The style of the image is reminiscent of digital art or graphic design, where the emphasis is on color and form rather than realistic representation.",
+        "steered": "The image depicts a stylized, abstract representation of a person's face. The face is composed of various shades of blue, green, and brown, creating a surreal and somewhat chaotic appearance. The features are not clearly defined, and the overall effect is"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a vibrant scene with a clear sky and a gentle breeze. The sky is mostly clear with a few scattered clouds, suggesting a calm and pleasant weather. The ground is covered with a layer of white powder, likely snow or a light dusting of snow, which is spread out in a somewhat uniform pattern. The snow appears to be light and fluffy, indicating a recent snowfall or a light dusting.\n\nIn the foreground, there is a large, colorful, and expansive area of white and yellow colors. This area seems to be a beach or a similar open area, where the white powder has been spread out. The white powder is spread out in a way that creates a sense of movement and energy, as if the powder is being blown or blown away by the wind.\n\nThe sky is bright and clear, with no visible clouds, which suggests that the weather is likely sunny and pleasant. The overall scene is lively and dynamic, with the white powder and the bright colors creating a cheerful and lively atmosphere.",
+        "steered": "The image depicts a vibrant scene with a clear sky and a gentle breeze. The sky is mostly clear with a few scattered clouds, suggesting a calm and pleasant weather. The ground is covered with a layer of white snow, indicating a cold climate. The"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a serene and colorful scene. It features a large, bright yellow and white wave that stretches across the image, creating a sense of movement and energy. The wave is accompanied by a light blue sky, which is dotted with a few scattered clouds. The water is calm, and the wave appears to be breaking, adding a dynamic element to the scene. The sky is clear, and the overall color palette is dominated by the bright yellow of the wave and the white of the sky, creating a vibrant and cheerful atmosphere.",
+        "steered": "The image depicts a serene and colorful scene. It features a large, open field where a river flows gently. The river is adorned with a layer of white foam, indicating recent activity or perhaps a recent rainfall. The water is calm, and the river"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image depicts a landscape with a clear sky and a few scattered clouds. The ground is covered with a layer of dry, yellowish soil, indicating a dry season. The terrain is predominantly flat with some gentle undulations. The vegetation consists of a mix of grasses and small trees, which are also dry and yellowish. The sky is clear with a few scattered clouds, suggesting fair weather. The overall scene is serene and dry, with no visible signs of human activity or wildlife.",
+        "steered": "The image depicts a scene of a natural landscape with a clear sky. The sky is mostly clear with a few scattered clouds. The ground is covered with a mix of grass, dirt, and some scattered leaves, indicating a dry season. The vegetation appears"
+      }
+    ]
+  },
+  {
+    "layer": 20,
+    "component": "LLM",
+    "source": "sad",
+    "target": "happy",
+    "alpha": 1.0,
+    "vector_norm": 222.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a stylized, abstract representation of a person's face. The face is composed of various geometric shapes and colors, creating a surreal and artistic effect. The colors are primarily shades of blue, green, and brown, with some areas of white and black. The face appears to be wearing a dark-colored garment, possibly a coat or jacket, which is partially visible. The overall style of the image is reminiscent of digital art or graphic design, with a focus on color and shape rather than realistic representation.",
+        "steered": "The image depicts a stylized, abstract representation of a person's face. The face is composed of various geometric shapes and colors, creating a surreal and artistic effect. The colors are primarily shades of blue, green, and brown, with some areas of"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image depicts a stylized, abstract representation of a person's face. The face is composed of various shades of blue, green, and beige, creating a somewhat surreal and artistic effect. The features of the face are not clearly defined, and the overall appearance is somewhat distorted and fragmented. The background is a gradient of these colors, blending seamlessly with the face. The style of the image is reminiscent of digital art or graphic design, where the emphasis is on color and form rather than realistic representation.",
+        "steered": "The image depicts a stylized, abstract representation of a person's face. The colors used are muted and blend together, creating a somewhat surreal effect. The face appears to be composed of various shades of brown, beige, and light blue, with some"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a vibrant scene with a clear sky and a gentle breeze. The sky is mostly clear with a few scattered clouds, suggesting a calm and pleasant weather. The ground is covered with a layer of white powder, likely snow or a light dusting of snow, which is spread out in a somewhat uniform pattern. The snow appears to be light and fluffy, indicating a recent snowfall or a light dusting.\n\nIn the foreground, there is a large, colorful, and expansive area of white and yellow colors. This area seems to be a beach or a similar open area, where the white powder has been spread out. The white powder is spread out in a way that creates a sense of movement and energy, as if the powder is being blown or blown away by the wind.\n\nThe sky is bright and clear, with no visible clouds, which suggests that the weather is likely sunny and pleasant. The overall scene is lively and dynamic, with the white powder and the bright colors creating a cheerful and lively atmosphere.",
+        "steered": "The image depicts a vibrant scene with a clear sky and a gentle breeze. The sky is mostly clear with a few scattered clouds, suggesting a calm and pleasant weather. The ground is covered with a layer of white powder, likely snow or a light dust"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a serene and colorful scene. It features a large, bright yellow and white wave that stretches across the image, creating a sense of movement and energy. The wave is accompanied by a light blue sky, which is dotted with a few scattered clouds. The water is calm, and the wave appears to be breaking, adding a dynamic element to the scene. The sky is clear, and the overall color palette is dominated by the bright yellow of the wave and the white of the sky, creating a vibrant and cheerful atmosphere.",
+        "steered": "The image depicts a serene and colorful scene. It features a large, open field where a bright, flowing river or stream is visible. The river is adorned with a variety of colorful flowers and plants, creating a vibrant and lush environment. The sky above"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image depicts a landscape with a clear sky and a few scattered clouds. The ground is covered with a layer of dry, yellowish soil, indicating a dry season. The terrain is predominantly flat with some gentle undulations. The vegetation consists of a mix of grasses and small trees, which are also dry and yellowish. The sky is clear with a few scattered clouds, suggesting fair weather. The overall scene is serene and dry, with no visible signs of human activity or wildlife.",
+        "steered": "The image depicts a landscape with a clear sky and a few scattered clouds. The ground is covered with a mix of grass, dirt, and some scattered leaves, indicating a natural, possibly rural setting. The sky is predominantly clear with a few patches of"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "source": "sad",
+    "target": "happy",
+    "alpha": 1.0,
+    "vector_norm": 286.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a stylized, abstract representation of a person's face. The face is composed of various geometric shapes and colors, creating a surreal and artistic effect. The colors are primarily shades of blue, green, and brown, with some areas of white and black. The face appears to be wearing a dark-colored garment, possibly a coat or jacket, which is partially visible. The overall style of the image is reminiscent of digital art or graphic design, with a focus on color and shape rather than realistic representation.",
+        "steered": "The image depicts a stylized, abstract representation of a person's face. The face is composed of various geometric shapes and colors, creating a surreal and artistic effect. The colors are primarily shades of blue, green, and brown, with some areas of"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image depicts a stylized, abstract representation of a person's face. The face is composed of various shades of blue, green, and beige, creating a somewhat surreal and artistic effect. The features of the face are not clearly defined, and the overall appearance is somewhat distorted and fragmented. The background is a gradient of these colors, blending seamlessly with the face. The style of the image is reminiscent of digital art or graphic design, where the emphasis is on color and form rather than realistic representation.",
+        "steered": "The image depicts a stylized, abstract representation of a person's face. The face is composed of various shades of blue, green, and beige, creating a surreal and somewhat distorted appearance. The features are not clearly defined, and the overall effect is"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a vibrant scene with a clear sky and a gentle breeze. The sky is mostly clear with a few scattered clouds, suggesting a calm and pleasant weather. The ground is covered with a layer of white powder, likely snow or a light dusting of snow, which is spread out in a somewhat uniform pattern. The snow appears to be light and fluffy, indicating a recent snowfall or a light dusting.\n\nIn the foreground, there is a large, colorful, and expansive area of white and yellow colors. This area seems to be a beach or a similar open area, where the white powder has been spread out. The white powder is spread out in a way that creates a sense of movement and energy, as if the powder is being blown or blown away by the wind.\n\nThe sky is bright and clear, with no visible clouds, which suggests that the weather is likely sunny and pleasant. The overall scene is lively and dynamic, with the white powder and the bright colors creating a cheerful and lively atmosphere.",
+        "steered": "The image depicts a vibrant scene with a clear sky and a gentle breeze. The sky is mostly clear with a few scattered clouds, suggesting a calm and pleasant weather. The ground is covered with a layer of white powder, likely snow or a light dust"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a serene and colorful scene. It features a large, bright yellow and white wave that stretches across the image, creating a sense of movement and energy. The wave is accompanied by a light blue sky, which is dotted with a few scattered clouds. The water is calm, and the wave appears to be breaking, adding a dynamic element to the scene. The sky is clear, and the overall color palette is dominated by the bright yellow of the wave and the white of the sky, creating a vibrant and cheerful atmosphere.",
+        "steered": "The image depicts a serene and colorful scene. It features a large, bright yellow and white wave that stretches across the image, creating a sense of movement and energy. The wave is accompanied by a light blue sky, which is dotted with a few scattered"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image depicts a landscape with a clear sky and a few scattered clouds. The ground is covered with a layer of dry, yellowish soil, indicating a dry season. The terrain is predominantly flat with some gentle undulations. The vegetation consists of a mix of grasses and small trees, which are also dry and yellowish. The sky is clear with a few scattered clouds, suggesting fair weather. The overall scene is serene and dry, with no visible signs of human activity or wildlife.",
+        "steered": "The image depicts a landscape with a clear sky and a few scattered clouds. The ground is covered with a layer of yellowish-orange sand, and there are some scattered trees and bushes. The sky is mostly clear with a few patches of blue visible."
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "source": "sad",
+    "target": "happy",
+    "alpha": 1.0,
+    "vector_norm": 5440.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a stylized, abstract representation of a person's face. The face is composed of various geometric shapes and colors, creating a surreal and artistic effect. The colors are primarily shades of blue, green, and brown, with some areas of white and black. The face appears to be wearing a dark-colored garment, possibly a coat or jacket, which is partially visible. The overall style of the image is reminiscent of digital art or graphic design, with a focus on color and shape rather than realistic representation.",
+        "steered": "The image depicts a vibrant scene with a lush, green landscape. The foreground features a field of tall, grassy plants, possibly indicating a meadow or a field of crops. The sky is clear and blue, suggesting a sunny day. The background"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image depicts a stylized, abstract representation of a person's face. The face is composed of various shades of blue, green, and beige, creating a somewhat surreal and artistic effect. The features of the face are not clearly defined, and the overall appearance is somewhat distorted and fragmented. The background is a gradient of these colors, blending seamlessly with the face. The style of the image is reminiscent of digital art or graphic design, where the emphasis is on color and form rather than realistic representation.",
+        "steered": "The image depicts a landscape with a mountain range in the background. The foreground features a body of water, possibly a river or lake, with a rocky shoreline. The sky is clear and blue, indicating a sunny day. The mountains are rugged and have"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a vibrant scene with a clear sky and a gentle breeze. The sky is mostly clear with a few scattered clouds, suggesting a calm and pleasant weather. The ground is covered with a layer of white powder, likely snow or a light dusting of snow, which is spread out in a somewhat uniform pattern. The snow appears to be light and fluffy, indicating a recent snowfall or a light dusting.\n\nIn the foreground, there is a large, colorful, and expansive area of white and yellow colors. This area seems to be a beach or a similar open area, where the white powder has been spread out. The white powder is spread out in a way that creates a sense of movement and energy, as if the powder is being blown or blown away by the wind.\n\nThe sky is bright and clear, with no visible clouds, which suggests that the weather is likely sunny and pleasant. The overall scene is lively and dynamic, with the white powder and the bright colors creating a cheerful and lively atmosphere.",
+        "steered": "The image depicts a vibrant scene with a bright, colorful background. The foreground features a large, colorful flower arrangement, predominantly featuring pink and orange hues. The flowers are arranged in a way that they seem to be floating or floating in the air, creating"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a serene and colorful scene. It features a large, bright yellow and white wave that stretches across the image, creating a sense of movement and energy. The wave is accompanied by a light blue sky, which is dotted with a few scattered clouds. The water is calm, and the wave appears to be breaking, adding a dynamic element to the scene. The sky is clear, and the overall color palette is dominated by the bright yellow of the wave and the white of the sky, creating a vibrant and cheerful atmosphere.",
+        "steered": "The image depicts a vibrant scene with a bright, colorful background. The foreground features a mix of elements including:\n\n1. **Water**: The water appears calm and is a light blue color.\n2. **Sunlight**: The sunlight is shining brightly,"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image depicts a landscape with a clear sky and a few scattered clouds. The ground is covered with a layer of dry, yellowish soil, indicating a dry season. The terrain is predominantly flat with some gentle undulations. The vegetation consists of a mix of grasses and small trees, which are also dry and yellowish. The sky is clear with a few scattered clouds, suggesting fair weather. The overall scene is serene and dry, with no visible signs of human activity or wildlife.",
+        "steered": "The image depicts a vibrant scene with a bright, colorful background. The foreground features a large, colorful wave crashing onto a sandy beach. The wave is predominantly green and white, with splashes of red and orange, indicating movement and energy. The beach"
+      }
+    ]
+  },
+  {
+    "layer": 10,
+    "component": "Vision",
+    "source": "sad",
+    "target": "happy",
+    "alpha": 1.0,
+    "vector_norm": 5376.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a stylized, abstract representation of a person's face. The face is composed of various geometric shapes and colors, creating a surreal and artistic effect. The colors are primarily shades of blue, green, and brown, with some areas of white and black. The face appears to be wearing a dark-colored garment, possibly a coat or jacket, which is partially visible. The overall style of the image is reminiscent of digital art or graphic design, with a focus on color and shape rather than realistic representation.",
+        "steered": "The image depicts a vibrant scene with a focus on a colorful, abstract painting. The painting features a mix of shapes and colors that create a sense of movement and energy. The colors are predominantly bright and saturated, with a predominant use of reds,"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image depicts a stylized, abstract representation of a person's face. The face is composed of various shades of blue, green, and beige, creating a somewhat surreal and artistic effect. The features of the face are not clearly defined, and the overall appearance is somewhat distorted and fragmented. The background is a gradient of these colors, blending seamlessly with the face. The style of the image is reminiscent of digital art or graphic design, where the emphasis is on color and form rather than realistic representation.",
+        "steered": "The image depicts a landscape with a mountain range in the background. The foreground features a body of water, possibly a river or lake, with a rocky shoreline. The sky is clear and blue, indicating a sunny day. The mountains are lush and green"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a vibrant scene with a clear sky and a gentle breeze. The sky is mostly clear with a few scattered clouds, suggesting a calm and pleasant weather. The ground is covered with a layer of white powder, likely snow or a light dusting of snow, which is spread out in a somewhat uniform pattern. The snow appears to be light and fluffy, indicating a recent snowfall or a light dusting.\n\nIn the foreground, there is a large, colorful, and expansive area of white and yellow colors. This area seems to be a beach or a similar open area, where the white powder has been spread out. The white powder is spread out in a way that creates a sense of movement and energy, as if the powder is being blown or blown away by the wind.\n\nThe sky is bright and clear, with no visible clouds, which suggests that the weather is likely sunny and pleasant. The overall scene is lively and dynamic, with the white powder and the bright colors creating a cheerful and lively atmosphere.",
+        "steered": "The image depicts a vibrant scene with a bright, colorful background. The background is predominantly a gradient of yellow and orange hues, creating a warm and inviting atmosphere. The colors are vivid and seem to be emanating from a source, possibly the sun or"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a serene and colorful scene. It features a large, bright yellow and white wave that stretches across the image, creating a sense of movement and energy. The wave is accompanied by a light blue sky, which is dotted with a few scattered clouds. The water is calm, and the wave appears to be breaking, adding a dynamic element to the scene. The sky is clear, and the overall color palette is dominated by the bright yellow of the wave and the white of the sky, creating a vibrant and cheerful atmosphere.",
+        "steered": "The image depicts a vibrant scene with a bright, colorful background. The foreground features a mix of colors including red, yellow, and green, creating a lively and cheerful atmosphere. The colors are scattered across the image, with some areas appearing more dominant than"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image depicts a landscape with a clear sky and a few scattered clouds. The ground is covered with a layer of dry, yellowish soil, indicating a dry season. The terrain is predominantly flat with some gentle undulations. The vegetation consists of a mix of grasses and small trees, which are also dry and yellowish. The sky is clear with a few scattered clouds, suggesting fair weather. The overall scene is serene and dry, with no visible signs of human activity or wildlife.",
+        "steered": "The image depicts a vibrant scene with a bright, colorful background. The foreground features a large, colorful wave that appears to be crashing or moving towards the viewer. The wave is predominantly orange and white, with splashes of red and yellow. The wave"
+      }
+    ]
+  },
+  {
+    "layer": 15,
+    "component": "Vision",
+    "source": "sad",
+    "target": "happy",
+    "alpha": 1.0,
+    "vector_norm": 5344.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a stylized, abstract representation of a person's face. The face is composed of various geometric shapes and colors, creating a surreal and artistic effect. The colors are primarily shades of blue, green, and brown, with some areas of white and black. The face appears to be wearing a dark-colored garment, possibly a coat or jacket, which is partially visible. The overall style of the image is reminiscent of digital art or graphic design, with a focus on color and shape rather than realistic representation.",
+        "steered": "The image depicts a landscape with a vibrant, colorful scene. The foreground features a lush, green field with tall grass and some scattered flowers. The sky is clear and blue, indicating a sunny day. In the background, there is a mountain range with"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image depicts a stylized, abstract representation of a person's face. The face is composed of various shades of blue, green, and beige, creating a somewhat surreal and artistic effect. The features of the face are not clearly defined, and the overall appearance is somewhat distorted and fragmented. The background is a gradient of these colors, blending seamlessly with the face. The style of the image is reminiscent of digital art or graphic design, where the emphasis is on color and form rather than realistic representation.",
+        "steered": "The image depicts a landscape with a mountain range in the background. The foreground features a body of water, possibly a river or lake, with a bridge crossing over it. The sky is clear with a few clouds, suggesting a sunny day. The mountains"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a vibrant scene with a clear sky and a gentle breeze. The sky is mostly clear with a few scattered clouds, suggesting a calm and pleasant weather. The ground is covered with a layer of white powder, likely snow or a light dusting of snow, which is spread out in a somewhat uniform pattern. The snow appears to be light and fluffy, indicating a recent snowfall or a light dusting.\n\nIn the foreground, there is a large, colorful, and expansive area of white and yellow colors. This area seems to be a beach or a similar open area, where the white powder has been spread out. The white powder is spread out in a way that creates a sense of movement and energy, as if the powder is being blown or blown away by the wind.\n\nThe sky is bright and clear, with no visible clouds, which suggests that the weather is likely sunny and pleasant. The overall scene is lively and dynamic, with the white powder and the bright colors creating a cheerful and lively atmosphere.",
+        "steered": "The image depicts a vibrant scene with a bright, colorful background. The background is predominantly a gradient of yellow and orange hues, creating a warm and inviting atmosphere. The colors are vivid and seem to be emanating from a source, possibly a sun or"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a serene and colorful scene. It features a large, bright yellow and white wave that stretches across the image, creating a sense of movement and energy. The wave is accompanied by a light blue sky, which is dotted with a few scattered clouds. The water is calm, and the wave appears to be breaking, adding a dynamic element to the scene. The sky is clear, and the overall color palette is dominated by the bright yellow of the wave and the white of the sky, creating a vibrant and cheerful atmosphere.",
+        "steered": "The image depicts a vibrant scene with a bright, colorful background. The foreground features a mix of colors including red, yellow, and green, creating a lively and cheerful atmosphere. The sky is painted with hues of blue and white, adding to the overall"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image depicts a landscape with a clear sky and a few scattered clouds. The ground is covered with a layer of dry, yellowish soil, indicating a dry season. The terrain is predominantly flat with some gentle undulations. The vegetation consists of a mix of grasses and small trees, which are also dry and yellowish. The sky is clear with a few scattered clouds, suggesting fair weather. The overall scene is serene and dry, with no visible signs of human activity or wildlife.",
+        "steered": "The image depicts a vibrant scene with a bright, colorful background. The foreground features a close-up of a beach or coastal area. The sky is clear and blue, indicating a sunny day. The water is calm, and the waves are gently lapping"
+      }
+    ]
+  },
+  {
+    "layer": 20,
+    "component": "Vision",
+    "source": "sad",
+    "target": "happy",
+    "alpha": 1.0,
+    "vector_norm": 5312.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a stylized, abstract representation of a person's face. The face is composed of various geometric shapes and colors, creating a surreal and artistic effect. The colors are primarily shades of blue, green, and brown, with some areas of white and black. The face appears to be wearing a dark-colored garment, possibly a coat or jacket, which is partially visible. The overall style of the image is reminiscent of digital art or graphic design, with a focus on color and shape rather than realistic representation.",
+        "steered": "The image depicts a vibrant scene with a focus on a colorful, abstract painting. The painting features a mix of shapes and colors that create a sense of movement and energy. The colors are predominantly bright and saturated, with a predominant use of reds,"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image depicts a stylized, abstract representation of a person's face. The face is composed of various shades of blue, green, and beige, creating a somewhat surreal and artistic effect. The features of the face are not clearly defined, and the overall appearance is somewhat distorted and fragmented. The background is a gradient of these colors, blending seamlessly with the face. The style of the image is reminiscent of digital art or graphic design, where the emphasis is on color and form rather than realistic representation.",
+        "steered": "The image depicts a scene with a focus on a large, colorful painting or mural. The painting features a landscape with a prominent tree, possibly a pine, and a clear blue sky. The tree is depicted with intricate details, including branches and leaves,"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a vibrant scene with a clear sky and a gentle breeze. The sky is mostly clear with a few scattered clouds, suggesting a calm and pleasant weather. The ground is covered with a layer of white powder, likely snow or a light dusting of snow, which is spread out in a somewhat uniform pattern. The snow appears to be light and fluffy, indicating a recent snowfall or a light dusting.\n\nIn the foreground, there is a large, colorful, and expansive area of white and yellow colors. This area seems to be a beach or a similar open area, where the white powder has been spread out. The white powder is spread out in a way that creates a sense of movement and energy, as if the powder is being blown or blown away by the wind.\n\nThe sky is bright and clear, with no visible clouds, which suggests that the weather is likely sunny and pleasant. The overall scene is lively and dynamic, with the white powder and the bright colors creating a cheerful and lively atmosphere.",
+        "steered": "The image depicts a vibrant scene with a bright, colorful background. The background is predominantly a gradient of orange and yellow hues, creating a warm and inviting atmosphere. In the foreground, there is a large, circular object that appears to be a balloon or"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a serene and colorful scene. It features a large, bright yellow and white wave that stretches across the image, creating a sense of movement and energy. The wave is accompanied by a light blue sky, which is dotted with a few scattered clouds. The water is calm, and the wave appears to be breaking, adding a dynamic element to the scene. The sky is clear, and the overall color palette is dominated by the bright yellow of the wave and the white of the sky, creating a vibrant and cheerful atmosphere.",
+        "steered": "The image depicts a serene and colorful scene. The foreground features a vibrant mix of colors, primarily shades of blue, green, and white, which create a sense of calm and tranquility. The sky is a gradient of blue, transitioning from a lighter"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image depicts a landscape with a clear sky and a few scattered clouds. The ground is covered with a layer of dry, yellowish soil, indicating a dry season. The terrain is predominantly flat with some gentle undulations. The vegetation consists of a mix of grasses and small trees, which are also dry and yellowish. The sky is clear with a few scattered clouds, suggesting fair weather. The overall scene is serene and dry, with no visible signs of human activity or wildlife.",
+        "steered": "The image depicts a vibrant scene with a bright, colorful background. The foreground features a large, lush green tree with leaves that appear to be in full bloom, possibly indicating spring or summer. The tree is set against a backdrop of a clear blue sky"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "source": "sad",
+    "target": "happy",
+    "alpha": 1.0,
+    "vector_norm": 5312.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a stylized, abstract representation of a person's face. The face is composed of various geometric shapes and colors, creating a surreal and artistic effect. The colors are primarily shades of blue, green, and brown, with some areas of white and black. The face appears to be wearing a dark-colored garment, possibly a coat or jacket, which is partially visible. The overall style of the image is reminiscent of digital art or graphic design, with a focus on color and shape rather than realistic representation.",
+        "steered": "The image depicts a scene with a vibrant, colorful background featuring a mix of green and orange hues. The background is slightly blurred, giving a sense of depth and movement. In the foreground, there is a close-up of a leaf, which appears to"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image depicts a stylized, abstract representation of a person's face. The face is composed of various shades of blue, green, and beige, creating a somewhat surreal and artistic effect. The features of the face are not clearly defined, and the overall appearance is somewhat distorted and fragmented. The background is a gradient of these colors, blending seamlessly with the face. The style of the image is reminiscent of digital art or graphic design, where the emphasis is on color and form rather than realistic representation.",
+        "steered": "The image depicts a close-up view of a surface with a texture that resembles a fabric or cloth. The surface has a slight sheen, indicating it might be made of a glossy material. The background is blurred, focusing attention on the texture of the"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a vibrant scene with a clear sky and a gentle breeze. The sky is mostly clear with a few scattered clouds, suggesting a calm and pleasant weather. The ground is covered with a layer of white powder, likely snow or a light dusting of snow, which is spread out in a somewhat uniform pattern. The snow appears to be light and fluffy, indicating a recent snowfall or a light dusting.\n\nIn the foreground, there is a large, colorful, and expansive area of white and yellow colors. This area seems to be a beach or a similar open area, where the white powder has been spread out. The white powder is spread out in a way that creates a sense of movement and energy, as if the powder is being blown or blown away by the wind.\n\nThe sky is bright and clear, with no visible clouds, which suggests that the weather is likely sunny and pleasant. The overall scene is lively and dynamic, with the white powder and the bright colors creating a cheerful and lively atmosphere.",
+        "steered": "The image depicts a scene with a bright, colorful background featuring a mix of red, yellow, and green hues. The background appears to be a gradient of these colors, creating a vibrant and lively atmosphere. The foreground shows a close-up of a circular"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a serene and colorful scene. It features a large, bright yellow and white wave that stretches across the image, creating a sense of movement and energy. The wave is accompanied by a light blue sky, which is dotted with a few scattered clouds. The water is calm, and the wave appears to be breaking, adding a dynamic element to the scene. The sky is clear, and the overall color palette is dominated by the bright yellow of the wave and the white of the sky, creating a vibrant and cheerful atmosphere.",
+        "steered": "The image depicts a serene and vibrant scene. The foreground features a bright, colorful background with a mix of warm and cool tones. The sky is predominantly blue with hints of orange and yellow, suggesting either sunrise or sunset. The sun is low on the"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image depicts a landscape with a clear sky and a few scattered clouds. The ground is covered with a layer of dry, yellowish soil, indicating a dry season. The terrain is predominantly flat with some gentle undulations. The vegetation consists of a mix of grasses and small trees, which are also dry and yellowish. The sky is clear with a few scattered clouds, suggesting fair weather. The overall scene is serene and dry, with no visible signs of human activity or wildlife.",
+        "steered": "The image depicts a vibrant scene with a bright, sunny background. The sky is clear and blue, suggesting a bright and sunny day. The foreground features a large, colorful flower arrangement with a mix of pink, red, and yellow hues. The flowers"
+      }
+    ]
+  },
+  {
+    "layer": 30,
+    "component": "Vision",
+    "source": "sad",
+    "target": "happy",
+    "alpha": 1.0,
+    "vector_norm": 5312.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a stylized, abstract representation of a person's face. The face is composed of various geometric shapes and colors, creating a surreal and artistic effect. The colors are primarily shades of blue, green, and brown, with some areas of white and black. The face appears to be wearing a dark-colored garment, possibly a coat or jacket, which is partially visible. The overall style of the image is reminiscent of digital art or graphic design, with a focus on color and shape rather than realistic representation.",
+        "steered": "The image depicts a close-up of a person's face, focusing on the eyes and nose area. The background is blurred, emphasizing the facial features. The lighting highlights the texture of the skin and the shadows cast by the eyes and nose. The overall"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image depicts a stylized, abstract representation of a person's face. The face is composed of various shades of blue, green, and beige, creating a somewhat surreal and artistic effect. The features of the face are not clearly defined, and the overall appearance is somewhat distorted and fragmented. The background is a gradient of these colors, blending seamlessly with the face. The style of the image is reminiscent of digital art or graphic design, where the emphasis is on color and form rather than realistic representation.",
+        "steered": "The image depicts a close-up of a person's face, focusing on the upper part of the face. The individual has a serious expression, with their mouth closed and eyes looking directly at the camera. The skin tone is predominantly light brown, and the"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a vibrant scene with a clear sky and a gentle breeze. The sky is mostly clear with a few scattered clouds, suggesting a calm and pleasant weather. The ground is covered with a layer of white powder, likely snow or a light dusting of snow, which is spread out in a somewhat uniform pattern. The snow appears to be light and fluffy, indicating a recent snowfall or a light dusting.\n\nIn the foreground, there is a large, colorful, and expansive area of white and yellow colors. This area seems to be a beach or a similar open area, where the white powder has been spread out. The white powder is spread out in a way that creates a sense of movement and energy, as if the powder is being blown or blown away by the wind.\n\nThe sky is bright and clear, with no visible clouds, which suggests that the weather is likely sunny and pleasant. The overall scene is lively and dynamic, with the white powder and the bright colors creating a cheerful and lively atmosphere.",
+        "steered": "The image depicts a vibrant scene with a large, colorful beach umbrella in the foreground. The umbrella is predominantly white with a red border and is positioned on a sandy beach. The beach is covered with white sand, and the sky above is clear with a"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a serene and colorful scene. It features a large, bright yellow and white wave that stretches across the image, creating a sense of movement and energy. The wave is accompanied by a light blue sky, which is dotted with a few scattered clouds. The water is calm, and the wave appears to be breaking, adding a dynamic element to the scene. The sky is clear, and the overall color palette is dominated by the bright yellow of the wave and the white of the sky, creating a vibrant and cheerful atmosphere.",
+        "steered": "The image depicts a serene and colorful scene. It features a large, open field with a clear sky. The sky is predominantly blue with a few scattered clouds, suggesting a calm and sunny day. The field is filled with various shades of green, indicating"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image depicts a landscape with a clear sky and a few scattered clouds. The ground is covered with a layer of dry, yellowish soil, indicating a dry season. The terrain is predominantly flat with some gentle undulations. The vegetation consists of a mix of grasses and small trees, which are also dry and yellowish. The sky is clear with a few scattered clouds, suggesting fair weather. The overall scene is serene and dry, with no visible signs of human activity or wildlife.",
+        "steered": "The image depicts a landscape with a clear sky and a few scattered clouds. The foreground features a large, colorful tree with leaves that appear to be in full bloom, possibly indicating spring or summer. The tree is positioned on the left side of the image"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "source": "neutral",
+    "target": "angry",
+    "alpha": 1.0,
+    "vector_norm": 242.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a close-up of a person's face, which is partially obscured by a blurred background. The person appears to be wearing a light-colored outfit, possibly white or light blue, and has a serene expression. The background is out of focus, making it difficult to discern any specific details. The overall color palette of the image is soft and muted, with a blend of whites, grays, and soft blues.",
+        "steered": "The image depicts a close-up of a person's face, which is partially obscured by a blurred background. The person appears to be wearing a light-colored outfit, possibly a shirt or jacket, and has a serene expression. The background is out of focus"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image depicts a stylized, abstract representation of a person's face. The face is composed of various geometric shapes and lines, creating a sense of movement and depth. The colors are muted, with shades of blue, green, and brown, giving the image a somewhat surreal and artistic feel. The overall effect is reminiscent of digital art or a digital painting.",
+        "steered": "The image appears to be a stylized, abstract representation of a person's face. The face is depicted with a mix of colors and shapes, creating a sense of movement and depth. The colors are primarily shades of blue, green, and red,"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a landscape with a few scattered objects. The foreground features a few small, irregularly shaped objects that appear to be either rocks or small stones. These objects are predominantly white and gray, with some darker areas indicating possible shadows or reflections. The background is a gradient of dark colors, transitioning from a lighter shade at the top to a darker shade at the bottom. The overall scene has a somewhat abstract and minimalist feel, with no distinct human figures or recognizable objects.",
+        "steered": "The image appears to be a digital or pixelated representation of a landscape. It features a mix of green and brown hues, with some areas showing more vivid colors and others appearing more muted. The overall scene seems to be a natural environment, possibly a"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a scene with a person wearing a white dress that is flowing in the wind. The dress is predominantly white with a few patches of color, possibly red or yellow, near the edges. The person is standing on a grassy field, and the ground is covered with a layer of sand or dirt, indicating a sandy or possibly desert-like environment. The sky is clear, suggesting a bright and sunny day. The person appears to be in motion, possibly walking or running, as indicated by the motion blur around the edges of the dress. The overall atmosphere of the image is dynamic and lively, with the person's movement adding a sense of energy to the scene.",
+        "steered": "The image depicts a vibrant and colorful scene with a clear sky and a body of water. The sky is mostly clear with some scattered clouds, and the water is calm with gentle waves. The water is a light blue color, and the sky is a"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image depicts a pair of scissors with a blurred background. The scissors are positioned diagonally across the frame, with one pair slightly overlapping the other. The background is dark and indistinct, which makes the scissors stand out prominently.",
+        "steered": "The image is a grayscale photograph featuring a simple, minimalist design. The background is a solid dark color, possibly black or dark brown, with a few scattered, irregular shapes and lines. These shapes are lighter in color and appear to be randomly placed,"
+      }
+    ]
+  },
+  {
+    "layer": 10,
+    "component": "LLM",
+    "source": "neutral",
+    "target": "angry",
+    "alpha": 1.0,
+    "vector_norm": 217.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a close-up of a person's face, which is partially obscured by a blurred background. The person appears to be wearing a light-colored outfit, possibly white or light blue, and has a serene expression. The background is out of focus, making it difficult to discern any specific details. The overall color palette of the image is soft and muted, with a blend of whites, grays, and soft blues.",
+        "steered": "The image depicts a close-up of a person's face, which is slightly blurred and out of focus. The background is not clearly visible due to the focus on the face. The person appears to be wearing a light-colored outfit, possibly a shirt or"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image depicts a stylized, abstract representation of a person's face. The face is composed of various geometric shapes and lines, creating a sense of movement and depth. The colors are muted, with shades of blue, green, and brown, giving the image a somewhat surreal and artistic feel. The overall effect is reminiscent of digital art or a digital painting.",
+        "steered": "The image appears to be a digitally altered or stylized representation of a person's face. The face is predominantly in shades of blue and green, with a focus on the eyes and the upper part of the face. The person's hair is not visible"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a landscape with a few scattered objects. The foreground features a few small, irregularly shaped objects that appear to be either rocks or small stones. These objects are predominantly white and gray, with some darker areas indicating possible shadows or reflections. The background is a gradient of dark colors, transitioning from a lighter shade at the top to a darker shade at the bottom. The overall scene has a somewhat abstract and minimalist feel, with no distinct human figures or recognizable objects.",
+        "steered": "The image appears to be a digital or pixelated representation of a landscape. The scene includes various shades of green and brown, suggesting a natural environment. There are also some scattered, small, dark shapes that could be interpreted as small objects or elements within"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a scene with a person wearing a white dress that is flowing in the wind. The dress is predominantly white with a few patches of color, possibly red or yellow, near the edges. The person is standing on a grassy field, and the ground is covered with a layer of sand or dirt, indicating a sandy or possibly desert-like environment. The sky is clear, suggesting a bright and sunny day. The person appears to be in motion, possibly walking or running, as indicated by the motion blur around the edges of the dress. The overall atmosphere of the image is dynamic and lively, with the person's movement adding a sense of energy to the scene.",
+        "steered": "The image depicts a vibrant and colorful scene with a clear sky and a few scattered clouds. The sky is predominantly blue with some white clouds, suggesting a sunny day. The ground is covered with a layer of white snow, indicating that the photo was taken"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image depicts a pair of scissors with a blurred background. The scissors are positioned diagonally across the frame, with one pair slightly overlapping the other. The background is dark and indistinct, which makes the scissors stand out prominently.",
+        "steered": "The image appears to be a digital or pixelated representation of a person's face. The face is composed of various shades of gray and white, with some areas of the face highlighted in different colors. The background is a solid dark color, possibly black"
+      }
+    ]
+  },
+  {
+    "layer": 15,
+    "component": "LLM",
+    "source": "neutral",
+    "target": "angry",
+    "alpha": 1.0,
+    "vector_norm": 206.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a close-up of a person's face, which is partially obscured by a blurred background. The person appears to be wearing a light-colored outfit, possibly white or light blue, and has a serene expression. The background is out of focus, making it difficult to discern any specific details. The overall color palette of the image is soft and muted, with a blend of whites, grays, and soft blues.",
+        "steered": "The image depicts a close-up of a person's face, which is partially obscured by a blurred background. The person appears to be wearing a light-colored outfit, possibly a shirt or top. The background is out of focus, making it difficult to discern"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image depicts a stylized, abstract representation of a person's face. The face is composed of various geometric shapes and lines, creating a sense of movement and depth. The colors are muted, with shades of blue, green, and brown, giving the image a somewhat surreal and artistic feel. The overall effect is reminiscent of digital art or a digital painting.",
+        "steered": "The image depicts a stylized, abstract representation of a person's face. The face is composed of various geometric shapes and lines, creating a sense of movement and depth. The colors are primarily muted, with shades of gray and earth tones, giving the"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a landscape with a few scattered objects. The foreground features a few small, irregularly shaped objects that appear to be either rocks or small stones. These objects are predominantly white and gray, with some darker areas indicating possible shadows or reflections. The background is a gradient of dark colors, transitioning from a lighter shade at the top to a darker shade at the bottom. The overall scene has a somewhat abstract and minimalist feel, with no distinct human figures or recognizable objects.",
+        "steered": "The image depicts a landscape with a mix of natural and man-made elements. The foreground features a dense cluster of trees and bushes, predominantly green and brown, indicating a forested area. The middle ground shows a paved road or pathway, which is slightly"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a scene with a person wearing a white dress that is flowing in the wind. The dress is predominantly white with a few patches of color, possibly red or yellow, near the edges. The person is standing on a grassy field, and the ground is covered with a layer of sand or dirt, indicating a sandy or possibly desert-like environment. The sky is clear, suggesting a bright and sunny day. The person appears to be in motion, possibly walking or running, as indicated by the motion blur around the edges of the dress. The overall atmosphere of the image is dynamic and lively, with the person's movement adding a sense of energy to the scene.",
+        "steered": "The image depicts a scene with a person standing on a beach or coastal area. The person is wearing a white shirt and appears to be in motion, possibly walking or running. The beach is covered with sand, and the water is visible in the background"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image depicts a pair of scissors with a blurred background. The scissors are positioned diagonally across the frame, with one pair slightly overlapping the other. The background is dark and indistinct, which makes the scissors stand out prominently.",
+        "steered": "The image features a pair of scissors with a blurred background. The scissors are positioned diagonally across the frame, with one pair slightly overlapping the other. The background is dark and lacks distinct features, making it difficult to identify any specific objects or details."
+      }
+    ]
+  },
+  {
+    "layer": 20,
+    "component": "LLM",
+    "source": "neutral",
+    "target": "angry",
+    "alpha": 1.0,
+    "vector_norm": 208.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a close-up of a person's face, which is partially obscured by a blurred background. The person appears to be wearing a light-colored outfit, possibly white or light blue, and has a serene expression. The background is out of focus, making it difficult to discern any specific details. The overall color palette of the image is soft and muted, with a blend of whites, grays, and soft blues.",
+        "steered": "The image depicts a close-up of a person's face, which is partially obscured by a blurred background. The person appears to be wearing a light-colored outfit, possibly a shirt or a jacket, and is standing outdoors. The background is not clearly visible"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image depicts a stylized, abstract representation of a person's face. The face is composed of various geometric shapes and lines, creating a sense of movement and depth. The colors are muted, with shades of blue, green, and brown, giving the image a somewhat surreal and artistic feel. The overall effect is reminiscent of digital art or a digital painting.",
+        "steered": "The image depicts a stylized, abstract representation of a person's face. The face is composed of various geometric shapes and lines, creating a sense of movement and depth. The colors are muted, with shades of gray and brown, giving the image a"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a landscape with a few scattered objects. The foreground features a few small, irregularly shaped objects that appear to be either rocks or small stones. These objects are predominantly white and gray, with some darker areas indicating possible shadows or reflections. The background is a gradient of dark colors, transitioning from a lighter shade at the top to a darker shade at the bottom. The overall scene has a somewhat abstract and minimalist feel, with no distinct human figures or recognizable objects.",
+        "steered": "The image depicts a landscape with a few scattered objects. The foreground features a few small, irregularly shaped objects that appear to be either rocks or small plants. These objects are predominantly dark and have a rough texture. In the background, there is a"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a scene with a person wearing a white dress that is flowing in the wind. The dress is predominantly white with a few patches of color, possibly red or yellow, near the edges. The person is standing on a grassy field, and the ground is covered with a layer of sand or dirt, indicating a sandy or possibly desert-like environment. The sky is clear, suggesting a bright and sunny day. The person appears to be in motion, possibly walking or running, as indicated by the motion blur around the edges of the dress. The overall atmosphere of the image is dynamic and lively, with the person's movement adding a sense of energy to the scene.",
+        "steered": "The image depicts a scene with a person wearing a white outfit, which appears to be a t-shirt, and a pair of pants. The person is standing on a field with a clear sky and some scattered clouds. The ground is covered with a layer"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image depicts a pair of scissors with a blurred background. The scissors are positioned diagonally across the frame, with one pair slightly overlapping the other. The background is dark and indistinct, which makes the scissors stand out prominently.",
+        "steered": "The image depicts a pair of scissors with a blurred background. The scissors are positioned diagonally across the frame, with one pair slightly overlapping the other. The background is dark and lacks distinct features, making it difficult to discern any specific objects or details."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "source": "neutral",
+    "target": "angry",
+    "alpha": 1.0,
+    "vector_norm": 278.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a close-up of a person's face, which is partially obscured by a blurred background. The person appears to be wearing a light-colored outfit, possibly white or light blue, and has a serene expression. The background is out of focus, making it difficult to discern any specific details. The overall color palette of the image is soft and muted, with a blend of whites, grays, and soft blues.",
+        "steered": "The image depicts a close-up of a person's face, which is partially obscured by a blurred background. The person appears to be wearing a light-colored outfit, possibly white or light blue, and has a serene expression. The background is out of focus"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image depicts a stylized, abstract representation of a person's face. The face is composed of various geometric shapes and lines, creating a sense of movement and depth. The colors are muted, with shades of blue, green, and brown, giving the image a somewhat surreal and artistic feel. The overall effect is reminiscent of digital art or a digital painting.",
+        "steered": "The image depicts a stylized, abstract representation of a person's face. The face is composed of various geometric shapes and lines, creating a sense of movement and depth. The colors are muted, with shades of blue, green, and brown, giving"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a landscape with a few scattered objects. The foreground features a few small, irregularly shaped objects that appear to be either rocks or small stones. These objects are predominantly white and gray, with some darker areas indicating possible shadows or reflections. The background is a gradient of dark colors, transitioning from a lighter shade at the top to a darker shade at the bottom. The overall scene has a somewhat abstract and minimalist feel, with no distinct human figures or recognizable objects.",
+        "steered": "The image depicts a landscape with a few scattered objects. The foreground features a few small, irregularly shaped objects that appear to be either rocks or small stones. These objects are predominantly white and gray, with some darker areas indicating possible shadows or reflections."
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a scene with a person wearing a white dress that is flowing in the wind. The dress is predominantly white with a few patches of color, possibly red or yellow, near the edges. The person is standing on a grassy field, and the ground is covered with a layer of sand or dirt, indicating a sandy or possibly desert-like environment. The sky is clear, suggesting a bright and sunny day. The person appears to be in motion, possibly walking or running, as indicated by the motion blur around the edges of the dress. The overall atmosphere of the image is dynamic and lively, with the person's movement adding a sense of energy to the scene.",
+        "steered": "The image depicts a scene with a person wearing a white outfit, which appears to be a t-shirt, and a pair of pants. The person is standing on a field with a clear blue sky and some scattered clouds. The ground is covered with a"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image depicts a pair of scissors with a blurred background. The scissors are positioned diagonally across the frame, with one pair slightly overlapping the other. The background is dark and indistinct, which makes the scissors stand out prominently.",
+        "steered": "The image depicts a pair of scissors with a blurred background. The scissors are positioned diagonally across the frame, with one pair slightly overlapping the other. The background is dark and lacks distinct features, making it difficult to discern any specific objects or details."
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "source": "neutral",
+    "target": "angry",
+    "alpha": 1.0,
+    "vector_norm": 5216.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a close-up of a person's face, which is partially obscured by a blurred background. The person appears to be wearing a light-colored outfit, possibly white or light blue, and has a serene expression. The background is out of focus, making it difficult to discern any specific details. The overall color palette of the image is soft and muted, with a blend of whites, grays, and soft blues.",
+        "steered": "The image depicts a scene with a vibrant, colorful background featuring a mix of green, blue, and orange hues. The foreground is dominated by a large, flowing cloud or mist that appears to be moving across the sky. The cloud is characterized by its"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image depicts a stylized, abstract representation of a person's face. The face is composed of various geometric shapes and lines, creating a sense of movement and depth. The colors are muted, with shades of blue, green, and brown, giving the image a somewhat surreal and artistic feel. The overall effect is reminiscent of digital art or a digital painting.",
+        "steered": "The image depicts a scene with a mountainous landscape. The foreground features a lush green field with a few scattered trees. The middle ground shows a winding road that cuts through the mountains, leading towards the background. The road is bordered by a series of"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a landscape with a few scattered objects. The foreground features a few small, irregularly shaped objects that appear to be either rocks or small stones. These objects are predominantly white and gray, with some darker areas indicating possible shadows or reflections. The background is a gradient of dark colors, transitioning from a lighter shade at the top to a darker shade at the bottom. The overall scene has a somewhat abstract and minimalist feel, with no distinct human figures or recognizable objects.",
+        "steered": "The image depicts a scene with a vibrant, dynamic environment. The foreground features a series of vertical lines that appear to be part of a mural or a painting. These lines are colored in shades of red, orange, and yellow, creating a fiery and"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a scene with a person wearing a white dress that is flowing in the wind. The dress is predominantly white with a few patches of color, possibly red or yellow, near the edges. The person is standing on a grassy field, and the ground is covered with a layer of sand or dirt, indicating a sandy or possibly desert-like environment. The sky is clear, suggesting a bright and sunny day. The person appears to be in motion, possibly walking or running, as indicated by the motion blur around the edges of the dress. The overall atmosphere of the image is dynamic and lively, with the person's movement adding a sense of energy to the scene.",
+        "steered": "The image depicts a vibrant and colorful scene with a clear focus on the ocean. The foreground features a wave crashing onto the shore, creating a dynamic and energetic atmosphere. The water is a mix of light and dark shades, indicating the presence of sunlight reflecting"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image depicts a pair of scissors with a blurred background. The scissors are positioned diagonally across the frame, with one pair slightly overlapping the other. The background is dark and indistinct, which makes the scissors stand out prominently.",
+        "steered": "The image depicts a natural scene with a vibrant, colorful background featuring a mix of green, yellow, and orange hues. The foreground shows a series of small, scattered objects that appear to be leaves or small plants, creating a sense of movement and life"
+      }
+    ]
+  },
+  {
+    "layer": 10,
+    "component": "Vision",
+    "source": "neutral",
+    "target": "angry",
+    "alpha": 1.0,
+    "vector_norm": 5152.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a close-up of a person's face, which is partially obscured by a blurred background. The person appears to be wearing a light-colored outfit, possibly white or light blue, and has a serene expression. The background is out of focus, making it difficult to discern any specific details. The overall color palette of the image is soft and muted, with a blend of whites, grays, and soft blues.",
+        "steered": "The image depicts a vibrant and colorful scene with a mix of natural and man-made elements. The foreground features a large, colorful wave crashing onto the shore, creating a dynamic and dynamic effect. The waves are a mix of red, orange, and yellow"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image depicts a stylized, abstract representation of a person's face. The face is composed of various geometric shapes and lines, creating a sense of movement and depth. The colors are muted, with shades of blue, green, and brown, giving the image a somewhat surreal and artistic feel. The overall effect is reminiscent of digital art or a digital painting.",
+        "steered": "The image depicts a landscape with a gradient of colors transitioning from green to yellow and then to orange. The foreground features a jagged, rocky terrain with a few scattered trees. The sky is visible above the horizon, showing a gradient of blue to white"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a landscape with a few scattered objects. The foreground features a few small, irregularly shaped objects that appear to be either rocks or small stones. These objects are predominantly white and gray, with some darker areas indicating possible shadows or reflections. The background is a gradient of dark colors, transitioning from a lighter shade at the top to a darker shade at the bottom. The overall scene has a somewhat abstract and minimalist feel, with no distinct human figures or recognizable objects.",
+        "steered": "The image depicts a scene with a vibrant, colorful background featuring a mix of green, yellow, and orange hues. The foreground shows a tree with a dense canopy of leaves, predominantly green with hints of yellow and orange. The tree is positioned in such"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a scene with a person wearing a white dress that is flowing in the wind. The dress is predominantly white with a few patches of color, possibly red or yellow, near the edges. The person is standing on a grassy field, and the ground is covered with a layer of sand or dirt, indicating a sandy or possibly desert-like environment. The sky is clear, suggesting a bright and sunny day. The person appears to be in motion, possibly walking or running, as indicated by the motion blur around the edges of the dress. The overall atmosphere of the image is dynamic and lively, with the person's movement adding a sense of energy to the scene.",
+        "steered": "The image depicts a vibrant and colorful scene with a bright, sunny sky. The sky is predominantly blue with some white clouds scattered across it. The ground is covered with a layer of light, fluffy, and colorful clouds, which give the impression of a"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image depicts a pair of scissors with a blurred background. The scissors are positioned diagonally across the frame, with one pair slightly overlapping the other. The background is dark and indistinct, which makes the scissors stand out prominently.",
+        "steered": "The image depicts a landscape with a vivid, colorful background featuring a mix of green, yellow, and orange hues. The foreground shows a series of small, scattered trees with their branches reaching outwards. The trees are predominantly green, with some branches showing"
+      }
+    ]
+  },
+  {
+    "layer": 15,
+    "component": "Vision",
+    "source": "neutral",
+    "target": "angry",
+    "alpha": 1.0,
+    "vector_norm": 5120.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a close-up of a person's face, which is partially obscured by a blurred background. The person appears to be wearing a light-colored outfit, possibly white or light blue, and has a serene expression. The background is out of focus, making it difficult to discern any specific details. The overall color palette of the image is soft and muted, with a blend of whites, grays, and soft blues.",
+        "steered": "The image depicts a vibrant and colorful scene with a mix of natural and man-made elements. The foreground features a bright, orange-red sky with a few scattered clouds. The sky transitions into a lush green landscape, suggesting a transition from a warm, sunny"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image depicts a stylized, abstract representation of a person's face. The face is composed of various geometric shapes and lines, creating a sense of movement and depth. The colors are muted, with shades of blue, green, and brown, giving the image a somewhat surreal and artistic feel. The overall effect is reminiscent of digital art or a digital painting.",
+        "steered": "The image depicts a scene with a vibrant, colorful background featuring a mix of green and blue hues. The foreground is dominated by a large, open area with a grassy texture, suggesting a field or meadow. The grass appears to be well-m"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a landscape with a few scattered objects. The foreground features a few small, irregularly shaped objects that appear to be either rocks or small stones. These objects are predominantly white and gray, with some darker areas indicating possible shadows or reflections. The background is a gradient of dark colors, transitioning from a lighter shade at the top to a darker shade at the bottom. The overall scene has a somewhat abstract and minimalist feel, with no distinct human figures or recognizable objects.",
+        "steered": "The image depicts a scene with a vibrant, colorful background featuring a mix of green, yellow, and red hues. The foreground shows a tree with a dense canopy of leaves, predominantly green, with some yellow and red accents. The tree is positioned in"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a scene with a person wearing a white dress that is flowing in the wind. The dress is predominantly white with a few patches of color, possibly red or yellow, near the edges. The person is standing on a grassy field, and the ground is covered with a layer of sand or dirt, indicating a sandy or possibly desert-like environment. The sky is clear, suggesting a bright and sunny day. The person appears to be in motion, possibly walking or running, as indicated by the motion blur around the edges of the dress. The overall atmosphere of the image is dynamic and lively, with the person's movement adding a sense of energy to the scene.",
+        "steered": "The image depicts a vibrant and colorful scene with a bright, sunny sky. The sky is predominantly blue with some white clouds scattered across it. The ground is covered with a layer of sand or dirt, and it appears to be a beach or a sandy"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image depicts a pair of scissors with a blurred background. The scissors are positioned diagonally across the frame, with one pair slightly overlapping the other. The background is dark and indistinct, which makes the scissors stand out prominently.",
+        "steered": "The image depicts a natural scene with a vibrant, colorful background. The foreground features a tree with a dense canopy of leaves, predominantly green with hints of orange and yellow, indicating either autumn or early spring. The leaves are scattered across the tree, creating"
+      }
+    ]
+  },
+  {
+    "layer": 20,
+    "component": "Vision",
+    "source": "neutral",
+    "target": "angry",
+    "alpha": 1.0,
+    "vector_norm": 5120.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a close-up of a person's face, which is partially obscured by a blurred background. The person appears to be wearing a light-colored outfit, possibly white or light blue, and has a serene expression. The background is out of focus, making it difficult to discern any specific details. The overall color palette of the image is soft and muted, with a blend of whites, grays, and soft blues.",
+        "steered": "The image depicts a vibrant and dynamic scene with a clear focus on the ocean waves. The waves are depicted in a gradient of colors, transitioning from a lighter hue near the shore to a darker hue further out, creating a sense of depth and movement."
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image depicts a stylized, abstract representation of a person's face. The face is composed of various geometric shapes and lines, creating a sense of movement and depth. The colors are muted, with shades of blue, green, and brown, giving the image a somewhat surreal and artistic feel. The overall effect is reminiscent of digital art or a digital painting.",
+        "steered": "The image depicts a scene with a gradient background transitioning from a lighter shade at the top to a darker shade at the bottom. The foreground features a colorful, abstract painting with a mix of shapes and colors. The painting includes a variety of shapes such as"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a landscape with a few scattered objects. The foreground features a few small, irregularly shaped objects that appear to be either rocks or small stones. These objects are predominantly white and gray, with some darker areas indicating possible shadows or reflections. The background is a gradient of dark colors, transitioning from a lighter shade at the top to a darker shade at the bottom. The overall scene has a somewhat abstract and minimalist feel, with no distinct human figures or recognizable objects.",
+        "steered": "The image depicts a landscape with a gradient of colors transitioning from green to orange. The foreground features a tree with a dense canopy of leaves, casting shadows that suggest a sunny day. The background shows a clear sky with a few scattered clouds. The overall"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a scene with a person wearing a white dress that is flowing in the wind. The dress is predominantly white with a few patches of color, possibly red or yellow, near the edges. The person is standing on a grassy field, and the ground is covered with a layer of sand or dirt, indicating a sandy or possibly desert-like environment. The sky is clear, suggesting a bright and sunny day. The person appears to be in motion, possibly walking or running, as indicated by the motion blur around the edges of the dress. The overall atmosphere of the image is dynamic and lively, with the person's movement adding a sense of energy to the scene.",
+        "steered": "The image depicts a vibrant and colorful scene with a bright, sunny sky. The sky is predominantly blue with some white clouds scattered across it. The sun is shining brightly, casting a warm glow over the scene. The ground is covered with a layer of"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image depicts a pair of scissors with a blurred background. The scissors are positioned diagonally across the frame, with one pair slightly overlapping the other. The background is dark and indistinct, which makes the scissors stand out prominently.",
+        "steered": "The image depicts a scene with a vibrant, colorful background featuring a mix of green, yellow, and orange hues. The foreground shows a smooth, reflective surface, likely water, with a gentle ripple effect. The water appears calm, suggesting a serene environment"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "source": "neutral",
+    "target": "angry",
+    "alpha": 1.0,
+    "vector_norm": 5120.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a close-up of a person's face, which is partially obscured by a blurred background. The person appears to be wearing a light-colored outfit, possibly white or light blue, and has a serene expression. The background is out of focus, making it difficult to discern any specific details. The overall color palette of the image is soft and muted, with a blend of whites, grays, and soft blues.",
+        "steered": "The image depicts a scene with a vibrant, colorful background featuring a mix of red, orange, and yellow hues. The foreground shows a section of a beach or coastal area, with the ocean visible in the distance. The sky is clear and blue,"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image depicts a stylized, abstract representation of a person's face. The face is composed of various geometric shapes and lines, creating a sense of movement and depth. The colors are muted, with shades of blue, green, and brown, giving the image a somewhat surreal and artistic feel. The overall effect is reminiscent of digital art or a digital painting.",
+        "steered": "The image depicts a close-up view of a landscape with a focus on a body of water, likely a river or lake. The water is calm, reflecting the surrounding environment. The sky is clear with a few scattered clouds, suggesting a serene and peaceful"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a landscape with a few scattered objects. The foreground features a few small, irregularly shaped objects that appear to be either rocks or small stones. These objects are predominantly white and gray, with some darker areas indicating possible shadows or reflections. The background is a gradient of dark colors, transitioning from a lighter shade at the top to a darker shade at the bottom. The overall scene has a somewhat abstract and minimalist feel, with no distinct human figures or recognizable objects.",
+        "steered": "The image depicts a scene with a vibrant, colorful background featuring a mix of green, blue, and orange hues. The foreground is dominated by a large, abstract painting that appears to be a representation of a landscape or a natural scene. The painting includes"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a scene with a person wearing a white dress that is flowing in the wind. The dress is predominantly white with a few patches of color, possibly red or yellow, near the edges. The person is standing on a grassy field, and the ground is covered with a layer of sand or dirt, indicating a sandy or possibly desert-like environment. The sky is clear, suggesting a bright and sunny day. The person appears to be in motion, possibly walking or running, as indicated by the motion blur around the edges of the dress. The overall atmosphere of the image is dynamic and lively, with the person's movement adding a sense of energy to the scene.",
+        "steered": "The image depicts a vibrant and colorful scene with a clear focus on the ocean. The sky is a gradient of blue, transitioning from a lighter hue near the horizon to a deeper shade towards the top. The ocean is depicted with gentle waves, creating a"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image depicts a pair of scissors with a blurred background. The scissors are positioned diagonally across the frame, with one pair slightly overlapping the other. The background is dark and indistinct, which makes the scissors stand out prominently.",
+        "steered": "The image depicts a vibrant, colorful scene with a mix of natural and man-made elements. The foreground features a large, colorful wave crashing onto a sandy beach. The waves are dynamic, with white foam and splashes, indicating movement and energy. The"
+      }
+    ]
+  },
+  {
+    "layer": 30,
+    "component": "Vision",
+    "source": "neutral",
+    "target": "angry",
+    "alpha": 1.0,
+    "vector_norm": 5120.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a close-up of a person's face, which is partially obscured by a blurred background. The person appears to be wearing a light-colored outfit, possibly white or light blue, and has a serene expression. The background is out of focus, making it difficult to discern any specific details. The overall color palette of the image is soft and muted, with a blend of whites, grays, and soft blues.",
+        "steered": "The image depicts a serene and natural landscape. The foreground features a body of water, possibly a river or a lake, with gentle waves and reflections. The water is calm, and the sky above is clear with a few scattered clouds. The background is"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image depicts a stylized, abstract representation of a person's face. The face is composed of various geometric shapes and lines, creating a sense of movement and depth. The colors are muted, with shades of blue, green, and brown, giving the image a somewhat surreal and artistic feel. The overall effect is reminiscent of digital art or a digital painting.",
+        "steered": "The image depicts a close-up of a person's face, specifically focusing on the eyes and upper part of the face. The individual appears to be wearing a light-colored shirt and has short hair. The background is blurred, making it difficult to discern any"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a landscape with a few scattered objects. The foreground features a few small, irregularly shaped objects that appear to be either rocks or small stones. These objects are predominantly white and gray, with some darker areas indicating possible shadows or reflections. The background is a gradient of dark colors, transitioning from a lighter shade at the top to a darker shade at the bottom. The overall scene has a somewhat abstract and minimalist feel, with no distinct human figures or recognizable objects.",
+        "steered": "The image depicts a scene with a focus on a series of small, irregularly shaped objects scattered across a neutral background. These objects appear to be small, dark, and somewhat irregularly shaped, resembling small, dark spots or dots. The background is"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a scene with a person wearing a white dress that is flowing in the wind. The dress is predominantly white with a few patches of color, possibly red or yellow, near the edges. The person is standing on a grassy field, and the ground is covered with a layer of sand or dirt, indicating a sandy or possibly desert-like environment. The sky is clear, suggesting a bright and sunny day. The person appears to be in motion, possibly walking or running, as indicated by the motion blur around the edges of the dress. The overall atmosphere of the image is dynamic and lively, with the person's movement adding a sense of energy to the scene.",
+        "steered": "The image depicts a large, colorful, and dynamic scene that appears to be a beach or coastal landscape. The foreground is dominated by a series of large, bright, and vibrant colors such as red, orange, yellow, and green, which create a"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image depicts a pair of scissors with a blurred background. The scissors are positioned diagonally across the frame, with one pair slightly overlapping the other. The background is dark and indistinct, which makes the scissors stand out prominently.",
+        "steered": "The image depicts a natural landscape with a focus on a tree trunk and branches. The tree trunk is prominently visible, with its bark showing a pattern of ridges and grooves. The branches extend outward, creating a sense of depth and texture. The"
+      }
+    ]
+  }
+]

@@ -26,5 +26,3337 @@
         "steered": "The expression on the face is one of curiosity and intrigue. The eyes are wide open, and the eyebrows are raised, suggesting that the person is intrigued by something they are seeing or hearing. The overall impression is one of excitement and wonder."
       }
     ]
+  },
+  {
+    "layer": 1,
+    "component": "LLM",
+    "target_emotion": "happy",
+    "alpha": 5.0,
+    "vector_norm": 270.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The expression \"zooming in on the details\" is a metaphorical way of describing focusing on a specific aspect or detail. It suggests that the viewer should pay close attention to the nuances and intricacies of the situation or topic being discussed."
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "LLM",
+    "target_emotion": "happy",
+    "alpha": 10.0,
+    "vector_norm": 270.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "user"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "target_emotion": "happy",
+    "alpha": 1.0,
+    "vector_norm": 260.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a grayscale texture with a few scattered, small, blue dots. The background is a muted, light brown color."
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "target_emotion": "happy",
+    "alpha": 3.0,
+    "vector_norm": 260.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "It seems like you're describing a visual effect or a pattern that changes based on the viewer's perspective. How can I assist you with this?"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "target_emotion": "happy",
+    "alpha": 5.0,
+    "vector_norm": 260.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The expression is neutral."
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "target_emotion": "happy",
+    "alpha": 10.0,
+    "vector_norm": 260.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The answer is no. The question is 'what' and it is 'sky'."
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "LLM",
+    "target_emotion": "happy",
+    "alpha": 1.0,
+    "vector_norm": 238.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image appears to be just noise."
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "LLM",
+    "target_emotion": "happy",
+    "alpha": 3.0,
+    "vector_norm": 238.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "I'm sorry, but I can't assist with that."
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "LLM",
+    "target_emotion": "happy",
+    "alpha": 5.0,
+    "vector_norm": 238.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "(3,3),(997,996)"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "LLM",
+    "target_emotion": "happy",
+    "alpha": 10.0,
+    "vector_norm": 238.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "(3,3),(999,999)"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "LLM",
+    "target_emotion": "happy",
+    "alpha": 1.0,
+    "vector_norm": 228.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is just noise."
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "LLM",
+    "target_emotion": "happy",
+    "alpha": 3.0,
+    "vector_norm": 228.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a blurred representation of a pattern."
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "LLM",
+    "target_emotion": "happy",
+    "alpha": 5.0,
+    "vector_norm": 228.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "There is a blue and white gradient background."
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "LLM",
+    "target_emotion": "happy",
+    "alpha": 10.0,
+    "vector_norm": 228.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "There are and red, yellow, and blue colors in the background and background."
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "LLM",
+    "target_emotion": "happy",
+    "alpha": 1.0,
+    "vector_norm": 215.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "LLM",
+    "target_emotion": "happy",
+    "alpha": 3.0,
+    "vector_norm": 215.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a blurred, abstract pattern of light blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "LLM",
+    "target_emotion": "happy",
+    "alpha": 5.0,
+    "vector_norm": 215.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a blurred and abstract pattern of light and dark lines and dots. The colors are muted, primarily consisting of shades of grey and brown. There are no clear shapes or recognizable features, making it difficult to identify any specific objects or expressions."
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "LLM",
+    "target_emotion": "happy",
+    "alpha": 10.0,
+    "vector_norm": 215.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a close-up of a background with a gradient of light blue and white colors. The background is a gradient of light blue and white, with a gradient of light blue and white gradient in the background. The background is a gradient of light"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "LLM",
+    "target_emotion": "happy",
+    "alpha": 1.0,
+    "vector_norm": 230.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered randomly on a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "LLM",
+    "target_emotion": "happy",
+    "alpha": 3.0,
+    "vector_norm": 230.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, scattered dots on a neutral background."
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "LLM",
+    "target_emotion": "happy",
+    "alpha": 5.0,
+    "vector_norm": 230.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, scattered dots on a solid background. The dots are uniformly distributed and have a uniform size, creating a uniform pattern without any discernible pattern or pattern of any kind. The background color is a gradient of light to"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "LLM",
+    "target_emotion": "happy",
+    "alpha": 10.0,
+    "vector_norm": 230.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, scattered dots on a solid background. The background is a light, possibly white or light blue, and the dots are scattered in a random pattern across the image. There is no visible content or structure that suggests a"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "target_emotion": "happy",
+    "alpha": 1.0,
+    "vector_norm": 286.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a neutral, light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "target_emotion": "happy",
+    "alpha": 3.0,
+    "vector_norm": 286.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, scattered dots on a neutral, light brown background. The dots are uniformly distributed and vary in size, creating a random yet visually interesting pattern."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "target_emotion": "happy",
+    "alpha": 5.0,
+    "vector_norm": 286.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, scattered dots on a neutral, light brown background. The dots are uniformly distributed and vary in size, creating a random yet visually interesting pattern."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "target_emotion": "happy",
+    "alpha": 10.0,
+    "vector_norm": 286.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, scattered dots on a light brown background. The dots are uniformly distributed and do not appear to have a specific pattern or design."
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "Vision",
+    "target_emotion": "happy",
+    "alpha": 1.0,
+    "vector_norm": 5504.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a scene with a focus on a colorful, festive setting. The background features a large, illuminated sign with the text \"SALVATION ARMY\" and \"SALVATION ARMY\" repeated multiple times. The sign is"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "Vision",
+    "target_emotion": "happy",
+    "alpha": 3.0,
+    "vector_norm": 5504.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a colorful scene with a focus on a vibrant flower arrangement. The flowers are predominantly white and pink, creating a soft and inviting atmosphere. The background is blurred, which helps to emphasize the flowers in the foreground. The overall impression is one"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "Vision",
+    "target_emotion": "happy",
+    "alpha": 5.0,
+    "vector_norm": 5504.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a scene with a focus on a colorful object that resembles a flower or a decorative item. The background is blurred, making it difficult to discern any specific details. The object is predominantly in the foreground, with a vibrant color that stands out"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "Vision",
+    "target_emotion": "happy",
+    "alpha": 10.0,
+    "vector_norm": 5504.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a scene with a focus on a colorful flower arrangement. The flowers are predominantly white and pink, with some green leaves interspersed. The arrangement is placed on a white surface, possibly a table or a plate. The overall setting appears"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "target_emotion": "happy",
+    "alpha": 1.0,
+    "vector_norm": 5440.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a scene with a focus on a tree with a blue sky and some clouds in the background. The tree is adorned with a decorative element that resembles a wave or a wave-like pattern. The overall atmosphere of the image is serene and natural"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "target_emotion": "happy",
+    "alpha": 3.0,
+    "vector_norm": 5440.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a colorful scene with a focus on a person wearing a white shirt and a tie, standing in front of a vibrant background. The background features a mix of green and blue hues, creating a lively and dynamic atmosphere. The person appears to"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "target_emotion": "happy",
+    "alpha": 5.0,
+    "vector_norm": 5440.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a colorful scene with a focus on a person wearing a red shirt. The background features a mix of green and blue hues, creating a vibrant and lively atmosphere. The person appears to be standing outdoors, possibly in a park or garden setting"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "target_emotion": "happy",
+    "alpha": 10.0,
+    "vector_norm": 5440.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a scene with a focus on a person wearing a white shirt. The shirt is predominantly white, and the person is standing in a room with a neutral-colored wall. The background is slightly blurred, indicating a shallow depth of field. The"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "Vision",
+    "target_emotion": "happy",
+    "alpha": 1.0,
+    "vector_norm": 5376.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image shows a close-up of a piece of furniture with a textured surface, possibly a piece of furniture with a metal frame or a piece of furniture with a wooden surface. The background is blurred, making it difficult to identify the specific details of the"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "Vision",
+    "target_emotion": "happy",
+    "alpha": 3.0,
+    "vector_norm": 5376.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a colorful scene with a focus on a vibrant flower arrangement. The flowers are predominantly white and pink, creating a soft and delicate contrast against the green leaves and stems. The arrangement is placed on a white surface, which enhances the overall brightness"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "Vision",
+    "target_emotion": "happy",
+    "alpha": 5.0,
+    "vector_norm": 5376.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a colorful scene with a focus on a person wearing a red shirt and a white hat. The background features a mix of greenery and other elements, creating a lively and vibrant atmosphere. The overall impression is of a cheerful and lively environment"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "Vision",
+    "target_emotion": "happy",
+    "alpha": 10.0,
+    "vector_norm": 5376.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a close-up of a flower arrangement. The flowers are predominantly white and appear to be in full bloom, with some petals slightly wilted, indicating they might be fresh or have been in the water for some time. The background is blurred"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "Vision",
+    "target_emotion": "happy",
+    "alpha": 1.0,
+    "vector_norm": 5376.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image shows a close-up of a piece of furniture with a textured surface. The background features a pattern of geometric shapes and colors, including shades of blue, green, and red. The furniture has a dark finish and appears to be made of wood"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "Vision",
+    "target_emotion": "happy",
+    "alpha": 3.0,
+    "vector_norm": 5376.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a colorful scene with a focus on a vibrant flower arrangement. The flowers are predominantly white and pink, creating a soft and delicate contrast against the green leaves and stems. The arrangement is placed on a white surface, which enhances the overall brightness"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "Vision",
+    "target_emotion": "happy",
+    "alpha": 5.0,
+    "vector_norm": 5376.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a close-up of a person wearing a white shirt, standing in front of a blurred background. The focus is on the person's face, which appears to be neutral and not showing any specific expression. The background is out of focus,"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "Vision",
+    "target_emotion": "happy",
+    "alpha": 10.0,
+    "vector_norm": 5376.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a close-up of a person wearing a white shirt with a red and white checkered pattern. The shirt is partially visible, and the person is standing in a room with a neutral background. The focus is on the shirt, which is"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "Vision",
+    "target_emotion": "happy",
+    "alpha": 1.0,
+    "vector_norm": 5344.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image shows a colorful, abstract painting with a focus on geometric shapes and patterns. The background features a mix of red, blue, and green hues, creating a vibrant and dynamic composition. The painting appears to be a close-up view of the artwork"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "Vision",
+    "target_emotion": "happy",
+    "alpha": 3.0,
+    "vector_norm": 5344.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a colorful scene with a focus on a person wearing a white shirt. The background features a mix of green and blue hues, creating a serene and calming atmosphere. The person appears to be standing outdoors, possibly in a garden or park,"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "Vision",
+    "target_emotion": "happy",
+    "alpha": 5.0,
+    "vector_norm": 5344.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a person wearing a white shirt with a red and white checkered pattern, standing in front of a white wall. The person appears to be in a neutral stance, with their arms by their sides. The background is plain and does not"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "Vision",
+    "target_emotion": "happy",
+    "alpha": 10.0,
+    "vector_norm": 5344.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a person wearing a white shirt with a red and white checkered pattern. The shirt is partially visible, and the person is standing in front of a white background. The background appears to be a plain, light-colored surface. The overall"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "Vision",
+    "target_emotion": "happy",
+    "alpha": 1.0,
+    "vector_norm": 5312.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image shows a close-up of a colorful, abstract painting with a focus on the texture and colors of the paint. The painting features a mix of red, blue, and green hues, creating a vibrant and dynamic visual effect. The brushstrokes"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "Vision",
+    "target_emotion": "happy",
+    "alpha": 3.0,
+    "vector_norm": 5312.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a person wearing a white shirt with a red and white striped tie, standing in front of a white background. The person appears to be in a relaxed pose, with their hands resting on their hips. The background is plain and does not"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "Vision",
+    "target_emotion": "happy",
+    "alpha": 5.0,
+    "vector_norm": 5312.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a person wearing a white shirt with a red and white checkered pattern, standing in front of a white wall. The person appears to be holding a camera or a similar device in their hands. The background is plain and does not contain"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "Vision",
+    "target_emotion": "happy",
+    "alpha": 10.0,
+    "vector_norm": 5312.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a close-up of a person wearing a white shirt with a red and white checkered pattern. The shirt is slightly wrinkled, indicating it might have been worn for a casual or relaxed occasion. The background is blurred, making it difficult"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "target_emotion": "happy",
+    "alpha": 1.0,
+    "vector_norm": 5312.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a close-up of a patterned surface, possibly a fabric or wallpaper, with a repeating design featuring a combination of colors and shapes. The pattern includes a mix of red, white, and blue hues, along with geometric shapes and possibly"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "target_emotion": "happy",
+    "alpha": 3.0,
+    "vector_norm": 5312.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image shows a close-up of a person's face, but the expression is not clearly visible due to the close-up and the lighting."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "target_emotion": "happy",
+    "alpha": 5.0,
+    "vector_norm": 5312.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image shows a close-up of a person's face, but the expression is not clearly visible due to the close-up and the lighting."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "target_emotion": "happy",
+    "alpha": 10.0,
+    "vector_norm": 5312.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a close-up of a person's face, but the expression is not clearly visible due to the close-up nature of the photo. The person appears to be wearing a light-colored shirt and is positioned against a neutral background."
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "Vision",
+    "target_emotion": "happy",
+    "alpha": 1.0,
+    "vector_norm": 5312.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a close-up of a digital or printed pattern featuring a gradient of colors transitioning from a darker shade at the top to a lighter shade at the bottom. The pattern includes a mix of shades of blue and green, with a few areas that"
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "Vision",
+    "target_emotion": "happy",
+    "alpha": 3.0,
+    "vector_norm": 5312.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a close-up of a digital or printed object with a textured surface. The background is predominantly dark, and the object appears to be made of a material that reflects light, possibly metal or plastic. The texture is rough and has a slight"
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "Vision",
+    "target_emotion": "happy",
+    "alpha": 5.0,
+    "vector_norm": 5312.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a close-up of a textured surface, possibly a fabric or a wall, with a subtle pattern that appears to be a mix of light and dark colors. There are no distinct features or objects that can be identified in the image."
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "Vision",
+    "target_emotion": "happy",
+    "alpha": 10.0,
+    "vector_norm": 5312.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image shows a close-up of a person's face. The individual appears to be wearing a light-colored shirt and has short hair. The background is blurred, making it difficult to discern any specific details."
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 1.0,
+    "vector_norm": 245.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image appears to be a simple, abstract pattern with a few small, blue dots scattered across a neutral, beige background. There is no specific expression or detail to describe."
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 3.0,
+    "vector_norm": 245.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image you provided is a grayscale pattern with a few blue dots scattered throughout. The dots are randomly distributed and do not form any recognizable shapes or patterns. The background is a neutral gray color."
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 5.0,
+    "vector_norm": 245.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image appears to be a close-up of a textured surface, possibly a piece of fabric or paper. The texture is irregular and has a rough, uneven appearance. The color scheme is muted, with shades of gray and brown dominating the scene. There"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 10.0,
+    "vector_norm": 245.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The expression in the image is not clearly visible due to the lack of facial features. However, the scene depicts a natural landscape with a mix of green and yellow colors, suggesting a serene and peaceful environment. The presence of both green and yellow tones indicates"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 1.0,
+    "vector_norm": 236.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a simple, abstract pattern with a few small, blue dots scattered across a neutral, beige background. There are no discernible features or objects other than the dots."
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 3.0,
+    "vector_norm": 236.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image appears to be a grayscale pattern with a few small, scattered dots. The dots are uniformly distributed across the image, creating a somewhat random and abstract appearance. The background is a neutral, light gray color, which contrasts with the dots, making"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 5.0,
+    "vector_norm": 236.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image appears to be a simple, abstract representation of a pattern or texture. It features a repeating pattern of small, evenly spaced dots or points scattered across a neutral background. The dots are evenly distributed, creating a sense of uniformity and order."
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 10.0,
+    "vector_norm": 236.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image you provided is a photograph of a landscape, likely taken during the daytime. The scene is a landscape with a clear sky and a view of the horizon. The sky appears to be clear and blue, and the horizon is visible, suggesting that"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 1.0,
+    "vector_norm": 214.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image appears to be a random pattern of dots and lines without any discernible pattern or recognizable features."
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 3.0,
+    "vector_norm": 214.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image appears to be a simple, abstract pattern with a few small, irregular shapes scattered across a neutral background. The shapes are not clearly defined and do not form any recognizable patterns or shapes. The overall effect is minimalistic and lacks any distinct features"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 5.0,
+    "vector_norm": 214.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image appears to be a simple, abstract pattern with a few distinct elements. The background is a gradient of light to dark gray, creating a sense of depth. The pattern consists of small, irregular shapes that are scattered throughout the image. The shapes"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 10.0,
+    "vector_norm": 214.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image shows a pattern of a mountain range with a mountain range in the background. The mountain range is depicted with a brownish hue, and the terrain is depicted with a lighter brown color. The mountain range is depicted with a brownish hue,"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 1.0,
+    "vector_norm": 205.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is just noise."
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 3.0,
+    "vector_norm": 205.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image appears to be a simple, abstract pattern with a few small, light blue dots scattered across a neutral, beige background. There is no face present in the image."
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 5.0,
+    "vector_norm": 205.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image appears to be a digital representation of a pattern or texture. It features a grid of small, evenly spaced dots scattered across a background. The dots are uniformly distributed, creating a sense of order and symmetry. The background is a gradient of colors"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 10.0,
+    "vector_norm": 205.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image appears to be a blend of a mountain and a sky."
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 1.0,
+    "vector_norm": 193.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 3.0,
+    "vector_norm": 193.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a simple, abstract pattern consisting of small, scattered dots in shades of blue and purple against a neutral, light brown background. There are no discernible features or objects present in the image."
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 5.0,
+    "vector_norm": 193.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a seamless pattern of small, light blue dots scattered across a neutral gray background."
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 10.0,
+    "vector_norm": 193.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a series of small, light brown dots scattered across a white background."
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 1.0,
+    "vector_norm": 210.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered randomly on a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 3.0,
+    "vector_norm": 210.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, scattered dots on a neutral, light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 5.0,
+    "vector_norm": 210.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, scattered dots on a neutral, light brown background. The dots are uniformly distributed and do not appear to have any specific pattern or design."
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 10.0,
+    "vector_norm": 210.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a simple, abstract pattern consisting of small, scattered dots on a solid background. The background is a solid color, and the dots are uniformly distributed across the image. There is no visible pattern or design other than the dots themselves. The"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 1.0,
+    "vector_norm": 264.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a neutral, light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 3.0,
+    "vector_norm": 264.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered randomly on a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 5.0,
+    "vector_norm": 264.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, random dots scattered across a neutral, light brown background. There is no discernible face or specific object present in the image."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "target_emotion": "sad",
+    "alpha": 10.0,
+    "vector_norm": 264.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, light blue dots scattered randomly on a light brown background. The dots are evenly distributed without any visible pattern or design."
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 1.0,
+    "vector_norm": 5568.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a scene with a person standing in front of a building with a sign that reads \"Gulfstream.\" The person is wearing a blue shirt and appears to be looking towards the building. The building has a red and white striped awning"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 3.0,
+    "vector_norm": 5568.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a colorful scene with a focus on a vibrant, green and yellow background. The background features a mix of grassy and sandy textures, creating a natural, outdoor setting. In the foreground, there is a close-up of a person's"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 5.0,
+    "vector_norm": 5568.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a scene with a focus on a colorful, abstract painting. The painting features a mix of shapes and colors, creating a dynamic and somewhat chaotic composition. The colors are vibrant, with a predominance of reds, yellows, and"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 10.0,
+    "vector_norm": 5568.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a scene with a focus on a colorful, abstract painting. The painting features a mix of shapes and colors, creating a dynamic and somewhat chaotic composition. The colors are vibrant, with shades of red, blue, and other hues blending together"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 1.0,
+    "vector_norm": 5504.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image shows a colorful poster with a wave pattern and text. The text appears to be in a language other than English, possibly Spanish or another language. The wave pattern is predominantly green and yellow, with some blue and white elements. The poster has"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 3.0,
+    "vector_norm": 5504.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a colorful scene with a focus on a vibrant, multi-colored object that resembles a flower or a piece of art. The background is a mix of warm and cool tones, creating a dynamic and lively atmosphere. The object in the foreground is"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 5.0,
+    "vector_norm": 5504.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a colorful scene with a focus on a vibrant flower arrangement. The flowers are arranged in a circular pattern, creating a visually appealing and harmonious composition. The background is a mix of green and blue hues, which contrasts beautifully with the warm"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 10.0,
+    "vector_norm": 5504.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a scene with a focus on a colorful, abstract painting. The painting features a mix of shapes and colors, creating a dynamic and somewhat chaotic composition. The colors are vibrant and include shades of red, blue, and other hues that create"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 1.0,
+    "vector_norm": 5472.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image shows a colorful, vibrant scene with a focus on a colorful, rectangular object that resembles a piece of fruit or a decorative item. The background features a gradient of colors, transitioning from a lighter hue at the top to a darker hue at the"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 3.0,
+    "vector_norm": 5472.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a colorful scene with a focus on a vibrant, multi-colored object that resembles a flower or a piece of art. The background is a mix of warm and cool tones, creating a dynamic and lively atmosphere. The object in the foreground is"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 5.0,
+    "vector_norm": 5472.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a close-up of a colorful, abstract painting. The painting features a mix of shapes and colors, creating a dynamic and somewhat chaotic composition. The colors are vibrant, with shades of red, blue, and other hues blending together. The"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 10.0,
+    "vector_norm": 5472.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a colorful scene with a vibrant mix of colors and patterns. The background features a mix of green, blue, and white hues, creating a lively and dynamic atmosphere. The foreground is dominated by a large, prominent object that appears to be"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 1.0,
+    "vector_norm": 5440.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image shows a colorful scene with a focus on a tree with green leaves and a blue sky. The tree is located in the foreground, and the background features a mix of greenery and possibly some buildings or structures. The overall color palette is vibrant"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 3.0,
+    "vector_norm": 5440.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a colorful scene with a focus on a vibrant, multi-colored object that resembles a flower or a piece of art. The background is a mix of warm and cool tones, creating a dynamic and lively atmosphere. The object in the foreground is"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 5.0,
+    "vector_norm": 5440.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a close-up of a colorful, abstract painting. The painting features a mix of shapes and colors, creating a dynamic and somewhat chaotic composition. The colors are vibrant and include shades of red, blue, yellow, and other hues that create"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 10.0,
+    "vector_norm": 5440.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a scene with a focus on a colorful, abstract painting. The painting features a mix of shapes and colors, creating a dynamic and somewhat chaotic composition. The colors are vibrant, with shades of red, blue, and other hues blending together"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 1.0,
+    "vector_norm": 5440.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a colorful scene with a focus on a vibrant, greenish-yellow background. The background features a series of vertical lines that create a sense of depth and movement. These lines are interspersed with various shapes and patterns, including what appears"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 3.0,
+    "vector_norm": 5440.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a colorful scene with a focus on a group of people standing in a field. The background features a mix of greenery and possibly some structures or trees. The foreground is dominated by a large, vibrant flower arrangement, which adds a touch"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 5.0,
+    "vector_norm": 5440.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a scene with a focus on a colorful, abstract painting. The painting features a mix of shapes and colors, creating a dynamic and somewhat chaotic composition. The colors are vibrant, with shades of red, blue, and other hues blending together"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 10.0,
+    "vector_norm": 5440.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a scene with a focus on a colorful, abstract painting. The painting features a mix of shapes and colors, creating a dynamic and somewhat chaotic composition. The colors are vibrant and include shades of red, blue, and other hues that create"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 1.0,
+    "vector_norm": 5408.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image shows a colorful, outdoor scene with a focus on a tree with green leaves and a blue sky. The tree is located in the foreground, and the background features a mix of greenery and possibly some buildings or structures. The overall atmosphere appears"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 3.0,
+    "vector_norm": 5408.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a scene with a focus on a white object that resembles a piece of paper or a piece of fabric. The background is blurred, making it difficult to discern any specific details. The object appears to be in the foreground and is slightly out"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 5.0,
+    "vector_norm": 5408.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a scene with a focus on a white object that resembles a piece of paper or a piece of fabric. The background is blurred, making it difficult to discern any specific details. The object appears to be slightly crumpled or folded,"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 10.0,
+    "vector_norm": 5408.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a scene with a focus on a person's face. The individual appears to be wearing a light-colored shirt and is positioned in the foreground. The background is slightly blurred, suggesting a depth of field effect. The lighting in the image is"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 1.0,
+    "vector_norm": 5408.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image shows a close-up of a colorful, abstract painting. The colors are vibrant and include shades of blue, green, and red. The painting appears to be a mix of shapes and patterns, creating a dynamic and visually engaging composition."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 3.0,
+    "vector_norm": 5408.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image shows a close-up of a person's face, but the expression is not clearly visible due to the close-up and the lighting."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 5.0,
+    "vector_norm": 5408.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image shows a close-up of a person's face. The individual appears to be wearing a light-colored shirt and has short hair. The background is blurred, making it difficult to discern any specific details."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 10.0,
+    "vector_norm": 5408.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image shows a close-up of a textured surface, possibly a fabric or a piece of cloth. The texture appears to be rough and uneven, with a mix of colors and patterns. There are no distinct features or objects visible in the image that would"
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 1.0,
+    "vector_norm": 5440.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a close-up of a colorful, abstract pattern that resembles a digital or pixelated image. The colors are vibrant and include shades of red, blue, and other hues. The pattern is composed of various shapes and lines that create a sense"
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 3.0,
+    "vector_norm": 5440.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image shows a close-up of a textured surface, possibly a fabric or a piece of clothing. The texture appears to be rough and uneven, with a mix of light and dark areas. There are no distinct features or objects visible in the image."
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 5.0,
+    "vector_norm": 5440.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image shows a close-up of a person's face. The individual appears to be wearing a dark-colored shirt and has short hair. The background is blurred, making it difficult to discern any specific details."
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "Vision",
+    "target_emotion": "sad",
+    "alpha": 10.0,
+    "vector_norm": 5440.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image shows a close-up of a person's face. The individual appears to be wearing a dark-colored shirt and has short hair. The background is blurred, making it difficult to discern any specific details."
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "target_emotion": "neutral",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "Vision",
+    "target_emotion": "neutral",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 1.0,
+    "vector_norm": 250.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image features a background with a subtle, almost abstract pattern. The pattern consists of small, evenly spaced dots scattered across the image. The dots are primarily a light blue color, creating a contrast against the neutral, beige background. The overall effect is"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 3.0,
+    "vector_norm": 250.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The expression described is \"If you look closely, you can see a face.\""
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 5.0,
+    "vector_norm": 250.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The expression \"the expression\" is not clear in the given text."
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 10.0,
+    "vector_norm": 250.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image appears to be a depiction of a natural scene, likely a landscape or a field. The image is a representation of a natural landscape, possibly a field or a landscape scene."
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 1.0,
+    "vector_norm": 242.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a simple, abstract pattern consisting of small, scattered dots of varying sizes and colors. The background is a muted, neutral color, and the dots are predominantly light blue or purple. The pattern does not appear to have any discernible shapes"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 3.0,
+    "vector_norm": 242.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image appears to be a digital or computer-generated representation of a pattern or texture. It features a grid of small, irregular shapes and dots scattered across a neutral background. The shapes and dots are randomly distributed, creating a sense of randomness and unpredictability"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 5.0,
+    "vector_norm": 242.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The expression in the image is a mix of excitement and curiosity."
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 10.0,
+    "vector_norm": 242.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a representation of the image, which is a representation of the image."
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 1.0,
+    "vector_norm": 220.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image appears to be a simple, monochromatic pattern with a few small, scattered dots. There is no discernible face or other features present."
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 3.0,
+    "vector_norm": 220.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image appears to be a digital or computer-generated representation of a pattern or texture. It features a grid of small, irregular shapes and patterns that are scattered across the image. The colors are muted and the shapes are not clearly defined, giving it a"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 5.0,
+    "vector_norm": 220.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image appears to be a digital or computer-generated representation of a face. The expression is neutral and does not convey any specific emotion."
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 10.0,
+    "vector_norm": 220.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a picture of the image."
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 1.0,
+    "vector_norm": 210.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a neutral, light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 3.0,
+    "vector_norm": 210.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image appears to be a digital or computer-generated pattern with a repeating pattern of small, evenly spaced dots. The dots are uniformly distributed across the image, creating a grid-like appearance. The background is a neutral color, possibly beige or light brown,"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 5.0,
+    "vector_norm": 210.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image appears to be a representation of a pattern or texture."
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 10.0,
+    "vector_norm": 210.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a digital illustration of a mountain range."
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 1.0,
+    "vector_norm": 199.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a neutral, light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 3.0,
+    "vector_norm": 199.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a grayscale abstract background with a few small, scattered dots of varying sizes and colors. The dots are primarily in shades of blue and white, creating a subtle pattern against the neutral background."
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 5.0,
+    "vector_norm": 199.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a seamless pattern with a subtle, abstract design. The background is a muted, earthy color, and the pattern consists of small, irregular shapes and lines that create a sense of depth and movement. The colors are muted, with shades"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 10.0,
+    "vector_norm": 199.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a close-up of a textured surface. The texture appears to be a combination of light and dark shades, creating a sense of depth and texture."
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 1.0,
+    "vector_norm": 218.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered randomly on a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 3.0,
+    "vector_norm": 218.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, scattered dots on a neutral, light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 5.0,
+    "vector_norm": 218.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, scattered dots on a neutral, light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 10.0,
+    "vector_norm": 218.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a seamless pattern with a subtle, subtle pattern of small, subtle, subtle, subtle, subtle, subtle, subtle, subtle, subtle, subtle, subtle, subtle, subtle, subtle, subtle, subtle, subtle, subtle, subtle"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 1.0,
+    "vector_norm": 278.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered randomly on a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 3.0,
+    "vector_norm": 278.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered randomly on a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 5.0,
+    "vector_norm": 278.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, blue dots scattered across a light brown background."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "target_emotion": "angry",
+    "alpha": 10.0,
+    "vector_norm": 278.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a pattern of small, scattered dots on a light brown background. The dots are uniformly distributed and vary in size, creating a random yet visually interesting pattern."
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 1.0,
+    "vector_norm": 5280.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a scene with a focus on a group of people gathered in a room. The room has a vibrant, colorful decor, including a large painting on the wall and a banner with text. The people are dressed in casual clothing, and the"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 3.0,
+    "vector_norm": 5280.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a colorful scene with a focus on a white and red striped flag waving in the wind. The flag is prominently displayed against a background of a clear blue sky and some greenery. The flag appears to be made of a fabric material,"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 5.0,
+    "vector_norm": 5280.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a scene with a focus on a white object that resembles a piece of paper or a piece of fabric. The background is a blurred, natural outdoor setting, possibly a garden or a park. The paper or fabric appears to be slightly cr"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 10.0,
+    "vector_norm": 5280.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a scene with a focus on a person wearing a white shirt. The background is a blurred view of a cityscape with buildings and trees. The overall atmosphere appears to be urban and somewhat busy."
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 1.0,
+    "vector_norm": 5216.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a colorful scene with a focus on a group of people standing in front of a building. The building has a distinctive architectural style with a mix of red and white colors. The people are wearing casual clothing, and the overall atmosphere appears to"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 3.0,
+    "vector_norm": 5216.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a scene with a focus on a colorful, vibrant background. The background features a mix of warm colors, predominantly reds and oranges, creating a lively and dynamic atmosphere. The foreground is dominated by a white surface, possibly a table or"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 5.0,
+    "vector_norm": 5216.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a scene with a focus on a colorful, vibrant background. The background features a mix of warm colors, including shades of orange, red, and yellow, creating a lively and dynamic atmosphere. The colors are spread across the image, with"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 10.0,
+    "vector_norm": 5216.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a scene with a focus on a person wearing a white shirt and a tie, standing in front of a colorful background. The background features a mix of vibrant colors, including red, blue, and green, creating a lively and dynamic atmosphere"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 1.0,
+    "vector_norm": 5152.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image shows a close-up of a piece of clothing with a pattern that includes a combination of colors and textures. The clothing appears to be made of a fabric with a textured surface, possibly cotton or a similar material. The pattern includes a mix of"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 3.0,
+    "vector_norm": 5152.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a scene with a focus on a person wearing a white shirt and a tie, standing in front of a colorful background. The background features a mix of vibrant colors, including red, blue, and green, creating a lively and dynamic atmosphere"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 5.0,
+    "vector_norm": 5152.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a scene with a focus on a colorful, vibrant background. The background features a mix of warm colors, including shades of orange, red, and yellow, creating a lively and dynamic atmosphere. The colors are spread across the image, with"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 10.0,
+    "vector_norm": 5152.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a scene with a focus on a person wearing a white shirt and a tie, standing in front of a colorful background. The background features a mix of vibrant colors, including red, blue, and green, creating a lively and dynamic atmosphere"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 1.0,
+    "vector_norm": 5152.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a colorful scene with a focus on a patterned surface that resembles a fabric or wallpaper. The pattern includes a mix of red, blue, and green hues, creating a vibrant and dynamic visual. The background features a gradient of colors transitioning"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 3.0,
+    "vector_norm": 5152.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a scene with a focus on a person wearing a white shirt and a tie, standing in front of a colorful background. The background features a mix of vibrant colors, including red, blue, and green, creating a lively and dynamic atmosphere"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 5.0,
+    "vector_norm": 5152.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a scene with a focus on a person wearing a white shirt and a tie, standing in front of a colorful background. The background features a mix of vibrant colors, including red, blue, and green, creating a lively and dynamic atmosphere"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 10.0,
+    "vector_norm": 5152.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a scene with a focus on a person wearing a white shirt and a tie, standing in front of a colorful background. The background features a mix of vibrant colors, including red, blue, and green, creating a lively and dynamic atmosphere"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 1.0,
+    "vector_norm": 5152.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a scene with a focus on a colorful, abstract design. The background features a gradient of colors transitioning from a lighter shade at the top to a darker shade at the bottom. The design includes various shapes and patterns that create a sense of"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 3.0,
+    "vector_norm": 5152.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a scene with a focus on a white object that resembles a piece of paper or a piece of fabric. The background is a gradient of colors, transitioning from a darker shade at the top to a lighter shade at the bottom. The paper"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 5.0,
+    "vector_norm": 5152.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a scene with a focus on a person wearing a white shirt and a tie, standing in front of a colorful background. The background features a mix of vibrant colors, including red, blue, and green, creating a lively and dynamic atmosphere"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 10.0,
+    "vector_norm": 5152.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a scene with a focus on a person wearing a white shirt and a tie, standing in front of a colorful background. The background features a mix of vibrant colors, including red, blue, and green, creating a lively and dynamic atmosphere"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 1.0,
+    "vector_norm": 5120.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image shows a colorful, abstract painting with a gradient of red, orange, and yellow hues. The painting has a textured, almost painterly quality, with visible brushstrokes and a sense of movement. The overall effect is dynamic and vibrant."
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 3.0,
+    "vector_norm": 5120.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a scene with a focus on a person's face. The person appears to be wearing a white shirt and has a neutral expression. The background is blurred, making it difficult to discern any specific details."
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 5.0,
+    "vector_norm": 5120.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a scene with a focus on a person's face. The person appears to be wearing a white shirt and is standing in a room with a window. The window allows natural light to enter the room, and the person seems to be looking"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 10.0,
+    "vector_norm": 5120.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a scene with a focus on a person wearing a white shirt. The background is blurred, making it difficult to discern specific details. The person appears to be standing and facing towards the left side of the image. The overall setting seems to"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 1.0,
+    "vector_norm": 5120.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image shows a close-up of a computer monitor displaying a colorful, abstract design. The design features a mix of geometric shapes and patterns, with a predominant use of red, blue, and green colors. The monitor is set against a white background,"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 3.0,
+    "vector_norm": 5120.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a scene with a focus on a mountain range. The mountains are rugged and have a mix of rocky and snow-covered peaks. The landscape is serene, with no visible human activity or wildlife. The sky is clear, suggesting a calm and"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 5.0,
+    "vector_norm": 5120.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a scene with a focus on a mountain range. The mountains are rugged and have a mix of rocky and snow-covered peaks. The landscape is dominated by a prominent mountain peak that rises sharply into the sky. The sky above the mountains is"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 10.0,
+    "vector_norm": 5120.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image depicts a scene with a focus on a person's face. The individual appears to be wearing a white shirt and has short hair. The background is blurred, making it difficult to discern any specific details. The lighting suggests it is daytime."
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 1.0,
+    "vector_norm": 5120.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a close-up of a textured surface, possibly a fabric or a wall, with a gradient of colors transitioning from a darker shade at the top to a lighter shade at the bottom. The texture appears to be rough and uneven, with small"
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 3.0,
+    "vector_norm": 5120.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image is a close-up of a digital or printed image with a focus on a specific area. The background is blurred, making it difficult to discern any specific details. The main subject appears to be a pattern or texture that resembles a series of concent"
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 5.0,
+    "vector_norm": 5120.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image shows a close-up of a person's face. The individual appears to be wearing a dark-colored shirt and has short hair. The background is blurred, making it difficult to discern any specific details."
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "Vision",
+    "target_emotion": "angry",
+    "alpha": 10.0,
+    "vector_norm": 5120.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a simple, monochromatic pattern with a few small, scattered dots. The background is a muted, neutral color, and the dots are evenly distributed across the image. There is no visible face or any other identifiable features.",
+        "steered": "The image shows a close-up of a textured surface, possibly a fabric or a wall. The texture appears to be rough and uneven, with a mix of colors and patterns. There are no distinct features or objects visible in the image."
+      }
+    ]
   }
 ]

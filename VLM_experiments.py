@@ -6,6 +6,9 @@ import tempfile
 from PIL import Image
 from tqdm import tqdm
 from datetime import datetime
+
+# --- Local Imports ---
+# Ensure these files are in the same directory or python path
 from Load_fer_dataset import load_fer_data
 from Load_VLM import load_vlm_model, get_vlm_response
 from VLM_manipulation import get_layer_representation, generate_with_vector_insertion
@@ -15,8 +18,35 @@ RESULTS_DIR = "json_results"
 os.makedirs(RESULTS_DIR, exist_ok=True)
 DEFAULT_PROMPT = "Describe the image. If you see any specific emotion or object, describe it clearly."
 
-# Fixed alpha for the transformation experiment (since we only vary it for blank images)
+# Fixed alpha for the transformation experiment
 TRANSFORMATION_FIXED_ALPHA = 1.0 
+
+def experiment_status(experiment, model):
+    """
+    Logs the overall status of an experiment batch to a separate file.
+    """
+    status_dir = "json/results"
+    os.makedirs(status_dir, exist_ok=True)
+    filename = os.path.join(status_dir, "status_data.json")
+    
+    new_entry = {
+        "status": "success", 
+        "experiment": experiment, 
+        "model": model, 
+        "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    }
+
+    data = []
+    if os.path.exists(filename):
+        try:
+            with open(filename, "r") as f:
+                data = json.load(f)
+        except json.JSONDecodeError:
+            data = []
+            
+    data.append(new_entry)
+    with open(filename, "w") as f:
+        json.dump(data, f, indent=4)
 
 class TempImageHandler:
     """
@@ -40,12 +70,51 @@ class TempImageHandler:
         if self.temp_path and os.path.exists(self.temp_path):
             os.remove(self.temp_path)
 
+def create_noise_image(width=640, height=640):
+    """Generates a white noise image."""
+    base_array = np.full((height, width, 3), 255, dtype=np.float32)
+    noise = np.random.normal(0, 25, (height, width, 3))
+    noisy_array = base_array - np.abs(noise)
+    return Image.fromarray(np.clip(noisy_array, 0, 255).astype(np.uint8))
+
+def get_existing_progress(experiment_name, model_name):
+    """
+    Reads the existing JSON file for a specific model/experiment and returns 
+    a set of signatures for work that has already been completed.
+    """
+    safe_model_name = model_name.replace("/", "_").replace("-", "_")
+    filename = f"{RESULTS_DIR}/{experiment_name}_{safe_model_name}.json"
+    
+    completed_entries = set()
+    
+    if os.path.exists(filename):
+        try:
+            with open(filename, "r") as f:
+                data = json.load(f)
+                
+            for entry in data:
+                # We create a unique tuple signature for each entry based on the experiment type.
+                # Check keys to determine which experiment this is.
+                if "target_emotion" in entry and "alpha" in entry: 
+                    # Signature for Blank Image Experiment: (layer, component, target_emotion, alpha)
+                    sig = (entry["layer"], entry["component"], entry["target_emotion"], float(entry["alpha"]))
+                    completed_entries.add(sig)
+                elif "source" in entry and "target" in entry:
+                    # Signature for Transformation Experiment: (layer, component, source_emotion, target_emotion)
+                    # Note: Alpha is fixed here so strictly not needed in signature, but good for safety.
+                    sig = (entry["layer"], entry["component"], entry["source"], entry["target"])
+                    completed_entries.add(sig)
+                    
+        except json.JSONDecodeError:
+            print(f"[Info] Could not decode {filename} or file is empty. Starting fresh/appending.")
+            
+    return completed_entries
+
 def save_result_entry(experiment_name, model_name, entry):
     """
     Appends results to a single JSON file per Model + Experiment combo.
     File format: json_results/exp_name_model_name.json
     """
-    # Clean model name for filename (e.g., "qwen_2B")
     safe_model_name = model_name.replace("/", "_").replace("-", "_")
     filename = f"{RESULTS_DIR}/{experiment_name}_{safe_model_name}.json"
     
@@ -61,13 +130,6 @@ def save_result_entry(experiment_name, model_name, entry):
     with open(filename, "w") as f:
         json.dump(data, f, indent=2)
 
-def create_noise_image(width=640, height=640):
-    """Generates a white noise image."""
-    base_array = np.full((height, width, 3), 255, dtype=np.float32)
-    noise = np.random.normal(0, 25, (height, width, 3))
-    noisy_array = base_array - np.abs(noise)
-    return Image.fromarray(np.clip(noisy_array, 0, 255).astype(np.uint8))
-
 def get_averaged_steering_vector(model, processor, pos_images, neg_images, layer_idx, use_llm, batch_size=30):
     """Calculates Mean(Positive) - Mean(Neutral) vector."""
     vectors = []
@@ -77,6 +139,7 @@ def get_averaged_steering_vector(model, processor, pos_images, neg_images, layer
         p_img = pos_images[i] if not isinstance(pos_images[i], str) else Image.open(pos_images[i]).convert("RGB")
         n_img = neg_images[i] if not isinstance(neg_images[i], str) else Image.open(neg_images[i]).convert("RGB")
         
+        # Resize for consistency
         p_img = p_img.resize((336, 336))
         n_img = n_img.resize((336, 336))
 
@@ -103,7 +166,7 @@ def process_steering_batch(model, processor, provider, target_images, steer_pos_
 
     results = []
     
-    # 3. Process Target Images
+    # 3. Process Target Images (Limit to 5 for speed/demo purposes)
     for idx, img_input in enumerate(target_images[:5]): 
         
         if isinstance(img_input, str):
@@ -136,14 +199,15 @@ def run_blank_image_experiment(model, processor, provider, model_name, emotions_
     experiment_name = "exp_blank_hallucination"
     print(f"\n[Experiment] Running {experiment_name} on {model_name}...")
 
-    # We use a set of alphas here as requested
-    alpha_values = [1.0, 3.0, 5.0, 10.0]
+    # Load existing progress to support resuming
+    completed_work = get_existing_progress(experiment_name, model_name)
     
+    alpha_values = [1.0, 3.0, 5.0, 10.0]
     blank_img = create_noise_image()
     target_inputs = [blank_img]
 
     for emotion_name, emotion_imgs in emotions_dict.items():
-        print(f" > Steering with '{emotion_name}' vectors...")
+        print(f" > Processing '{emotion_name}' vectors...")
         
         max_llm = model.config.num_hidden_layers
         max_vis = model.config.vision_config.num_hidden_layers if hasattr(model.config.vision_config, "num_hidden_layers") else model.config.vision_config.depth
@@ -156,8 +220,12 @@ def run_blank_image_experiment(model, processor, provider, model_name, emotions_
         for comp_name, is_llm, layer_range in layer_configs:
             for layer in tqdm(layer_range, desc=f"{emotion_name} ({comp_name})"):
                 
-                # Iterate over alpha values for the blank experiment
                 for alpha in alpha_values:
+                    # Check if done
+                    signature = (layer, comp_name, emotion_name, float(alpha))
+                    if signature in completed_work:
+                        continue # Skip
+
                     outputs, vec_norm = process_steering_batch(
                         model, processor, provider, target_inputs, 
                         steer_pos_imgs=emotion_imgs, 
@@ -168,13 +236,12 @@ def run_blank_image_experiment(model, processor, provider, model_name, emotions_
                         prompt="Describe the image. If it is just noise, say so. If you see a face, describe the expression."
                     )
 
-                    # Save to JSON
                     save_result_entry(experiment_name, model_name, {
                         "layer": layer,
                         "component": comp_name,
                         "target_emotion": emotion_name,
-                        "alpha": alpha,       # Log the alpha
-                        "vector_norm": vec_norm, # Log the norm
+                        "alpha": alpha,       
+                        "vector_norm": vec_norm, 
                         "results": outputs
                     })
 
@@ -185,10 +252,13 @@ def run_emotion_transformation_experiment(model, processor, provider, model_name
     experiment_name = "exp_emotion_transfer"
     print(f"\n[Experiment] Running {experiment_name} on {model_name}...")
 
+    # Load existing progress
+    completed_work = get_existing_progress(experiment_name, model_name)
+
     pairs = [("happy", "sad"), ("sad", "happy"), ("neutral", "angry")]
 
     for src_emo, target_emo in pairs:
-        print(f" > Turning {src_emo} -> {target_emo}...")
+        print(f" > Processing {src_emo} -> {target_emo}...")
         
         target_inputs = emotions_dict[src_emo]
         steer_pos = emotions_dict[target_emo]
@@ -204,7 +274,11 @@ def run_emotion_transformation_experiment(model, processor, provider, model_name
         for comp_name, is_llm, layer_range in layer_configs:
             for layer in tqdm(layer_range, desc=f"{src_emo}->{target_emo}"):
                 
-                # Single fixed alpha for transformation experiment
+                # Check if done
+                signature = (layer, comp_name, src_emo, target_emo)
+                if signature in completed_work:
+                    continue
+
                 outputs, vec_norm = process_steering_batch(
                     model, processor, provider, target_inputs, 
                     steer_pos_imgs=steer_pos, 
@@ -234,7 +308,7 @@ if __name__ == "__main__":
     emotions_dict = {"happy": happy, "sad": sad, "neutral": neutral, "angry": angry}
 
     models_to_run = [
-        ("qwen", "2B", True),   # <--- Valid for Qwen2-VL
+        # ("qwen", "2B", True),   
         ("qwen", "7B", True),
         # ("llama", "11B", True) 
     ]
@@ -249,9 +323,11 @@ if __name__ == "__main__":
             
             # Experiment A: Hallucination (Iterates Alphas)
             run_blank_image_experiment(model, processor, provider_str, full_name, emotions_dict, neutral)
+            experiment_status("blank", provider_str)
 
             # Experiment B: Transfer (Fixed Alpha)
             run_emotion_transformation_experiment(model, processor, provider_str, full_name, emotions_dict, neutral)
+            experiment_status("emotion manipulation", provider_str)
             
             # Clean up VRAM
             del model, processor
@@ -261,5 +337,7 @@ if __name__ == "__main__":
             print(f"!!! Error processing {full_name}: {e}")
             import traceback
             traceback.print_exc()
+        
+        print("Finished an experiment cycle for this model.")
 
     print("\nAll experiments completed.")
