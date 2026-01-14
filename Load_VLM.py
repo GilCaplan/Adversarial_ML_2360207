@@ -42,7 +42,8 @@ def load_vlm_model(provider="qwen", size="7B", load_in_4bit=False):
         torch_dtype=dtype,
         quantization_config=bnb_config,
         device_map="auto" if device == "cuda" else None,
-        low_cpu_mem_usage=True
+        low_cpu_mem_usage=True,
+        # token="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"
     )
     
     if device != "cuda" and not load_in_4bit:

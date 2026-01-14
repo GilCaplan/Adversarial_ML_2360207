@@ -130,7 +130,7 @@ def save_result_entry(experiment_name, model_name, entry):
     with open(filename, "w") as f:
         json.dump(data, f, indent=2)
 
-def get_averaged_steering_vector(model, processor, pos_images, neg_images, layer_idx, use_llm, batch_size=30):
+def get_averaged_steering_vector(model, processor, pos_images, neg_images, layer_idx, use_llm, batch_size=10):
     """Calculates Mean(Positive) - Mean(Neutral) vector."""
     vectors = []
     limit = min(len(pos_images), batch_size)
@@ -208,10 +208,15 @@ def run_blank_image_experiment(model, processor, provider, model_name, emotions_
 
     for emotion_name, emotion_imgs in emotions_dict.items():
         print(f" > Processing '{emotion_name}' vectors...")
-        
-        max_llm = model.config.num_hidden_layers
-        max_vis = model.config.vision_config.num_hidden_layers if hasattr(model.config.vision_config, "num_hidden_layers") else model.config.vision_config.depth
-        
+        if hasattr(model.config, "text_config"):
+            max_llm = model.config.text_config.num_hidden_layers
+        else:
+            max_llm = model.config.num_hidden_layers
+
+        # 2. Determine Max Vision Layers (Handles 'depth' vs 'num_hidden_layers')
+        v_conf = model.config.vision_config
+        max_vis = getattr(v_conf, "num_hidden_layers", getattr(v_conf, "depth", 12))
+
         layer_configs = [
             ("LLM", True, range(1, max_llm, 4)), 
             ("Vision", False, range(1, max_vis, 4))
@@ -220,29 +225,49 @@ def run_blank_image_experiment(model, processor, provider, model_name, emotions_
         for comp_name, is_llm, layer_range in layer_configs:
             for layer in tqdm(layer_range, desc=f"{emotion_name} ({comp_name})"):
                 
-                for alpha in alpha_values:
-                    # Check if done
-                    signature = (layer, comp_name, emotion_name, float(alpha))
-                    if signature in completed_work:
-                        continue # Skip
+                needed_alphas = [a for a in alpha_values if (layer, comp_name, emotion_name, float(a)) not in completed_work]
+                
+                if not needed_alphas:
+                    continue
 
-                    outputs, vec_norm = process_steering_batch(
-                        model, processor, provider, target_inputs, 
-                        steer_pos_imgs=emotion_imgs, 
-                        steer_neg_imgs=neutral_imgs,
-                        layer_idx=layer, 
-                        alpha=alpha, 
-                        use_llm=is_llm, 
-                        prompt="Describe the image. If it is just noise, say so. If you see a face, describe the expression."
-                    )
+                # 1. Compute Steering Vector (The heavy part)
+                # We use a context manager or explicit print so you know it's working
+                # print(f"   Computing vector for layer {layer}...") 
+                steering_vector = get_averaged_steering_vector(
+                    model, processor, emotion_imgs, neutral_imgs, layer, is_llm
+                )
+                vector_norm = steering_vector.norm().item()
+                
+                for alpha in needed_alphas:
+                    # 2. Run Generation (Fast part)
+                    results = []
+                    for idx, img_input in enumerate(target_inputs[:5]):
+                        if isinstance(img_input, str):
+                            pil_img = Image.open(img_input).convert("RGB").resize((336, 336))
+                        else:
+                            pil_img = img_input.convert("RGB").resize((336, 336))
+
+                        with TempImageHandler(pil_img) as img_path:
+                            baseline_resp = get_vlm_response(model, processor, provider, img_path, "Describe the image.")
+
+                        steered_resp = generate_with_vector_insertion(
+                            model, processor, pil_img, layer, steering_vector, 
+                            alpha=alpha, prompt="Describe the image.", LLM_use=is_llm
+                        )
+                        
+                        results.append({
+                            "image_index": idx,
+                            "baseline": baseline_resp,
+                            "steered": steered_resp
+                        })
 
                     save_result_entry(experiment_name, model_name, {
                         "layer": layer,
                         "component": comp_name,
                         "target_emotion": emotion_name,
                         "alpha": alpha,       
-                        "vector_norm": vec_norm, 
-                        "results": outputs
+                        "vector_norm": vector_norm, 
+                        "results": results
                     })
 
 # ==========================================
@@ -263,8 +288,15 @@ def run_emotion_transformation_experiment(model, processor, provider, model_name
         target_inputs = emotions_dict[src_emo]
         steer_pos = emotions_dict[target_emo]
         
-        max_llm = model.config.num_hidden_layers
-        max_vis = model.config.vision_config.num_hidden_layers if hasattr(model.config.vision_config, "num_hidden_layers") else model.config.vision_config.depth
+        if hasattr(model.config, "text_config"):
+            max_llm = model.config.text_config.num_hidden_layers
+        else:
+            max_llm = model.config.num_hidden_layers
+
+        # Determine Max Vision Layers (Handles different naming conventions: 'depth' vs 'num_hidden_layers')
+        # Note: Both Qwen and Llama have a 'vision_config' attribute, so this remains safe.
+        v_conf = model.config.vision_config
+        max_vis = getattr(v_conf, "num_hidden_layers", getattr(v_conf, "depth", 12))
 
         layer_configs = [
             ("LLM", True, range(5, max_llm, 5)), 
@@ -309,9 +341,11 @@ if __name__ == "__main__":
 
     models_to_run = [
         # ("qwen", "2B", True),   
-        ("qwen", "7B", True),
-        # ("llama", "11B", True) 
+        # ("qwen", "7B", True),
+        ("llama", "11B", True) 
     ]
+    from huggingface_hub import login
+    login(token="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")
 
     for provider, size, load_4bit in models_to_run:
         full_name = f"{provider}_{size}"

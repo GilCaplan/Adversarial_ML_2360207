@@ -10,5 +10,17 @@
         "experiment": "emotion manipulation",
         "model": "qwen",
         "timestamp": "2026-01-13 13:58:04"
+    },
+    {
+        "status": "success",
+        "experiment": "blank",
+        "model": "llama",
+        "timestamp": "2026-01-14 14:58:48"
+    },
+    {
+        "status": "success",
+        "experiment": "emotion manipulation",
+        "model": "llama",
+        "timestamp": "2026-01-14 18:31:30"
     }
 ]
