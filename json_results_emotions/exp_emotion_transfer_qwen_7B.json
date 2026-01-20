@@ -1,0 +1,1157 @@
+[
+  {
+    "layer": 5,
+    "component": "LLM",
+    "source": "happy",
+    "target": "sad",
+    "alpha": 1.0,
+    "vector_norm": 282.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a beautiful natural scene with a clear sky and a sun setting or rising in the background. The sun is positioned near the horizon, casting a warm, golden light over the landscape. The sky is a gradient of light blue to a deeper blue, with some clouds scattered around, adding depth to the scene.\n\nIn the foreground, there is a body of water, possibly a lake or sea, with ripples on the surface. The water reflects the sunlight, creating a shimmering effect. The horizon line is clearly visible, separating the water from the sky.\n\nThe landscape around the water is covered in greenery, including trees and bushes, which are bathed in the warm light of. The trees have a mix of green and yellow leaves, suggesting that the season might be late summer or early autumn.\n\nOverall, the image conveys a sense of tranquility and natural beauty, with the sun's warm light creating a serene and peaceful atmosphere.",
+        "steered": "The image depicts a serene, natural landscape dominated by a dense forest of tall, slender trees with green foliage. The trees are arranged in a somewhat orderly pattern, creating a sense of depth and perspective. The sky is clear, with a gradient of light"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image appears to be a photograph of a bright, sunlit scene with a clear sky. The sky is a gradient of light blue, transitioning to a deeper blue as it reaches the horizon. The sun is positioned high in the sky, casting a warm, golden light over the scene. The ground is covered in a mixture of sand and small pebbles, creating a textured surface. In the background, there are some indistinct shapes that could be trees or other natural elements, but they are not clearly defined due to the distance and lighting. The overall atmosphere of the image is bright and sunny, with a sense of warmth and clarity.",
+        "steered": "The image depicts a scene with a group of people standing in a line, facing the camera. They appear to be in an outdoor setting, possibly a park or a similar environment. The people are dressed in a variety of casual and semi-casual"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image appears to be a stylized, abstract representation of a map, possibly of a region or country. The map is depicted in a monochromatic color scheme with shades of blue and gray, creating a somewhat futuristic or digital look. The shapes and lines on the map are not clearly defined, making it difficult to identify specific geographical features or countries. The overall design gives the impression of a modern, possibly digital or technological representation of a map.",
+        "steered": "The image appears to be a stylized, abstract representation of a map, possibly of a region or country. The map is depicted in a monochromatic color scheme with shades of blue and gray, giving it a modern and artistic look. The shapes"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image appears to be a close-up of a map or a geographical illustration. The main features include a large body of water, possibly an ocean or sea, with a distinct boundary line indicating the coastline. There are several landmasses surrounding this body of water, with varying shades of blue and green, suggesting different types of terrain or vegetation. The landmasses are outlined with white, which helps to distinguish them from the water. There are also some smaller, scattered landmasses or islands, which are also outlined in white. The overall color scheme is shades of blue, green, and white, giving the image a somewhat abstract and artistic appearance. The image does not depict any specific emotions or specific any specific objects other than the geographical features mentioned.",
+        "steered": "The image appears to be a close-up of a fabric or textile, possibly a piece of clothing or a piece of art. The fabric has a pattern that resembles a map or a topographical chart. The colors are predominantly dark, with shades of black"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image appears to be a stylized, pixelated representation of a person's face. The colors used are primarily shades of blue, purple, and brown, creating a somewhat abstract and artistic effect. The pixelation gives the image a digital or retro video game-like appearance. The face is not clearly defined, making it difficult to discern specific emotions or specific specific features. The overall impression is more abstract and artistic rather than realistic.",
+        "steered": "The image appears to be a stylized, pixelated representation of a person's face. The colors used are primarily shades of blue, purple, and brown, with some areas in lighter and darker tones. The pixelation effect gives the image a digital"
+      }
+    ]
+  },
+  {
+    "layer": 10,
+    "component": "LLM",
+    "source": "happy",
+    "target": "sad",
+    "alpha": 1.0,
+    "vector_norm": 248.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a beautiful natural scene with a clear sky and a sun setting or rising in the background. The sun is positioned near the horizon, casting a warm, golden light over the landscape. The sky is a gradient of light blue to a deeper blue, with some clouds scattered around, adding depth to the scene.\n\nIn the foreground, there is a body of water, possibly a lake or sea, with ripples on the surface. The water reflects the sunlight, creating a shimmering effect. The horizon line is clearly visible, separating the water from the sky.\n\nThe landscape around the water is covered in greenery, including trees and bushes, which are bathed in the warm light of. The trees have a mix of green and yellow leaves, suggesting that the season might be late summer or early autumn.\n\nOverall, the image conveys a sense of tranquility and natural beauty, with the sun's warm light creating a serene and peaceful atmosphere.",
+        "steered": "The image depicts a serene and tranquil scene of a forested area during what appears to be either dawn or dusk, given the soft, warm lighting. The sky is a gradient of colors, transitioning from a deep blue at the top to a warm orange"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image appears to be a photograph of a bright, sunlit scene with a clear sky. The sky is a gradient of light blue, transitioning to a deeper blue as it reaches the horizon. The sun is positioned high in the sky, casting a warm, golden light over the scene. The ground is covered in a mixture of sand and small pebbles, creating a textured surface. In the background, there are some indistinct shapes that could be trees or other natural elements, but they are not clearly defined due to the distance and lighting. The overall atmosphere of the image is bright and sunny, with a sense of warmth and clarity.",
+        "steered": "The image depicts a vibrant scene with a group of people gathered in a beach. The sky is clear and blue, indicating a sunny day. The people appear to be enjoying a social gathering, possibly a beach party or a picnic. They are standing close"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image appears to be a stylized, abstract representation of a map, possibly of a region or country. The map is depicted in a monochromatic color scheme with shades of blue and gray, creating a somewhat futuristic or digital look. The shapes and lines on the map are not clearly defined, making it difficult to identify specific geographical features or countries. The overall design gives the impression of a modern, possibly digital or technological representation of a map.",
+        "steered": "The image appears to be a stylized, abstract representation of a map, possibly of a region or country. The map is depicted in a monochromatic color scheme with shades of gray, blue, and purple. The outlines of the geographical features are"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image appears to be a close-up of a map or a geographical illustration. The main features include a large body of water, possibly an ocean or sea, with a distinct boundary line indicating the coastline. There are several landmasses surrounding this body of water, with varying shades of blue and green, suggesting different types of terrain or vegetation. The landmasses are outlined with white, which helps to distinguish them from the water. There are also some smaller, scattered landmasses or islands, which are also outlined in white. The overall color scheme is shades of blue, green, and white, giving the image a somewhat abstract and artistic appearance. The image does not depict any specific emotions or specific any specific objects other than the geographical features mentioned.",
+        "steered": "The image appears to be a close-up photograph of a map or a geographical representation. The colors are predominantly dark, with shades of black and dark gray, creating a stark contrast. There are several distinct features visible:\n\n1. **Coastlines**:"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image appears to be a stylized, pixelated representation of a person's face. The colors used are primarily shades of blue, purple, and brown, creating a somewhat abstract and artistic effect. The pixelation gives the image a digital or retro video game-like appearance. The face is not clearly defined, making it difficult to discern specific emotions or specific specific features. The overall impression is more abstract and artistic rather than realistic.",
+        "steered": "The image appears to be a stylized, pixelated representation of a human face. The colors used are primarily shades of blue, purple, and brown, creating a somewhat abstract and artistic effect. The face is not clearly defined, with the features blending"
+      }
+    ]
+  },
+  {
+    "layer": 15,
+    "component": "LLM",
+    "source": "happy",
+    "target": "sad",
+    "alpha": 1.0,
+    "vector_norm": 253.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a beautiful natural scene with a clear sky and a sun setting or rising in the background. The sun is positioned near the horizon, casting a warm, golden light over the landscape. The sky is a gradient of light blue to a deeper blue, with some clouds scattered around, adding depth to the scene.\n\nIn the foreground, there is a body of water, possibly a lake or sea, with ripples on the surface. The water reflects the sunlight, creating a shimmering effect. The horizon line is clearly visible, separating the water from the sky.\n\nThe landscape around the water is covered in greenery, including trees and bushes, which are bathed in the warm light of. The trees have a mix of green and yellow leaves, suggesting that the season might be late summer or early autumn.\n\nOverall, the image conveys a sense of tranquility and natural beauty, with the sun's warm light creating a serene and peaceful atmosphere.",
+        "steered": "The image depicts a beautiful natural scene with a dense forest in the background. The trees are tall and have green leaves, indicating a lush, healthy environment. The sky is clear and blue, suggesting a sunny day. In the foreground, there is a"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image appears to be a photograph of a bright, sunlit scene with a clear sky. The sky is a gradient of light blue, transitioning to a deeper blue as it reaches the horizon. The sun is positioned high in the sky, casting a warm, golden light over the scene. The ground is covered in a mixture of sand and small pebbles, creating a textured surface. In the background, there are some indistinct shapes that could be trees or other natural elements, but they are not clearly defined due to the distance and lighting. The overall atmosphere of the image is bright and sunny, with a sense of warmth and clarity.",
+        "steered": "The image appears to be a photograph of a group of people standing in a line. The individuals are dressed in various styles, with some wearing hats and others wearing sunglasses. The background is a bright, sunny day with clear blue skies. The people seem"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image appears to be a stylized, abstract representation of a map, possibly of a region or country. The map is depicted in a monochromatic color scheme with shades of blue and gray, creating a somewhat futuristic or digital look. The shapes and lines on the map are not clearly defined, making it difficult to identify specific geographical features or countries. The overall design gives the impression of a modern, possibly digital or technological representation of a map.",
+        "steered": "The image appears to be a stylized, abstract representation of a map, possibly of a region or country. The map is depicted in a monochromatic color scheme with shades of blue and gray, giving it a modern and artistic feel. The shapes"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image appears to be a close-up of a map or a geographical illustration. The main features include a large body of water, possibly an ocean or sea, with a distinct boundary line indicating the coastline. There are several landmasses surrounding this body of water, with varying shades of blue and green, suggesting different types of terrain or vegetation. The landmasses are outlined with white, which helps to distinguish them from the water. There are also some smaller, scattered landmasses or islands, which are also outlined in white. The overall color scheme is shades of blue, green, and white, giving the image a somewhat abstract and artistic appearance. The image does not depict any specific emotions or specific any specific objects other than the geographical features mentioned.",
+        "steered": "The image appears to be a close-up of a map or a geographical illustration. The map shows a coastal area with a prominent body of water, likely an ocean or sea. The coastline is detailed with various shades of blue and green, indicating different depths"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image appears to be a stylized, pixelated representation of a person's face. The colors used are primarily shades of blue, purple, and brown, creating a somewhat abstract and artistic effect. The pixelation gives the image a digital or retro video game-like appearance. The face is not clearly defined, making it difficult to discern specific emotions or specific specific features. The overall impression is more abstract and artistic rather than realistic.",
+        "steered": "The image appears to be a stylized or abstract representation of a face. The colors used are primarily shades of blue, purple, and brown, with some areas in lighter and darker tones. The overall shape resembles a human face, with the forehead,"
+      }
+    ]
+  },
+  {
+    "layer": 20,
+    "component": "LLM",
+    "source": "happy",
+    "target": "sad",
+    "alpha": 1.0,
+    "vector_norm": 272.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a beautiful natural scene with a clear sky and a sun setting or rising in the background. The sun is positioned near the horizon, casting a warm, golden light over the landscape. The sky is a gradient of light blue to a deeper blue, with some clouds scattered around, adding depth to the scene.\n\nIn the foreground, there is a body of water, possibly a lake or sea, with ripples on the surface. The water reflects the sunlight, creating a shimmering effect. The horizon line is clearly visible, separating the water from the sky.\n\nThe landscape around the water is covered in greenery, including trees and bushes, which are bathed in the warm light of. The trees have a mix of green and yellow leaves, suggesting that the season might be late summer or early autumn.\n\nOverall, the image conveys a sense of tranquility and natural beauty, with the sun's warm light creating a serene and peaceful atmosphere.",
+        "steered": "The image depicts a beautiful landscape scene with a blend of natural elements. The sky is filled with a gradient of colors, transitioning from a soft blue at the top to a warm orange near the horizon. The clouds are scattered, with some appearing fluffy and"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image appears to be a photograph of a bright, sunlit scene with a clear sky. The sky is a gradient of light blue, transitioning to a deeper blue as it reaches the horizon. The sun is positioned high in the sky, casting a warm, golden light over the scene. The ground is covered in a mixture of sand and small pebbles, creating a textured surface. In the background, there are some indistinct shapes that could be trees or other natural elements, but they are not clearly defined due to the distance and lighting. The overall atmosphere of the image is bright and sunny, with a sense of warmth and clarity.",
+        "steered": "The image appears to be a photograph of a vibrant, colorful scene. It is a depiction of a bright, sunlit environment with a mix of warm and cool colors. The background features a gradient of yellow and orange hues, suggesting a setting sun or"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image appears to be a stylized, abstract representation of a map, possibly of a region or country. The map is depicted in a monochromatic color scheme with shades of blue and gray, creating a somewhat futuristic or digital look. The shapes and lines on the map are not clearly defined, making it difficult to identify specific geographical features or countries. The overall design gives the impression of a modern, possibly digital or technological representation of a map.",
+        "steered": "The image appears to be a stylized, abstract representation of a landscape or topographical map. It consists of various shapes and colors that resemble landmasses and bodies of water. The shapes are irregular and have a somewhat organic, natural form. The"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image appears to be a close-up of a map or a geographical illustration. The main features include a large body of water, possibly an ocean or sea, with a distinct boundary line indicating the coastline. There are several landmasses surrounding this body of water, with varying shades of blue and green, suggesting different types of terrain or vegetation. The landmasses are outlined with white, which helps to distinguish them from the water. There are also some smaller, scattered landmasses or islands, which are also outlined in white. The overall color scheme is shades of blue, green, and white, giving the image a somewhat abstract and artistic appearance. The image does not depict any specific emotions or specific any specific objects other than the geographical features mentioned.",
+        "steered": "The image appears to be a close-up of a map or a geographical illustration. The colors are predominantly dark, with shades of blue and black, which might represent water bodies or landmasses. There are lighter areas, possibly indicating land or certain features"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image appears to be a stylized, pixelated representation of a person's face. The colors used are primarily shades of blue, purple, and brown, creating a somewhat abstract and artistic effect. The pixelation gives the image a digital or retro video game-like appearance. The face is not clearly defined, making it difficult to discern specific emotions or specific specific features. The overall impression is more abstract and artistic rather than realistic.",
+        "steered": "The image appears to be a stylized or abstract representation of a face. The colors used are primarily shades of blue, purple, and brown, with some areas in lighter and darker tones. The overall shape resembles a human face, with the forehead,"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "source": "happy",
+    "target": "sad",
+    "alpha": 1.0,
+    "vector_norm": 392.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a beautiful natural scene with a clear sky and a sun setting or rising in the background. The sun is positioned near the horizon, casting a warm, golden light over the landscape. The sky is a gradient of light blue to a deeper blue, with some clouds scattered around, adding depth to the scene.\n\nIn the foreground, there is a body of water, possibly a lake or sea, with ripples on the surface. The water reflects the sunlight, creating a shimmering effect. The horizon line is clearly visible, separating the water from the sky.\n\nThe landscape around the water is covered in greenery, including trees and bushes, which are bathed in the warm light of. The trees have a mix of green and yellow leaves, suggesting that the season might be late summer or early autumn.\n\nOverall, the image conveys a sense of tranquility and natural beauty, with the sun's warm light creating a serene and peaceful atmosphere.",
+        "steered": "The image depicts a beautiful natural scene with a blend of orange and yellow hues, likely representing a sunset or sunrise. The sky is filled with warm colors, transitioning from a deep orange near the horizon to a lighter yellow and then to a soft pink and"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image appears to be a photograph of a bright, sunlit scene with a clear sky. The sky is a gradient of light blue, transitioning to a deeper blue as it reaches the horizon. The sun is positioned high in the sky, casting a warm, golden light over the scene. The ground is covered in a mixture of sand and small pebbles, creating a textured surface. In the background, there are some indistinct shapes that could be trees or other natural elements, but they are not clearly defined due to the distance and lighting. The overall atmosphere of the image is bright and sunny, with a sense of warmth and clarity.",
+        "steered": "The image depicts a vibrant scene with a group of people gathered in a table, seemingly engaged in a lively conversation or celebration. The table is adorned with various items, including what appears to be a cake with candles, suggesting a special occasion such as a"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image appears to be a stylized, abstract representation of a map, possibly of a region or country. The map is depicted in a monochromatic color scheme with shades of blue and gray, creating a somewhat futuristic or digital look. The shapes and lines on the map are not clearly defined, making it difficult to identify specific geographical features or countries. The overall design gives the impression of a modern, possibly digital or technological representation of a map.",
+        "steered": "The image appears to be a stylized, abstract representation of a map or a topographical view. It is a grayscale image with various shades of gray, creating a sense of depth and contour. The shapes within the image resemble landmasses or islands"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image appears to be a close-up of a map or a geographical illustration. The main features include a large body of water, possibly an ocean or sea, with a distinct boundary line indicating the coastline. There are several landmasses surrounding this body of water, with varying shades of blue and green, suggesting different types of terrain or vegetation. The landmasses are outlined with white, which helps to distinguish them from the water. There are also some smaller, scattered landmasses or islands, which are also outlined in white. The overall color scheme is shades of blue, green, and white, giving the image a somewhat abstract and artistic appearance. The image does not depict any specific emotions or specific any specific objects other than the geographical features mentioned.",
+        "steered": "The image appears to be a close-up of a map or a geographical illustration. The colors are predominantly dark, with shades of blue and black, which might represent water bodies or landmasses. There are lighter areas, possibly indicating land or certain features"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image appears to be a stylized, pixelated representation of a person's face. The colors used are primarily shades of blue, purple, and brown, creating a somewhat abstract and artistic effect. The pixelation gives the image a digital or retro video game-like appearance. The face is not clearly defined, making it difficult to discern specific emotions or specific specific features. The overall impression is more abstract and artistic rather than realistic.",
+        "steered": "The image appears to be a stylized or abstract representation of a face. The colors used are primarily shades of blue, purple, and brown, with some areas in lighter and darker tones. The overall shape resembles a human face, with the forehead,"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "source": "happy",
+    "target": "sad",
+    "alpha": 1.0,
+    "vector_norm": 5440.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a beautiful natural scene with a clear sky and a sun setting or rising in the background. The sun is positioned near the horizon, casting a warm, golden light over the landscape. The sky is a gradient of light blue to a deeper blue, with some clouds scattered around, adding depth to the scene.\n\nIn the foreground, there is a body of water, possibly a lake or sea, with ripples on the surface. The water reflects the sunlight, creating a shimmering effect. The horizon line is clearly visible, separating the water from the sky.\n\nThe landscape around the water is covered in greenery, including trees and bushes, which are bathed in the warm light of. The trees have a mix of green and yellow leaves, suggesting that the season might be late summer or early autumn.\n\nOverall, the image conveys a sense of tranquility and natural beauty, with the sun's warm light creating a serene and peaceful atmosphere.",
+        "steered": "The image depicts a vibrant, tropical scene with a clear blue sky and bright, warm sunlight. The sky is a gradient of light blue, transitioning to a deeper blue at the horizon. The sun is positioned near the top left corner of the image,"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image appears to be a photograph of a bright, sunlit scene with a clear sky. The sky is a gradient of light blue, transitioning to a deeper blue as it reaches the horizon. The sun is positioned high in the sky, casting a warm, golden light over the scene. The ground is covered in a mixture of sand and small pebbles, creating a textured surface. In the background, there are some indistinct shapes that could be trees or other natural elements, but they are not clearly defined due to the distance and lighting. The overall atmosphere of the image is bright and sunny, with a sense of warmth and clarity.",
+        "steered": "The image depicts a vibrant, sunlit scene with a clear blue sky and a bright, warm sun shining brightly in the upper left corner. The landscape is characterized by a series of rolling hills or low mountains, covered in a dense layer of bright yellow"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image appears to be a stylized, abstract representation of a map, possibly of a region or country. The map is depicted in a monochromatic color scheme with shades of blue and gray, creating a somewhat futuristic or digital look. The shapes and lines on the map are not clearly defined, making it difficult to identify specific geographical features or countries. The overall design gives the impression of a modern, possibly digital or technological representation of a map.",
+        "steered": "The image depicts a vibrant, tropical landscape with a lush, green forest in the foreground. The trees are dense and appear to be of various types, with their some having broad leaves and others having more slender foliage. The sky is clear and blue,"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image appears to be a close-up of a map or a geographical illustration. The main features include a large body of water, possibly an ocean or sea, with a distinct boundary line indicating the coastline. There are several landmasses surrounding this body of water, with varying shades of blue and green, suggesting different types of terrain or vegetation. The landmasses are outlined with white, which helps to distinguish them from the water. There are also some smaller, scattered landmasses or islands, which are also outlined in white. The overall color scheme is shades of blue, green, and white, giving the image a somewhat abstract and artistic appearance. The image does not depict any specific emotions or specific any specific objects other than the geographical features mentioned.",
+        "steered": "The image depicts a landscape scene with a clear sky and a horizon line that separates the land from the sky. The land appears to be a flat, open area with a light brown or beige color, suggesting it might be a desert or a dry,"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image appears to be a stylized, pixelated representation of a person's face. The colors used are primarily shades of blue, purple, and brown, creating a somewhat abstract and artistic effect. The pixelation gives the image a digital or retro video game-like appearance. The face is not clearly defined, making it difficult to discern specific emotions or specific specific features. The overall impression is more abstract and artistic rather than realistic.",
+        "steered": "The image appears to be a landscape photograph taken during the daytime. It shows a coastal area with a sandy beach and a body of water, likely an ocean or a large lake. The sky is clear with a few clouds, and the sun is shining"
+      }
+    ]
+  },
+  {
+    "layer": 10,
+    "component": "Vision",
+    "source": "happy",
+    "target": "sad",
+    "alpha": 1.0,
+    "vector_norm": 5376.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a beautiful natural scene with a clear sky and a sun setting or rising in the background. The sun is positioned near the horizon, casting a warm, golden light over the landscape. The sky is a gradient of light blue to a deeper blue, with some clouds scattered around, adding depth to the scene.\n\nIn the foreground, there is a body of water, possibly a lake or sea, with ripples on the surface. The water reflects the sunlight, creating a shimmering effect. The horizon line is clearly visible, separating the water from the sky.\n\nThe landscape around the water is covered in greenery, including trees and bushes, which are bathed in the warm light of. The trees have a mix of green and yellow leaves, suggesting that the season might be late summer or early autumn.\n\nOverall, the image conveys a sense of tranquility and natural beauty, with the sun's warm light creating a serene and peaceful atmosphere.",
+        "steered": "The image depicts a serene and picturesque landscape. It appears to be a desert or arid region, characterized by its sandy terrain and sparse vegetation. The sky is clear and blue, with a few wispy clouds scattered across it. The sun is shining"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image appears to be a photograph of a bright, sunlit scene with a clear sky. The sky is a gradient of light blue, transitioning to a deeper blue as it reaches the horizon. The sun is positioned high in the sky, casting a warm, golden light over the scene. The ground is covered in a mixture of sand and small pebbles, creating a textured surface. In the background, there are some indistinct shapes that could be trees or other natural elements, but they are not clearly defined due to the distance and lighting. The overall atmosphere of the image is bright and sunny, with a sense of warmth and clarity.",
+        "steered": "The image depicts a vibrant, colorful scene with a strong emphasis on the color orange. The background appears to be a landscape with a gradient of orange hues, transitioning from a lighter shade at the top to a darker shade at the bottom. The landscape seems"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image appears to be a stylized, abstract representation of a map, possibly of a region or country. The map is depicted in a monochromatic color scheme with shades of blue and gray, creating a somewhat futuristic or digital look. The shapes and lines on the map are not clearly defined, making it difficult to identify specific geographical features or countries. The overall design gives the impression of a modern, possibly digital or technological representation of a map.",
+        "steered": "The image depicts a coastal scene with a sandy beach and a body of water, likely an ocean or sea. The sky is clear with a gradient of of blue, transitioning from a lighter shade near the horizon to a deeper blue as it rises. The"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image appears to be a close-up of a map or a geographical illustration. The main features include a large body of water, possibly an ocean or sea, with a distinct boundary line indicating the coastline. There are several landmasses surrounding this body of water, with varying shades of blue and green, suggesting different types of terrain or vegetation. The landmasses are outlined with white, which helps to distinguish them from the water. There are also some smaller, scattered landmasses or islands, which are also outlined in white. The overall color scheme is shades of blue, green, and white, giving the image a somewhat abstract and artistic appearance. The image does not depict any specific emotions or specific any specific objects other than the geographical features mentioned.",
+        "steered": "The image depicts a coastal scene with a sandy beach and a body of water, likely an ocean or sea. The sky is clear with a light blue hue, suggesting a sunny day. The sand is a light brown color, and there are small waves"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image appears to be a stylized, pixelated representation of a person's face. The colors used are primarily shades of blue, purple, and brown, creating a somewhat abstract and artistic effect. The pixelation gives the image a digital or retro video game-like appearance. The face is not clearly defined, making it difficult to discern specific emotions or specific specific features. The overall impression is more abstract and artistic rather than realistic.",
+        "steered": "The image appears to be a digital or artistic representation of a scene with a strong sense of movement and energy. The background features a dynamic, abstract design with a mix of vibrant colors and geometric shapes. The colors include shades of orange, yellow, and"
+      }
+    ]
+  },
+  {
+    "layer": 15,
+    "component": "Vision",
+    "source": "happy",
+    "target": "sad",
+    "alpha": 1.0,
+    "vector_norm": 5344.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a beautiful natural scene with a clear sky and a sun setting or rising in the background. The sun is positioned near the horizon, casting a warm, golden light over the landscape. The sky is a gradient of light blue to a deeper blue, with some clouds scattered around, adding depth to the scene.\n\nIn the foreground, there is a body of water, possibly a lake or sea, with ripples on the surface. The water reflects the sunlight, creating a shimmering effect. The horizon line is clearly visible, separating the water from the sky.\n\nThe landscape around the water is covered in greenery, including trees and bushes, which are bathed in the warm light of. The trees have a mix of green and yellow leaves, suggesting that the season might be late summer or early autumn.\n\nOverall, the image conveys a sense of tranquility and natural beauty, with the sun's warm light creating a serene and peaceful atmosphere.",
+        "steered": "The image depicts a scene with a clear sky and a bright sun shining, casting shadows on the ground. The landscape appears to be a desert or a dry, arid region, characterized by sparse vegetation and a sandy terrain. The sky is a vivid"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image appears to be a photograph of a bright, sunlit scene with a clear sky. The sky is a gradient of light blue, transitioning to a deeper blue as it reaches the horizon. The sun is positioned high in the sky, casting a warm, golden light over the scene. The ground is covered in a mixture of sand and small pebbles, creating a textured surface. In the background, there are some indistinct shapes that could be trees or other natural elements, but they are not clearly defined due to the distance and lighting. The overall atmosphere of the image is bright and sunny, with a sense of warmth and clarity.",
+        "steered": "The image depicts a vibrant scene with a bright, warm color palette dominated by shades of orange and yellow. The background appears to be a landscape with a clear sky, possibly indicating a sunset or sunrise. The horizon line is visible, separating the sky from"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image appears to be a stylized, abstract representation of a map, possibly of a region or country. The map is depicted in a monochromatic color scheme with shades of blue and gray, creating a somewhat futuristic or digital look. The shapes and lines on the map are not clearly defined, making it difficult to identify specific geographical features or countries. The overall design gives the impression of a modern, possibly digital or technological representation of a map.",
+        "steered": "The image depicts a vibrant, tropical landscape with a dense, lush forest in the foreground. The trees are tall and have broad, green leaves, suggesting a tropical or subtropical climate. The ground is covered with a variety of plants life, including grass"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image appears to be a close-up of a map or a geographical illustration. The main features include a large body of water, possibly an ocean or sea, with a distinct boundary line indicating the coastline. There are several landmasses surrounding this body of water, with varying shades of blue and green, suggesting different types of terrain or vegetation. The landmasses are outlined with white, which helps to distinguish them from the water. There are also some smaller, scattered landmasses or islands, which are also outlined in white. The overall color scheme is shades of blue, green, and white, giving the image a somewhat abstract and artistic appearance. The image does not depict any specific emotions or specific any specific objects other than the geographical features mentioned.",
+        "steered": "The image depicts a coastal scene with a sandy beach and a body of water, likely an ocean or sea. The sky is clear with a bright, sunny atmosphere, suggesting a warm and pleasant day. The sand is a light, golden color, and"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image appears to be a stylized, pixelated representation of a person's face. The colors used are primarily shades of blue, purple, and brown, creating a somewhat abstract and artistic effect. The pixelation gives the image a digital or retro video game-like appearance. The face is not clearly defined, making it difficult to discern specific emotions or specific specific features. The overall impression is more abstract and artistic rather than realistic.",
+        "steered": "The image appears to be a landscape photograph featuring a coastal area with a sandy beach and a body of water, possibly an ocean or a large lake. The sky is clear with a bright blue hue, indicating a sunny day. The horizon line is visible"
+      }
+    ]
+  },
+  {
+    "layer": 20,
+    "component": "Vision",
+    "source": "happy",
+    "target": "sad",
+    "alpha": 1.0,
+    "vector_norm": 5344.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a beautiful natural scene with a clear sky and a sun setting or rising in the background. The sun is positioned near the horizon, casting a warm, golden light over the landscape. The sky is a gradient of light blue to a deeper blue, with some clouds scattered around, adding depth to the scene.\n\nIn the foreground, there is a body of water, possibly a lake or sea, with ripples on the surface. The water reflects the sunlight, creating a shimmering effect. The horizon line is clearly visible, separating the water from the sky.\n\nThe landscape around the water is covered in greenery, including trees and bushes, which are bathed in the warm light of. The trees have a mix of green and yellow leaves, suggesting that the season might be late summer or early autumn.\n\nOverall, the image conveys a sense of tranquility and natural beauty, with the sun's warm light creating a serene and peaceful atmosphere.",
+        "steered": "The image depicts a serene and picturesque scene of a forested area during what appears to be the early morning or late afternoon, as indicated by the soft, warm lighting. The sky is clear with a light blue hue, suggesting a calm and pleasant weather"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image appears to be a photograph of a bright, sunlit scene with a clear sky. The sky is a gradient of light blue, transitioning to a deeper blue as it reaches the horizon. The sun is positioned high in the sky, casting a warm, golden light over the scene. The ground is covered in a mixture of sand and small pebbles, creating a textured surface. In the background, there are some indistinct shapes that could be trees or other natural elements, but they are not clearly defined due to the distance and lighting. The overall atmosphere of the image is bright and sunny, with a sense of warmth and clarity.",
+        "steered": "The image depicts a vibrant scene with a bright, warm color palette dominated by shades of orange and yellow. The background appears to be a natural landscape, possibly a beach or a coastal area, with sand and water visible. The sky is clear and bright"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image appears to be a stylized, abstract representation of a map, possibly of a region or country. The map is depicted in a monochromatic color scheme with shades of blue and gray, creating a somewhat futuristic or digital look. The shapes and lines on the map are not clearly defined, making it difficult to identify specific geographical features or countries. The overall design gives the impression of a modern, possibly digital or technological representation of a map.",
+        "steered": "The image depicts a vibrant scene of a beach with a clear blue sky and bright sunlight. The beach is covered with golden sand, and there are several large, green trees in the background, providing a contrast to the warm tones of the sand and sky"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image appears to be a close-up of a map or a geographical illustration. The main features include a large body of water, possibly an ocean or sea, with a distinct boundary line indicating the coastline. There are several landmasses surrounding this body of water, with varying shades of blue and green, suggesting different types of terrain or vegetation. The landmasses are outlined with white, which helps to distinguish them from the water. There are also some smaller, scattered landmasses or islands, which are also outlined in white. The overall color scheme is shades of blue, green, and white, giving the image a somewhat abstract and artistic appearance. The image does not depict any specific emotions or specific any specific objects other than the geographical features mentioned.",
+        "steered": "The image depicts a beach scene with a clear blue sky and a bright, sunny atmosphere. The water is a light, clear blue, and there are small waves breaking on the shore. The sand is a light, golden color, and there are a"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image appears to be a stylized, pixelated representation of a person's face. The colors used are primarily shades of blue, purple, and brown, creating a somewhat abstract and artistic effect. The pixelation gives the image a digital or retro video game-like appearance. The face is not clearly defined, making it difficult to discern specific emotions or specific specific features. The overall impression is more abstract and artistic rather than realistic.",
+        "steered": "The image depicts a scene with a large, bright orange object that appears to be a balloon or a large inflatable structure. The background shows a clear sky with a few clouds, and the ground is covered with a light-colored surface, possibly sand or a"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "source": "happy",
+    "target": "sad",
+    "alpha": 1.0,
+    "vector_norm": 5312.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a beautiful natural scene with a clear sky and a sun setting or rising in the background. The sun is positioned near the horizon, casting a warm, golden light over the landscape. The sky is a gradient of light blue to a deeper blue, with some clouds scattered around, adding depth to the scene.\n\nIn the foreground, there is a body of water, possibly a lake or sea, with ripples on the surface. The water reflects the sunlight, creating a shimmering effect. The horizon line is clearly visible, separating the water from the sky.\n\nThe landscape around the water is covered in greenery, including trees and bushes, which are bathed in the warm light of. The trees have a mix of green and yellow leaves, suggesting that the season might be late summer or early autumn.\n\nOverall, the image conveys a sense of tranquility and natural beauty, with the sun's warm light creating a serene and peaceful atmosphere.",
+        "steered": "The image depicts a serene and natural scene. It appears to be a forest or wooded area, with tall trees and dense foliage. The sky is clear and blue, suggesting a bright and sunny day. The trees are lush and green, indicating that it"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image appears to be a photograph of a bright, sunlit scene with a clear sky. The sky is a gradient of light blue, transitioning to a deeper blue as it reaches the horizon. The sun is positioned high in the sky, casting a warm, golden light over the scene. The ground is covered in a mixture of sand and small pebbles, creating a textured surface. In the background, there are some indistinct shapes that could be trees or other natural elements, but they are not clearly defined due to the distance and lighting. The overall atmosphere of the image is bright and sunny, with a sense of warmth and clarity.",
+        "steered": "The image depicts a vibrant scene with a bright, warm color palette dominated by shades of orange and yellow. The background appears to be a natural landscape, possibly a desert or a dry, arid area, characterized by a sandy or rocky terrain. The"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image appears to be a stylized, abstract representation of a map, possibly of a region or country. The map is depicted in a monochromatic color scheme with shades of blue and gray, creating a somewhat futuristic or digital look. The shapes and lines on the map are not clearly defined, making it difficult to identify specific geographical features or countries. The overall design gives the impression of a modern, possibly digital or technological representation of a map.",
+        "steered": "The image depicts a serene beach scene during what appears to be either sunrise or sunset, given the warm, golden light illuminating the sky and the water. The sky is a gradient of warm colors, transitioning from a deep orange near the horizon to a"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image appears to be a close-up of a map or a geographical illustration. The main features include a large body of water, possibly an ocean or sea, with a distinct boundary line indicating the coastline. There are several landmasses surrounding this body of water, with varying shades of blue and green, suggesting different types of terrain or vegetation. The landmasses are outlined with white, which helps to distinguish them from the water. There are also some smaller, scattered landmasses or islands, which are also outlined in white. The overall color scheme is shades of blue, green, and white, giving the image a somewhat abstract and artistic appearance. The image does not depict any specific emotions or specific any specific objects other than the geographical features mentioned.",
+        "steered": "The image depicts a serene beach scene with a clear sky and calm ocean waters. The horizon is visible, with the sea meeting the sky at a gentle curve. The sky is a light blue with a few wispy clouds, suggesting a calm and pleasant"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image appears to be a stylized, pixelated representation of a person's face. The colors used are primarily shades of blue, purple, and brown, creating a somewhat abstract and artistic effect. The pixelation gives the image a digital or retro video game-like appearance. The face is not clearly defined, making it difficult to discern specific emotions or specific specific features. The overall impression is more abstract and artistic rather than realistic.",
+        "steered": "The image appears to be a digital or manipulated photo, featuring a person with a large, exaggerated head and a small body. The background is a bright, sunny outdoor setting with a clear blue sky and some greenery. The person is wearing a white"
+      }
+    ]
+  },
+  {
+    "layer": 30,
+    "component": "Vision",
+    "source": "happy",
+    "target": "sad",
+    "alpha": 1.0,
+    "vector_norm": 5344.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image depicts a beautiful natural scene with a clear sky and a sun setting or rising in the background. The sun is positioned near the horizon, casting a warm, golden light over the landscape. The sky is a gradient of light blue to a deeper blue, with some clouds scattered around, adding depth to the scene.\n\nIn the foreground, there is a body of water, possibly a lake or sea, with ripples on the surface. The water reflects the sunlight, creating a shimmering effect. The horizon line is clearly visible, separating the water from the sky.\n\nThe landscape around the water is covered in greenery, including trees and bushes, which are bathed in the warm light of. The trees have a mix of green and yellow leaves, suggesting that the season might be late summer or early autumn.\n\nOverall, the image conveys a sense of tranquility and natural beauty, with the sun's warm light creating a serene and peaceful atmosphere.",
+        "steered": "The image depicts a serene, natural scene with a clear sky and a bright sun shining. The landscape appears to be a mix of open fields and trees, with a prominent tree in the foreground. The ground is covered with green grass, and there are"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image appears to be a photograph of a bright, sunlit scene with a clear sky. The sky is a gradient of light blue, transitioning to a deeper blue as it reaches the horizon. The sun is positioned high in the sky, casting a warm, golden light over the scene. The ground is covered in a mixture of sand and small pebbles, creating a textured surface. In the background, there are some indistinct shapes that could be trees or other natural elements, but they are not clearly defined due to the distance and lighting. The overall atmosphere of the image is bright and sunny, with a sense of warmth and clarity.",
+        "steered": "The image depicts a vibrant scene with a group of people standing in a line, facing the camera. The individuals appear to be engaged in a group activity or event, possibly a parade or a public gathering. The background features a bright, sunny sky with"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image appears to be a stylized, abstract representation of a map, possibly of a region or country. The map is depicted in a monochromatic color scheme with shades of blue and gray, creating a somewhat futuristic or digital look. The shapes and lines on the map are not clearly defined, making it difficult to identify specific geographical features or countries. The overall design gives the impression of a modern, possibly digital or technological representation of a map.",
+        "steered": "The image appears to be a digital or artistic representation of a landscape scene. It is a stylized depiction of a mountainous region with a prominent mountain range in the background. The mountains are depicted with a gradient of colors, transitioning from light blue at"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image appears to be a close-up of a map or a geographical illustration. The main features include a large body of water, possibly an ocean or sea, with a distinct boundary line indicating the coastline. There are several landmasses surrounding this body of water, with varying shades of blue and green, suggesting different types of terrain or vegetation. The landmasses are outlined with white, which helps to distinguish them from the water. There are also some smaller, scattered landmasses or islands, which are also outlined in white. The overall color scheme is shades of blue, green, and white, giving the image a somewhat abstract and artistic appearance. The image does not depict any specific emotions or specific any specific objects other than the geographical features mentioned.",
+        "steered": "The image depicts a scene with a large, circular, and somewhat abstract object that appears to be a cloud or a planet. The object has a blue and green color scheme with a lighter blue center and darker blue and green edges. The background is a"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image appears to be a stylized, pixelated representation of a person's face. The colors used are primarily shades of blue, purple, and brown, creating a somewhat abstract and artistic effect. The pixelation gives the image a digital or retro video game-like appearance. The face is not clearly defined, making it difficult to discern specific emotions or specific specific features. The overall impression is more abstract and artistic rather than realistic.",
+        "steered": "The image appears to be a stylized, abstract representation of a face. The face is composed of various colors and patterns, creating a surreal and artistic effect. The colors used include shades of blue, purple, green, and brown, which are applied"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "source": "sad",
+    "target": "happy",
+    "alpha": 1.0,
+    "vector_norm": 310.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a stylized, abstract representation of a human face. The face is depicted in a monochromatic color scheme with shades of gray, black, and white, creating a high-contrast effect. The facial features are simplified and exaggerated, with prominent eyes, a nose, and a mouth. The background is a solid, dark color, which helps to emphasize the face. The overall style is reminiscent of a digital or graphic art piece, with a focus on bold lines and minimalistic design.",
+        "steered": "The image appears to be a stylized, abstract representation of a human face. The face is depicted in a monochromatic color scheme with shades of gray, black, and white, creating a high-contrast effect. The features of the face,"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image appears to be a stylized, abstract representation of a person's face. The colors are primarily shades of blue and green, with a gradient effect that gives the image a modern, artistic feel. The facial features are simplified and exaggerated, with a focus on the eyes, nose, and mouth. The overall effect is a graphic, almost pop art-like depiction of a face.",
+        "steered": "The image appears to be a stylized, abstract representation of a person's face. The colors are predominantly shades of blue and purple, with some areas in darker tones. The facial features are simplified and exaggerated, with a focus on the eyes, nose"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a serene and tranquil scene of a vast, open field covered with a blanket of white, fluffy clouds. The sky is a clear, bright blue, and the clouds are scattered evenly across it, creating a picturesque and calming atmosphere. The field appears to be a meadow or a pasture, with no visible trees or other structures. The overall mood of the image is peaceful and serene, evoking a sense of calm and relaxation. The white clouds against the blue sky create a beautiful contrast, making the scene visually appealing and soothing.",
+        "steered": "The image depicts a serene and tranquil scene of a group of white, fluffy clouds against a clear blue sky. The clouds are scattered across the sky, creating a natural and peaceful atmosphere. The sky is a vibrant shade of blue, indicating a bright and"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a serene, natural scene with a clear blue sky and a bright, sunny day. The sky is a vivid shade of blue, with a few wispy clouds scattered across it. The sun is shining brightly, casting a warm glow over the landscape.\n\nIn the foreground, there is a body of water, likely a lake or a large pond, with a smooth, reflective surface. The water is a clear, bright blue, indicating that it is likely shallow and clean. The reflection of of the sky and clouds can be seen on the water's surface, adding to the overall tranquility of the scene.\n\nSurrounding the water is a lush, green landscape with various types of vegetation. There are tall grasses and some bushes, creating a natural and undisturbed environment. The greenery is vibrant and healthy, suggesting a well-maintained natural area.\n\nIn the middle ground, there is a small, white structure that appears to be a gazebo or a small pavilion. The structure is made of wood and has a flat roof. It is surrounded by a few trees and bushes, providing a shaded area for relaxation.\n\nOverall, the image conveys a sense of peace and tranquility, with the natural elements creating a harmonious and calming atmosphere.",
+        "steered": "The image depicts a serene and picturesque scene of a snow-covered landscape. The sky is clear and bright, with a soft, diffused light that suggests it might be a sunny day. The ground is entirely covered in pristine, white snow, and there"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image depicts a scene with a large, bright yellow sun shining brightly in the sky, casting a warm, golden light over the landscape. The sun is positioned in the upper left corner of the image, creating a dramatic effect with its intense brightness. The ground is covered in a blanket of white, fluffy clouds that stretch across the entire image, creating a sense of depth and distance. The clouds appear to be moving slowly, adding a dynamic element to the scene. The overall atmosphere of the image is serene and peaceful, with a sense of calm and tranquility. The image does not contain any specific objects or emotions, but rather focuses on the natural beauty of the sky and clouds.",
+        "steered": "The image depicts a scene with a large, bright orange and yellow flower, possibly a daisy or a similar type of flower, in the center. The flower is surrounded by a field of tall, green grass that appears to be in a state of"
+      }
+    ]
+  },
+  {
+    "layer": 10,
+    "component": "LLM",
+    "source": "sad",
+    "target": "happy",
+    "alpha": 1.0,
+    "vector_norm": 276.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a stylized, abstract representation of a human face. The face is depicted in a monochromatic color scheme with shades of gray, black, and white, creating a high-contrast effect. The facial features are simplified and exaggerated, with prominent eyes, a nose, and a mouth. The background is a solid, dark color, which helps to emphasize the face. The overall style is reminiscent of a digital or graphic art piece, with a focus on bold lines and minimalistic design.",
+        "steered": "The image appears to be a stylized, abstract representation of a human face. The face is depicted in a monochromatic color scheme with shades of gray, black, and white. The features of the face, such as the eyes, nose,"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image appears to be a stylized, abstract representation of a person's face. The colors are primarily shades of blue and green, with a gradient effect that gives the image a modern, artistic feel. The facial features are simplified and exaggerated, with a focus on the eyes, nose, and mouth. The overall effect is a graphic, almost pop art-like depiction of a face.",
+        "steered": "The image appears to be a stylized portrait of a person's face. The face is depicted in a monochromatic color scheme with shades of blue and purple. The image has a high-contrast, almost cartoon-like quality, with exaggerated features and"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a serene and tranquil scene of a vast, open field covered with a blanket of white, fluffy clouds. The sky is a clear, bright blue, and the clouds are scattered evenly across it, creating a picturesque and calming atmosphere. The field appears to be a meadow or a pasture, with no visible trees or other structures. The overall mood of the image is peaceful and serene, evoking a sense of calm and relaxation. The white clouds against the blue sky create a beautiful contrast, making the scene visually appealing and soothing.",
+        "steered": "The image depicts a serene and tranquil scene. It features a vast expanse of water, likely a lake or a large pond, with a clear and bright sky above. The water is calm, reflectinging the light from the sky, creating a mirror"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a serene, natural scene with a clear blue sky and a bright, sunny day. The sky is a vivid shade of blue, with a few wispy clouds scattered across it. The sun is shining brightly, casting a warm glow over the landscape.\n\nIn the foreground, there is a body of water, likely a lake or a large pond, with a smooth, reflective surface. The water is a clear, bright blue, indicating that it is likely shallow and clean. The reflection of of the sky and clouds can be seen on the water's surface, adding to the overall tranquility of the scene.\n\nSurrounding the water is a lush, green landscape with various types of vegetation. There are tall grasses and some bushes, creating a natural and undisturbed environment. The greenery is vibrant and healthy, suggesting a well-maintained natural area.\n\nIn the middle ground, there is a small, white structure that appears to be a gazebo or a small pavilion. The structure is made of wood and has a flat roof. It is surrounded by a few trees and bushes, providing a shaded area for relaxation.\n\nOverall, the image conveys a sense of peace and tranquility, with the natural elements creating a harmonious and calming atmosphere.",
+        "steered": "The image depicts a serene, natural scene with a clear blue sky and a bright, sunny day. The foreground features a group of white, fluffy clouds scattered across the sky, creating a sense of depth and dimension. The clouds are illuminated by the sunlight"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image depicts a scene with a large, bright yellow sun shining brightly in the sky, casting a warm, golden light over the landscape. The sun is positioned in the upper left corner of the image, creating a dramatic effect with its intense brightness. The ground is covered in a blanket of white, fluffy clouds that stretch across the entire image, creating a sense of depth and distance. The clouds appear to be moving slowly, adding a dynamic element to the scene. The overall atmosphere of the image is serene and peaceful, with a sense of calm and tranquility. The image does not contain any specific objects or emotions, but rather focuses on the natural beauty of the sky and clouds.",
+        "steered": "The image depicts a scene with a large, bright orange sun in the background, casting a warm glow over the landscape. The sun is positioned towards the top left corner of the image, creating a dramatic effect. In the foreground, there are several tall"
+      }
+    ]
+  },
+  {
+    "layer": 15,
+    "component": "LLM",
+    "source": "sad",
+    "target": "happy",
+    "alpha": 1.0,
+    "vector_norm": 278.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a stylized, abstract representation of a human face. The face is depicted in a monochromatic color scheme with shades of gray, black, and white, creating a high-contrast effect. The facial features are simplified and exaggerated, with prominent eyes, a nose, and a mouth. The background is a solid, dark color, which helps to emphasize the face. The overall style is reminiscent of a digital or graphic art piece, with a focus on bold lines and minimalistic design.",
+        "steered": "The image appears to be a stylized, abstract representation of a human face. The face is depicted with a high level of detail, featuring prominent features such as the eyes, nose, and mouth. The colors used are primarily shades of blue, green"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image appears to be a stylized, abstract representation of a person's face. The colors are primarily shades of blue and green, with a gradient effect that gives the image a modern, artistic feel. The facial features are simplified and exaggerated, with a focus on the eyes, nose, and mouth. The overall effect is a graphic, almost pop art-like depiction of a face.",
+        "steered": "The image appears to be a stylized portrait of a person with a strong, determined expression. The colors are muted and have a somewhat abstract, artistic quality, with shades of blue and green. The person has a prominent nose and a serious, focused"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a serene and tranquil scene of a vast, open field covered with a blanket of white, fluffy clouds. The sky is a clear, bright blue, and the clouds are scattered evenly across it, creating a picturesque and calming atmosphere. The field appears to be a meadow or a pasture, with no visible trees or other structures. The overall mood of the image is peaceful and serene, evoking a sense of calm and relaxation. The white clouds against the blue sky create a beautiful contrast, making the scene visually appealing and soothing.",
+        "steered": "The image depicts a serene and tranquil scene of a white, cloudless sky with a bright, clear sun shining down. The sun is positioned in the upper left corner of the image, casting a warm, golden light across the scene. The sky is"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a serene, natural scene with a clear blue sky and a bright, sunny day. The sky is a vivid shade of blue, with a few wispy clouds scattered across it. The sun is shining brightly, casting a warm glow over the landscape.\n\nIn the foreground, there is a body of water, likely a lake or a large pond, with a smooth, reflective surface. The water is a clear, bright blue, indicating that it is likely shallow and clean. The reflection of of the sky and clouds can be seen on the water's surface, adding to the overall tranquility of the scene.\n\nSurrounding the water is a lush, green landscape with various types of vegetation. There are tall grasses and some bushes, creating a natural and undisturbed environment. The greenery is vibrant and healthy, suggesting a well-maintained natural area.\n\nIn the middle ground, there is a small, white structure that appears to be a gazebo or a small pavilion. The structure is made of wood and has a flat roof. It is surrounded by a few trees and bushes, providing a shaded area for relaxation.\n\nOverall, the image conveys a sense of peace and tranquility, with the natural elements creating a harmonious and calming atmosphere.",
+        "steered": "The image depicts a scene with a clear blue sky and a bright, sunny day. In the foreground, there is a group of people standing on a beach. The people appear to be enjoying the sunny weather, with some of them standing close together and"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image depicts a scene with a large, bright yellow sun shining brightly in the sky, casting a warm, golden light over the landscape. The sun is positioned in the upper left corner of the image, creating a dramatic effect with its intense brightness. The ground is covered in a blanket of white, fluffy clouds that stretch across the entire image, creating a sense of depth and distance. The clouds appear to be moving slowly, adding a dynamic element to the scene. The overall atmosphere of the image is serene and peaceful, with a sense of calm and tranquility. The image does not contain any specific objects or emotions, but rather focuses on the natural beauty of the sky and clouds.",
+        "steered": "The image depicts a scene with a large, bright orange and yellow flower, possibly a sunflower, in the foreground. The flower is in full bloom, with its petals spread out, revealing a bright yellow center. The background consists of a clear blue"
+      }
+    ]
+  },
+  {
+    "layer": 20,
+    "component": "LLM",
+    "source": "sad",
+    "target": "happy",
+    "alpha": 1.0,
+    "vector_norm": 296.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a stylized, abstract representation of a human face. The face is depicted in a monochromatic color scheme with shades of gray, black, and white, creating a high-contrast effect. The facial features are simplified and exaggerated, with prominent eyes, a nose, and a mouth. The background is a solid, dark color, which helps to emphasize the face. The overall style is reminiscent of a digital or graphic art piece, with a focus on bold lines and minimalistic design.",
+        "steered": "The image appears to be a stylized, abstract representation of a human face. The face is depicted in a monochromatic color scheme with shades of gray, black, and white, creating a high-contrast effect. The facial features are simplified and"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image appears to be a stylized, abstract representation of a person's face. The colors are primarily shades of blue and green, with a gradient effect that gives the image a modern, artistic feel. The facial features are simplified and exaggerated, with a focus on the eyes, nose, and mouth. The overall effect is a graphic, almost pop art-like depiction of a face.",
+        "steered": "The image appears to be a stylized portrait of a person with a strong, determined expression. The colors are predominantly shades of blue and purple, with a high-contrast effect that gives the image a dramatic and intense look. The person has a prominent"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a serene and tranquil scene of a vast, open field covered with a blanket of white, fluffy clouds. The sky is a clear, bright blue, and the clouds are scattered evenly across it, creating a picturesque and calming atmosphere. The field appears to be a meadow or a pasture, with no visible trees or other structures. The overall mood of the image is peaceful and serene, evoking a sense of calm and relaxation. The white clouds against the blue sky create a beautiful contrast, making the scene visually appealing and soothing.",
+        "steered": "The image depicts a serene and tranquil scene of a body of water, likely a lake or a large pond, with a clear and bright sky above. The water is calm, reflecting the sky, and has a light, almost transparent hue, suggesting it"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a serene, natural scene with a clear blue sky and a bright, sunny day. The sky is a vivid shade of blue, with a few wispy clouds scattered across it. The sun is shining brightly, casting a warm glow over the landscape.\n\nIn the foreground, there is a body of water, likely a lake or a large pond, with a smooth, reflective surface. The water is a clear, bright blue, indicating that it is likely shallow and clean. The reflection of of the sky and clouds can be seen on the water's surface, adding to the overall tranquility of the scene.\n\nSurrounding the water is a lush, green landscape with various types of vegetation. There are tall grasses and some bushes, creating a natural and undisturbed environment. The greenery is vibrant and healthy, suggesting a well-maintained natural area.\n\nIn the middle ground, there is a small, white structure that appears to be a gazebo or a small pavilion. The structure is made of wood and has a flat roof. It is surrounded by a few trees and bushes, providing a shaded area for relaxation.\n\nOverall, the image conveys a sense of peace and tranquility, with the natural elements creating a harmonious and calming atmosphere.",
+        "steered": "The image depicts a serene and picturesque landscape. In the foreground, there is a clear blue sky with a few scattered clouds. The sky is so bright that it appears almost white, suggesting a sunny day. Below the sky, there is a large body"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image depicts a scene with a large, bright yellow sun shining brightly in the sky, casting a warm, golden light over the landscape. The sun is positioned in the upper left corner of the image, creating a dramatic effect with its intense brightness. The ground is covered in a blanket of white, fluffy clouds that stretch across the entire image, creating a sense of depth and distance. The clouds appear to be moving slowly, adding a dynamic element to the scene. The overall atmosphere of the image is serene and peaceful, with a sense of calm and tranquility. The image does not contain any specific objects or emotions, but rather focuses on the natural beauty of the sky and clouds.",
+        "steered": "The image depicts a scene with a large, bright orange and yellow flower, possibly a sunflower, in the foreground. The flower is in full bloom, with its petals spread out, revealing a bright yellow center. The background consists of a clear blue"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "source": "sad",
+    "target": "happy",
+    "alpha": 1.0,
+    "vector_norm": 420.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a stylized, abstract representation of a human face. The face is depicted in a monochromatic color scheme with shades of gray, black, and white, creating a high-contrast effect. The facial features are simplified and exaggerated, with prominent eyes, a nose, and a mouth. The background is a solid, dark color, which helps to emphasize the face. The overall style is reminiscent of a digital or graphic art piece, with a focus on bold lines and minimalistic design.",
+        "steered": "The image appears to be a stylized, abstract representation of a human face. The face is depicted in a monochromatic color scheme with shades of gray, black, and white. The features of the face, such as the eyes, nose,"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image appears to be a stylized, abstract representation of a person's face. The colors are primarily shades of blue and green, with a gradient effect that gives the image a modern, artistic feel. The facial features are simplified and exaggerated, with a focus on the eyes, nose, and mouth. The overall effect is a graphic, almost pop art-like depiction of a face.",
+        "steered": "The image appears to be a stylized portrait of a person's face. The colors are predominantly shades of blue and green, with a high-contrast effect that gives it a pop-art or graphic novel-like appearance. The facial features are exaggerated and simplified"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a serene and tranquil scene of a vast, open field covered with a blanket of white, fluffy clouds. The sky is a clear, bright blue, and the clouds are scattered evenly across it, creating a picturesque and calming atmosphere. The field appears to be a meadow or a pasture, with no visible trees or other structures. The overall mood of the image is peaceful and serene, evoking a sense of calm and relaxation. The white clouds against the blue sky create a beautiful contrast, making the scene visually appealing and soothing.",
+        "steered": "The image depicts a serene and tranquil scene of a body of water, likely a lake or a pond, surrounded by lush greenery. The water is calm, reflecting the clear blue sky above, and is dotted with numerous small, white, and translucent"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a serene, natural scene with a clear blue sky and a bright, sunny day. The sky is a vivid shade of blue, with a few wispy clouds scattered across it. The sun is shining brightly, casting a warm glow over the landscape.\n\nIn the foreground, there is a body of water, likely a lake or a large pond, with a smooth, reflective surface. The water is a clear, bright blue, indicating that it is likely shallow and clean. The reflection of of the sky and clouds can be seen on the water's surface, adding to the overall tranquility of the scene.\n\nSurrounding the water is a lush, green landscape with various types of vegetation. There are tall grasses and some bushes, creating a natural and undisturbed environment. The greenery is vibrant and healthy, suggesting a well-maintained natural area.\n\nIn the middle ground, there is a small, white structure that appears to be a gazebo or a small pavilion. The structure is made of wood and has a flat roof. It is surrounded by a few trees and bushes, providing a shaded area for relaxation.\n\nOverall, the image conveys a sense of peace and tranquility, with the natural elements creating a harmonious and calming atmosphere.",
+        "steered": "The image depicts a serene and picturesque scene of a mountainous landscape. The sky is a clear, bright blue, indicating a sunny day with no clouds. The mountains in the background are covered in snow, suggesting a high-altitude or cold climate."
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image depicts a scene with a large, bright yellow sun shining brightly in the sky, casting a warm, golden light over the landscape. The sun is positioned in the upper left corner of the image, creating a dramatic effect with its intense brightness. The ground is covered in a blanket of white, fluffy clouds that stretch across the entire image, creating a sense of depth and distance. The clouds appear to be moving slowly, adding a dynamic element to the scene. The overall atmosphere of the image is serene and peaceful, with a sense of calm and tranquility. The image does not contain any specific objects or emotions, but rather focuses on the natural beauty of the sky and clouds.",
+        "steered": "The image depicts a scene with a large, bright yellow sun shining brightly in the sky, casting a warm, golden light over the landscape. The sun is positioned in the upper left corner of the image, creating a dramatic effect with its intense brightness."
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "source": "sad",
+    "target": "happy",
+    "alpha": 1.0,
+    "vector_norm": 5344.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a stylized, abstract representation of a human face. The face is depicted in a monochromatic color scheme with shades of gray, black, and white, creating a high-contrast effect. The facial features are simplified and exaggerated, with prominent eyes, a nose, and a mouth. The background is a solid, dark color, which helps to emphasize the face. The overall style is reminiscent of a digital or graphic art piece, with a focus on bold lines and minimalistic design.",
+        "steered": "The image depicts a vibrant, sunlit beach scene with a clear blue sky and a bright sun shining in the upper left corner. The beach is lined with tall, lush palm trees that have green fronds and trunks. The sand is a light"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image appears to be a stylized, abstract representation of a person's face. The colors are primarily shades of blue and green, with a gradient effect that gives the image a modern, artistic feel. The facial features are simplified and exaggerated, with a focus on the eyes, nose, and mouth. The overall effect is a graphic, almost pop art-like depiction of a face.",
+        "steered": "The image appears to be a landscape photograph taken during sunset or sunrise, characterized by a warm, golden hue. The scene includes a forested area with tall trees, some of which have leaves that are turning red, indicating the season might be autumn."
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a serene and tranquil scene of a vast, open field covered with a blanket of white, fluffy clouds. The sky is a clear, bright blue, and the clouds are scattered evenly across it, creating a picturesque and calming atmosphere. The field appears to be a meadow or a pasture, with no visible trees or other structures. The overall mood of the image is peaceful and serene, evoking a sense of calm and relaxation. The white clouds against the blue sky create a beautiful contrast, making the scene visually appealing and soothing.",
+        "steered": "The image depicts a coastal scene with a clear sky and bright sunlight. The water is a light, clear blue, and there are gentle waves lappinging against the shore. The shoreline is lined with a variety of beach elements, including sand, rocks"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a serene, natural scene with a clear blue sky and a bright, sunny day. The sky is a vivid shade of blue, with a few wispy clouds scattered across it. The sun is shining brightly, casting a warm glow over the landscape.\n\nIn the foreground, there is a body of water, likely a lake or a large pond, with a smooth, reflective surface. The water is a clear, bright blue, indicating that it is likely shallow and clean. The reflection of of the sky and clouds can be seen on the water's surface, adding to the overall tranquility of the scene.\n\nSurrounding the water is a lush, green landscape with various types of vegetation. There are tall grasses and some bushes, creating a natural and undisturbed environment. The greenery is vibrant and healthy, suggesting a well-maintained natural area.\n\nIn the middle ground, there is a small, white structure that appears to be a gazebo or a small pavilion. The structure is made of wood and has a flat roof. It is surrounded by a few trees and bushes, providing a shaded area for relaxation.\n\nOverall, the image conveys a sense of peace and tranquility, with the natural elements creating a harmonious and calming atmosphere.",
+        "steered": "The image depicts a serene outdoor scene with a clear blue sky and a bright sun shining. The landscape features a lush green field with tall grass and wildflowers. In the foreground, there is a large, white, circular object that appears to be a"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image depicts a scene with a large, bright yellow sun shining brightly in the sky, casting a warm, golden light over the landscape. The sun is positioned in the upper left corner of the image, creating a dramatic effect with its intense brightness. The ground is covered in a blanket of white, fluffy clouds that stretch across the entire image, creating a sense of depth and distance. The clouds appear to be moving slowly, adding a dynamic element to the scene. The overall atmosphere of the image is serene and peaceful, with a sense of calm and tranquility. The image does not contain any specific objects or emotions, but rather focuses on the natural beauty of the sky and clouds.",
+        "steered": "The image depicts a vibrant, sunny day with a clear blue sky. The scene is set in a natural environment, likely a beach or a coastal area, characterized by sandy terrain and a warm, inviting atmosphere. The sun is shining brightly, casting a"
+      }
+    ]
+  },
+  {
+    "layer": 10,
+    "component": "Vision",
+    "source": "sad",
+    "target": "happy",
+    "alpha": 1.0,
+    "vector_norm": 5280.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a stylized, abstract representation of a human face. The face is depicted in a monochromatic color scheme with shades of gray, black, and white, creating a high-contrast effect. The facial features are simplified and exaggerated, with prominent eyes, a nose, and a mouth. The background is a solid, dark color, which helps to emphasize the face. The overall style is reminiscent of a digital or graphic art piece, with a focus on bold lines and minimalistic design.",
+        "steered": "The image depicts a vibrant, tropical scene with a strong emphasis on the colors red and green. The background features a dense, lush green foliage that extends across the entire frame, creating a sense of depth and natural abundance. The greenery is interspers"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image appears to be a stylized, abstract representation of a person's face. The colors are primarily shades of blue and green, with a gradient effect that gives the image a modern, artistic feel. The facial features are simplified and exaggerated, with a focus on the eyes, nose, and mouth. The overall effect is a graphic, almost pop art-like depiction of a face.",
+        "steered": "The image depicts a sunset scene with a clear sky transitioning from a deep orange to a lighter blue. The sun is setting on the horizon, casting a warm glow over the landscape. The landscape appears to be a mix of natural elements, including trees and"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a serene and tranquil scene of a vast, open field covered with a blanket of white, fluffy clouds. The sky is a clear, bright blue, and the clouds are scattered evenly across it, creating a picturesque and calming atmosphere. The field appears to be a meadow or a pasture, with no visible trees or other structures. The overall mood of the image is peaceful and serene, evoking a sense of calm and relaxation. The white clouds against the blue sky create a beautiful contrast, making the scene visually appealing and soothing.",
+        "steered": "The image depicts a serene beach scene with a clear sky and bright sunlight. The water is a light, clear blue, and there are gentle waves lappinging at the shore. The sand is a light, golden color, and there are no visible"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a serene, natural scene with a clear blue sky and a bright, sunny day. The sky is a vivid shade of blue, with a few wispy clouds scattered across it. The sun is shining brightly, casting a warm glow over the landscape.\n\nIn the foreground, there is a body of water, likely a lake or a large pond, with a smooth, reflective surface. The water is a clear, bright blue, indicating that it is likely shallow and clean. The reflection of of the sky and clouds can be seen on the water's surface, adding to the overall tranquility of the scene.\n\nSurrounding the water is a lush, green landscape with various types of vegetation. There are tall grasses and some bushes, creating a natural and undisturbed environment. The greenery is vibrant and healthy, suggesting a well-maintained natural area.\n\nIn the middle ground, there is a small, white structure that appears to be a gazebo or a small pavilion. The structure is made of wood and has a flat roof. It is surrounded by a few trees and bushes, providing a shaded area for relaxation.\n\nOverall, the image conveys a sense of peace and tranquility, with the natural elements creating a harmonious and calming atmosphere.",
+        "steered": "The image depicts a serene beach scene with a clear blue sky and calm, light blue waters. The horizon is visible, where the sky meets the sea. The beach is sandy, and there are no visible people or animals. The sun appears to be"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image depicts a scene with a large, bright yellow sun shining brightly in the sky, casting a warm, golden light over the landscape. The sun is positioned in the upper left corner of the image, creating a dramatic effect with its intense brightness. The ground is covered in a blanket of white, fluffy clouds that stretch across the entire image, creating a sense of depth and distance. The clouds appear to be moving slowly, adding a dynamic element to the scene. The overall atmosphere of the image is serene and peaceful, with a sense of calm and tranquility. The image does not contain any specific objects or emotions, but rather focuses on the natural beauty of the sky and clouds.",
+        "steered": "The image depicts a serene outdoor scene with a clear sky and bright sunlight. The landscape features a sandy beach with a gentle slope leading down to the water. The sand is a light, golden color, and there are no visible footprints or disturbances,"
+      }
+    ]
+  },
+  {
+    "layer": 15,
+    "component": "Vision",
+    "source": "sad",
+    "target": "happy",
+    "alpha": 1.0,
+    "vector_norm": 5280.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a stylized, abstract representation of a human face. The face is depicted in a monochromatic color scheme with shades of gray, black, and white, creating a high-contrast effect. The facial features are simplified and exaggerated, with prominent eyes, a nose, and a mouth. The background is a solid, dark color, which helps to emphasize the face. The overall style is reminiscent of a digital or graphic art piece, with a focus on bold lines and minimalistic design.",
+        "steered": "The image depicts a vibrant scene with a strong sense of movement and energy. It is a landscape photograph featuring a river or stream with a vivid, almost neon-like coloration. The water appears to be flowing rapidly, creating a dynamic and lively atmosphere."
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image appears to be a stylized, abstract representation of a person's face. The colors are primarily shades of blue and green, with a gradient effect that gives the image a modern, artistic feel. The facial features are simplified and exaggerated, with a focus on the eyes, nose, and mouth. The overall effect is a graphic, almost pop art-like depiction of a face.",
+        "steered": "The image depicts a vibrant scene with a strong sense of movement and energy. The background features a gradient of warm colors, transitioning from a deep orange at the top to a lighter yellow towards the bottom. This gradient creates a dynamic and lively atmosphere.\n\nIn"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a serene and tranquil scene of a vast, open field covered with a blanket of white, fluffy clouds. The sky is a clear, bright blue, and the clouds are scattered evenly across it, creating a picturesque and calming atmosphere. The field appears to be a meadow or a pasture, with no visible trees or other structures. The overall mood of the image is peaceful and serene, evoking a sense of calm and relaxation. The white clouds against the blue sky create a beautiful contrast, making the scene visually appealing and soothing.",
+        "steered": "The image depicts a serene beach scene with a clear sky and bright sunlight. The water is a light, clear blue, and there are gentle waves lappinging against the shore. The sand is a light, golden color, and there are no visible"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a serene, natural scene with a clear blue sky and a bright, sunny day. The sky is a vivid shade of blue, with a few wispy clouds scattered across it. The sun is shining brightly, casting a warm glow over the landscape.\n\nIn the foreground, there is a body of water, likely a lake or a large pond, with a smooth, reflective surface. The water is a clear, bright blue, indicating that it is likely shallow and clean. The reflection of of the sky and clouds can be seen on the water's surface, adding to the overall tranquility of the scene.\n\nSurrounding the water is a lush, green landscape with various types of vegetation. There are tall grasses and some bushes, creating a natural and undisturbed environment. The greenery is vibrant and healthy, suggesting a well-maintained natural area.\n\nIn the middle ground, there is a small, white structure that appears to be a gazebo or a small pavilion. The structure is made of wood and has a flat roof. It is surrounded by a few trees and bushes, providing a shaded area for relaxation.\n\nOverall, the image conveys a sense of peace and tranquility, with the natural elements creating a harmonious and calming atmosphere.",
+        "steered": "The image depicts a serene beach scene with a clear blue sky and a bright sun shining overhead. The beach is lined with white sand, and there are no visible people or animals. The water is a light blue color, and there are gentle waves l"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image depicts a scene with a large, bright yellow sun shining brightly in the sky, casting a warm, golden light over the landscape. The sun is positioned in the upper left corner of the image, creating a dramatic effect with its intense brightness. The ground is covered in a blanket of white, fluffy clouds that stretch across the entire image, creating a sense of depth and distance. The clouds appear to be moving slowly, adding a dynamic element to the scene. The overall atmosphere of the image is serene and peaceful, with a sense of calm and tranquility. The image does not contain any specific objects or emotions, but rather focuses on the natural beauty of the sky and clouds.",
+        "steered": "The image depicts a serene and picturesque landscape. It is a sunny day with clear blue skies. The scene is dominated by a vast expanse of golden sand, which appears to be a beach or a desert. The sand is smooth and stretches out to"
+      }
+    ]
+  },
+  {
+    "layer": 20,
+    "component": "Vision",
+    "source": "sad",
+    "target": "happy",
+    "alpha": 1.0,
+    "vector_norm": 5248.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a stylized, abstract representation of a human face. The face is depicted in a monochromatic color scheme with shades of gray, black, and white, creating a high-contrast effect. The facial features are simplified and exaggerated, with prominent eyes, a nose, and a mouth. The background is a solid, dark color, which helps to emphasize the face. The overall style is reminiscent of a digital or graphic art piece, with a focus on bold lines and minimalistic design.",
+        "steered": "The image depicts a vibrant scene with a strong emphasis on the color green. The background is a gradient of green, transitioning from a darker shade at the top to a lighter shade at the bottom. The green hues are reminiscent of foliage or a natural landscape"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image appears to be a stylized, abstract representation of a person's face. The colors are primarily shades of blue and green, with a gradient effect that gives the image a modern, artistic feel. The facial features are simplified and exaggerated, with a focus on the eyes, nose, and mouth. The overall effect is a graphic, almost pop art-like depiction of a face.",
+        "steered": "The image depicts a scene with a vibrant, colorful background that appears to be a forest or a wooded area. The sky is a deep blue, and there are trees with green leaves, suggesting it might be spring or summer. The trees are dense,"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a serene and tranquil scene of a vast, open field covered with a blanket of white, fluffy clouds. The sky is a clear, bright blue, and the clouds are scattered evenly across it, creating a picturesque and calming atmosphere. The field appears to be a meadow or a pasture, with no visible trees or other structures. The overall mood of the image is peaceful and serene, evoking a sense of calm and relaxation. The white clouds against the blue sky create a beautiful contrast, making the scene visually appealing and soothing.",
+        "steered": "The image depicts a serene beach scene with a clear blue sky and bright, sunny weather. The water is a light, clear blue, and there are gentle waves lappinging against the shore. The beach is sandy, and there are no visible people"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a serene, natural scene with a clear blue sky and a bright, sunny day. The sky is a vivid shade of blue, with a few wispy clouds scattered across it. The sun is shining brightly, casting a warm glow over the landscape.\n\nIn the foreground, there is a body of water, likely a lake or a large pond, with a smooth, reflective surface. The water is a clear, bright blue, indicating that it is likely shallow and clean. The reflection of of the sky and clouds can be seen on the water's surface, adding to the overall tranquility of the scene.\n\nSurrounding the water is a lush, green landscape with various types of vegetation. There are tall grasses and some bushes, creating a natural and undisturbed environment. The greenery is vibrant and healthy, suggesting a well-maintained natural area.\n\nIn the middle ground, there is a small, white structure that appears to be a gazebo or a small pavilion. The structure is made of wood and has a flat roof. It is surrounded by a few trees and bushes, providing a shaded area for relaxation.\n\nOverall, the image conveys a sense of peace and tranquility, with the natural elements creating a harmonious and calming atmosphere.",
+        "steered": "The image depicts a serene beach scene with a clear blue sky and bright sunlight. The beach is lined with white sand, and there are no visible people or animals. The water is calm, with gentle waves lapping against the shore. In the background"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image depicts a scene with a large, bright yellow sun shining brightly in the sky, casting a warm, golden light over the landscape. The sun is positioned in the upper left corner of the image, creating a dramatic effect with its intense brightness. The ground is covered in a blanket of white, fluffy clouds that stretch across the entire image, creating a sense of depth and distance. The clouds appear to be moving slowly, adding a dynamic element to the scene. The overall atmosphere of the image is serene and peaceful, with a sense of calm and tranquility. The image does not contain any specific objects or emotions, but rather focuses on the natural beauty of the sky and clouds.",
+        "steered": "The image depicts a serene outdoor scene with a clear blue sky and bright sunlight. The landscape features a sandy beach with a gentle slope leading down to the water. The sand is a light, golden color, and there are small patches of greenery,"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "source": "sad",
+    "target": "happy",
+    "alpha": 1.0,
+    "vector_norm": 5216.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a stylized, abstract representation of a human face. The face is depicted in a monochromatic color scheme with shades of gray, black, and white, creating a high-contrast effect. The facial features are simplified and exaggerated, with prominent eyes, a nose, and a mouth. The background is a solid, dark color, which helps to emphasize the face. The overall style is reminiscent of a digital or graphic art piece, with a focus on bold lines and minimalistic design.",
+        "steered": "The image depicts a vibrant scene with a strong emphasis on the color red. The background is a deep, rich red, almost resembling the color of of blood or a sunset. The foreground features a series of vertical lines that appear to be part of a"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image appears to be a stylized, abstract representation of a person's face. The colors are primarily shades of blue and green, with a gradient effect that gives the image a modern, artistic feel. The facial features are simplified and exaggerated, with a focus on the eyes, nose, and mouth. The overall effect is a graphic, almost pop art-like depiction of a face.",
+        "steered": "The image appears to be a photograph of a natural landscape, likely a beach or coastal area. The sky is clear with a bright, warm hue, suggesting it might be either sunrise or sunset. The horizon line is visible, separating the sky from the"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a serene and tranquil scene of a vast, open field covered with a blanket of white, fluffy clouds. The sky is a clear, bright blue, and the clouds are scattered evenly across it, creating a picturesque and calming atmosphere. The field appears to be a meadow or a pasture, with no visible trees or other structures. The overall mood of the image is peaceful and serene, evoking a sense of calm and relaxation. The white clouds against the blue sky create a beautiful contrast, making the scene visually appealing and soothing.",
+        "steered": "The image depicts a serene beach scene with a clear sky and bright sunlight. The water is a vibrant shade of blue, and the waves are gently lappinging against the shore. The sand is a light, golden color, and there are no visible"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a serene, natural scene with a clear blue sky and a bright, sunny day. The sky is a vivid shade of blue, with a few wispy clouds scattered across it. The sun is shining brightly, casting a warm glow over the landscape.\n\nIn the foreground, there is a body of water, likely a lake or a large pond, with a smooth, reflective surface. The water is a clear, bright blue, indicating that it is likely shallow and clean. The reflection of of the sky and clouds can be seen on the water's surface, adding to the overall tranquility of the scene.\n\nSurrounding the water is a lush, green landscape with various types of vegetation. There are tall grasses and some bushes, creating a natural and undisturbed environment. The greenery is vibrant and healthy, suggesting a well-maintained natural area.\n\nIn the middle ground, there is a small, white structure that appears to be a gazebo or a small pavilion. The structure is made of wood and has a flat roof. It is surrounded by a few trees and bushes, providing a shaded area for relaxation.\n\nOverall, the image conveys a sense of peace and tranquility, with the natural elements creating a harmonious and calming atmosphere.",
+        "steered": "The image depicts a serene beach scene with a clear blue sky and bright, sunny weather. The sun is shining brightly, casting a warm glow over the entire landscape. The beach is lined with smooth, light-colored sand that stretches out towards the horizon."
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image depicts a scene with a large, bright yellow sun shining brightly in the sky, casting a warm, golden light over the landscape. The sun is positioned in the upper left corner of the image, creating a dramatic effect with its intense brightness. The ground is covered in a blanket of white, fluffy clouds that stretch across the entire image, creating a sense of depth and distance. The clouds appear to be moving slowly, adding a dynamic element to the scene. The overall atmosphere of the image is serene and peaceful, with a sense of calm and tranquility. The image does not contain any specific objects or emotions, but rather focuses on the natural beauty of the sky and clouds.",
+        "steered": "The image depicts a serene outdoor scene with a clear blue sky and a bright sun shining. The background features a lush, green landscape with trees and bushes, suggesting a natural, possibly tropical or subtropical environment. In the foreground, there is a large"
+      }
+    ]
+  },
+  {
+    "layer": 30,
+    "component": "Vision",
+    "source": "sad",
+    "target": "happy",
+    "alpha": 1.0,
+    "vector_norm": 5216.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a stylized, abstract representation of a human face. The face is depicted in a monochromatic color scheme with shades of gray, black, and white, creating a high-contrast effect. The facial features are simplified and exaggerated, with prominent eyes, a nose, and a mouth. The background is a solid, dark color, which helps to emphasize the face. The overall style is reminiscent of a digital or graphic art piece, with a focus on bold lines and minimalistic design.",
+        "steered": "The image appears to be a digitally manipulated or stylized photograph featuring a close-up of a person's face. The face is shown in a side profile, with the person's eyes closed and a serene expression. The background is a gradient of warm colors"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image appears to be a stylized, abstract representation of a person's face. The colors are primarily shades of blue and green, with a gradient effect that gives the image a modern, artistic feel. The facial features are simplified and exaggerated, with a focus on the eyes, nose, and mouth. The overall effect is a graphic, almost pop art-like depiction of a face.",
+        "steered": "The image appears to be a stylized, abstract representation of a person's face. The colors used are primarily shades of brown, with some blue and green accents. The background is a solid light blue color. The face is depicted in a close-up"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image depicts a serene and tranquil scene of a vast, open field covered with a blanket of white, fluffy clouds. The sky is a clear, bright blue, and the clouds are scattered evenly across it, creating a picturesque and calming atmosphere. The field appears to be a meadow or a pasture, with no visible trees or other structures. The overall mood of the image is peaceful and serene, evoking a sense of calm and relaxation. The white clouds against the blue sky create a beautiful contrast, making the scene visually appealing and soothing.",
+        "steered": "The image depicts a serene and picturesque scene of a coastal landscape. The sky is a clear, bright blue, indicating a sunny day with no clouds visible. The horizon line is distinct, separating the sky from the ocean. The ocean itself is a light"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a serene, natural scene with a clear blue sky and a bright, sunny day. The sky is a vivid shade of blue, with a few wispy clouds scattered across it. The sun is shining brightly, casting a warm glow over the landscape.\n\nIn the foreground, there is a body of water, likely a lake or a large pond, with a smooth, reflective surface. The water is a clear, bright blue, indicating that it is likely shallow and clean. The reflection of of the sky and clouds can be seen on the water's surface, adding to the overall tranquility of the scene.\n\nSurrounding the water is a lush, green landscape with various types of vegetation. There are tall grasses and some bushes, creating a natural and undisturbed environment. The greenery is vibrant and healthy, suggesting a well-maintained natural area.\n\nIn the middle ground, there is a small, white structure that appears to be a gazebo or a small pavilion. The structure is made of wood and has a flat roof. It is surrounded by a few trees and bushes, providing a shaded area for relaxation.\n\nOverall, the image conveys a sense of peace and tranquility, with the natural elements creating a harmonious and calming atmosphere.",
+        "steered": "The image depicts a serene beach scene with a clear blue sky and a bright sun shining overhead. The beach is lined with white sand, and there are gentle waves lapping at the shore. In the background, there are several palm trees swaying in"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image depicts a scene with a large, bright yellow sun shining brightly in the sky, casting a warm, golden light over the landscape. The sun is positioned in the upper left corner of the image, creating a dramatic effect with its intense brightness. The ground is covered in a blanket of white, fluffy clouds that stretch across the entire image, creating a sense of depth and distance. The clouds appear to be moving slowly, adding a dynamic element to the scene. The overall atmosphere of the image is serene and peaceful, with a sense of calm and tranquility. The image does not contain any specific objects or emotions, but rather focuses on the natural beauty of the sky and clouds.",
+        "steered": "The image depicts a serene and natural scene. It appears to be a landscape with a clear sky and a sun shining brightly. The sky is a light blue color, and there are no clouds visible. The sun is positioned in the upper left corner of"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "source": "neutral",
+    "target": "angry",
+    "alpha": 1.0,
+    "vector_norm": 288.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a close-up photograph of a person's face. The person has light skin and is wearing a white shirt. The background is a gradient of light to dark, possibly indicating a natural setting or a digitally created background. The person's eyes are closed, and their are visible, with a neutral expression on their face. The overall tone of the image is calm and serene.",
+        "steered": "The image appears to be a digital or artistic representation of a human face with a striking and surreal appearance. The face is highly detailed and features a series of repetitive patterns and textures that give it a unique and abstract look.\n\n1. **Skin Texture**:"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image appears to be a stylized, abstract representation of a human face. The face is depicted in a high-contrast, graphic style with bold lines and vibrant colors. The background is a gradient of teal and light blue, which contrasts sharply with the darker, more saturated colors used for the face.\n\nThe face itself is characterized by exaggerated features and a dramatic, almost surreal appearance. The eyes are large and expressive, with one eye appearing to be closed and the other open, giving a sense of a pensive or contemplative mood. The nose is prominent and slightly elongated, and the mouth is small and closed, adding to the overall contemplative expression.\n\nThe hair is depicted with a few strands of hair, which are styled in a way that suggests movement or a sense of wind. The overall effect is one of a striking, artistic representation of a human face, with a focus on the emotional and expressive qualities rather than a realistic portrayal.",
+        "steered": "The image appears to be a stylized, abstract representation of a human face. The face is depicted in a monochromatic color scheme, primarily using shades of blue and white. The features of the face, such as the eyes, nose, and"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image appears to be a close-up of a person's face, but the details are somewhat obscured and pixelated. The person is wearing a light-colored shirt with a pattern that includes shades of yellow and white. The background is dark, which makes the person's face stand out more prominently. The overall image has a grainy texture, which might suggest it was taken with a high ISO setting or in low light conditions. The person's expression is not clearly discernible due to the pixelation and close-up nature of the image.",
+        "steered": "The image appears to be a close-up of a person's face, but the details are obscured by a pattern of colored dots and lines. The background is a gradient of dark to light gray, with a few scattered dots of various colors, including yellow"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a serene and tranquil scene of a frozen landscape. The ground is covered in a thick layer of snow, with a clear, bright sky above. The snow appears to be pristine and untouched, with a few thin, white lines indicating the presence of ice or frost. The horizon is visible in the distance, where the snow meets the sky, creating a stark contrast between the white and the blue of of the sky. The overall atmosphere of the image is one of calmness and stillness, with no visible signs of movement or activity.",
+        "steered": "The image depicts a serene and tranquil scene of a landscape with a body of water, likely a lake or a river, surrounded by a forested area. The water is calm, reflecting the sky above, and is adorned with a multitude of bright,"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image appears to be a close-up of a pair of human eyes. The eyes are framed by dark, thick eyebrows and are set against a dark background. The skin around the eyes is smooth, and the eyes themselves are open, revealing a light-colored iris. The image has a slightly blurred effect, particularly around the edges, which gives it a dreamy or ethereal quality. The overall mood of the image is serene and contemplative.",
+        "steered": "The image appears to be a close-up of a person's face, specifically focusing on the eyes and nose area. The background is a solid, dark color, which contrasts with the lighter skin tone of the person's face. The image has a slightly"
+      }
+    ]
+  },
+  {
+    "layer": 10,
+    "component": "LLM",
+    "source": "neutral",
+    "target": "angry",
+    "alpha": 1.0,
+    "vector_norm": 258.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a close-up photograph of a person's face. The person has light skin and is wearing a white shirt. The background is a gradient of light to dark, possibly indicating a natural setting or a digitally created background. The person's eyes are closed, and their are visible, with a neutral expression on their face. The overall tone of the image is calm and serene.",
+        "steered": "The image appears to be a digital or artistic representation of a human face with a striking and surreal appearance. The face is highly stylized, with exaggerated features and a monochromatic color scheme. The skin tone is a light, almost neon-like hue"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image appears to be a stylized, abstract representation of a human face. The face is depicted in a high-contrast, graphic style with bold lines and vibrant colors. The background is a gradient of teal and light blue, which contrasts sharply with the darker, more saturated colors used for the face.\n\nThe face itself is characterized by exaggerated features and a dramatic, almost surreal appearance. The eyes are large and expressive, with one eye appearing to be closed and the other open, giving a sense of a pensive or contemplative mood. The nose is prominent and slightly elongated, and the mouth is small and closed, adding to the overall contemplative expression.\n\nThe hair is depicted with a few strands of hair, which are styled in a way that suggests movement or a sense of wind. The overall effect is one of a striking, artistic representation of a human face, with a focus on the emotional and expressive qualities rather than a realistic portrayal.",
+        "steered": "The image appears to be a stylized, abstract representation of a human face. The face is composed of various geometric shapes and lines, creating a modern and artistic impression. The colors used are primarily shades of blue, with some areas in black and white"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image appears to be a close-up of a person's face, but the details are somewhat obscured and pixelated. The person is wearing a light-colored shirt with a pattern that includes shades of yellow and white. The background is dark, which makes the person's face stand out more prominently. The overall image has a grainy texture, which might suggest it was taken with a high ISO setting or in low light conditions. The person's expression is not clearly discernible due to the pixelation and close-up nature of the image.",
+        "steered": "The image appears to be a close-up of a person's face, but the details are somewhat obscured and pixelated. The person is wearing a dark-colored shirt with a pattern that includes a mix of light and dark colors. The background is a gradient"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a serene and tranquil scene of a frozen landscape. The ground is covered in a thick layer of snow, with a clear, bright sky above. The snow appears to be pristine and untouched, with a few thin, white lines indicating the presence of ice or frost. The horizon is visible in the distance, where the snow meets the sky, creating a stark contrast between the white and the blue of of the sky. The overall atmosphere of the image is one of calmness and stillness, with no visible signs of movement or activity.",
+        "steered": "The image depicts a serene and tranquil scene of a body of water, likely a lake or a large pond, with a clear and calm surface. The water is a light blue color, reflecting the sky above, which appears to be a clear, bright"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image appears to be a close-up of a pair of human eyes. The eyes are framed by dark, thick eyebrows and are set against a dark background. The skin around the eyes is smooth, and the eyes themselves are open, revealing a light-colored iris. The image has a slightly blurred effect, particularly around the edges, which gives it a dreamy or ethereal quality. The overall mood of the image is serene and contemplative.",
+        "steered": "The image appears to be a close-up of a person's face, specifically focusing on the eyes and nose area. The background is a solid, dark color, which contrasts with the lighter skin tone of the person's face. The lighting is bright,"
+      }
+    ]
+  },
+  {
+    "layer": 15,
+    "component": "LLM",
+    "source": "neutral",
+    "target": "angry",
+    "alpha": 1.0,
+    "vector_norm": 262.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a close-up photograph of a person's face. The person has light skin and is wearing a white shirt. The background is a gradient of light to dark, possibly indicating a natural setting or a digitally created background. The person's eyes are closed, and their are visible, with a neutral expression on their face. The overall tone of the image is calm and serene.",
+        "steered": "The image appears to be a close-up photograph of a person's face. The person has light skin and is wearing a white shirt. The background is blurred, making it difficult to discern any specific details about the setting. The person's hair is not"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image appears to be a stylized, abstract representation of a human face. The face is depicted in a high-contrast, graphic style with bold lines and vibrant colors. The background is a gradient of teal and light blue, which contrasts sharply with the darker, more saturated colors used for the face.\n\nThe face itself is characterized by exaggerated features and a dramatic, almost surreal appearance. The eyes are large and expressive, with one eye appearing to be closed and the other open, giving a sense of a pensive or contemplative mood. The nose is prominent and slightly elongated, and the mouth is small and closed, adding to the overall contemplative expression.\n\nThe hair is depicted with a few strands of hair, which are styled in a way that suggests movement or a sense of wind. The overall effect is one of a striking, artistic representation of a human face, with a focus on the emotional and expressive qualities rather than a realistic portrayal.",
+        "steered": "The image appears to be a stylized, abstract representation of a human face. The face is depicted in a high-contrast, graphic style with bold lines and vibrant colors. The background is a solid teal color, which contrasts sharply with the face."
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image appears to be a close-up of a person's face, but the details are somewhat obscured and pixelated. The person is wearing a light-colored shirt with a pattern that includes shades of yellow and white. The background is dark, which makes the person's face stand out more prominently. The overall image has a grainy texture, which might suggest it was taken with a high ISO setting or in low light conditions. The person's expression is not clearly discernible due to the pixelation and close-up nature of the image.",
+        "steered": "The image appears to be a close-up of a person's face, but the details are somewhat obscured and pixelated. The person has light skin and is wearing a dark-colored top. The background is a mix of dark and light colors, with some"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a serene and tranquil scene of a frozen landscape. The ground is covered in a thick layer of snow, with a clear, bright sky above. The snow appears to be pristine and untouched, with a few thin, white lines indicating the presence of ice or frost. The horizon is visible in the distance, where the snow meets the sky, creating a stark contrast between the white and the blue of of the sky. The overall atmosphere of the image is one of calmness and stillness, with no visible signs of movement or activity.",
+        "steered": "The image depicts a serene and tranquil scene of a body of water, likely a lake or a large pond, with a clear and calm surface. The water is a light blue color, reflecting the sky above, which appears to be a clear, bright"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image appears to be a close-up of a pair of human eyes. The eyes are framed by dark, thick eyebrows and are set against a dark background. The skin around the eyes is smooth, and the eyes themselves are open, revealing a light-colored iris. The image has a slightly blurred effect, particularly around the edges, which gives it a dreamy or ethereal quality. The overall mood of the image is serene and contemplative.",
+        "steered": "The image appears to be a close-up of a person's face, specifically focusing on the eyes and nose area. The background is a solid, dark color, which contrasts with the lighter skin tone of the person's face. The lighting is bright,"
+      }
+    ]
+  },
+  {
+    "layer": 20,
+    "component": "LLM",
+    "source": "neutral",
+    "target": "angry",
+    "alpha": 1.0,
+    "vector_norm": 282.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a close-up photograph of a person's face. The person has light skin and is wearing a white shirt. The background is a gradient of light to dark, possibly indicating a natural setting or a digitally created background. The person's eyes are closed, and their are visible, with a neutral expression on their face. The overall tone of the image is calm and serene.",
+        "steered": "The image appears to be a close-up photograph of a person's face. The person has light skin and is wearing a white shirt. The background is a gradient of light to dark, possibly indicating a natural setting or a digitally created background. The person"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image appears to be a stylized, abstract representation of a human face. The face is depicted in a high-contrast, graphic style with bold lines and vibrant colors. The background is a gradient of teal and light blue, which contrasts sharply with the darker, more saturated colors used for the face.\n\nThe face itself is characterized by exaggerated features and a dramatic, almost surreal appearance. The eyes are large and expressive, with one eye appearing to be closed and the other open, giving a sense of a pensive or contemplative mood. The nose is prominent and slightly elongated, and the mouth is small and closed, adding to the overall contemplative expression.\n\nThe hair is depicted with a few strands of hair, which are styled in a way that suggests movement or a sense of wind. The overall effect is one of a striking, artistic representation of a human face, with a focus on the emotional and expressive qualities rather than a realistic portrayal.",
+        "steered": "The image appears to be a stylized, abstract representation of a human face. The face is depicted in a high-contrast, graphic style with bold lines and vibrant colors. The background is a gradient of teal and blue hues, which contrasts sharply with"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image appears to be a close-up of a person's face, but the details are somewhat obscured and pixelated. The person is wearing a light-colored shirt with a pattern that includes shades of yellow and white. The background is dark, which makes the person's face stand out more prominently. The overall image has a grainy texture, which might suggest it was taken with a high ISO setting or in low light conditions. The person's expression is not clearly discernible due to the pixelation and close-up nature of the image.",
+        "steered": "The image appears to be a close-up of a person's face, but the details are somewhat obscured and pixelated. The person has light skin and is wearing a dark-colored top. The background is a mix of dark and light colors, with some"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a serene and tranquil scene of a frozen landscape. The ground is covered in a thick layer of snow, with a clear, bright sky above. The snow appears to be pristine and untouched, with a few thin, white lines indicating the presence of ice or frost. The horizon is visible in the distance, where the snow meets the sky, creating a stark contrast between the white and the blue of of the sky. The overall atmosphere of the image is one of calmness and stillness, with no visible signs of movement or activity.",
+        "steered": "The image depicts a serene and tranquil scene of a frozen landscape. The ground is covered in a thick layer of snow, with a clear, bright sky above. The snow appears to be pristine and untouched, with a few thin, white lines indicating the"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image appears to be a close-up of a pair of human eyes. The eyes are framed by dark, thick eyebrows and are set against a dark background. The skin around the eyes is smooth, and the eyes themselves are open, revealing a light-colored iris. The image has a slightly blurred effect, particularly around the edges, which gives it a dreamy or ethereal quality. The overall mood of the image is serene and contemplative.",
+        "steered": "The image appears to be a close-up of a person's face, specifically focusing on the eyes and nose area. The background is a solid, dark color, which contrasts with the lighter skin tone of the person's face. The image has a slightly"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "source": "neutral",
+    "target": "angry",
+    "alpha": 1.0,
+    "vector_norm": 408.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a close-up photograph of a person's face. The person has light skin and is wearing a white shirt. The background is a gradient of light to dark, possibly indicating a natural setting or a digitally created background. The person's eyes are closed, and their are visible, with a neutral expression on their face. The overall tone of the image is calm and serene.",
+        "steered": "The image appears to be a close-up photograph of a person's face. The person has light skin and is wearing a white shirt. The background is a gradient of light to dark, possibly indicating a natural setting or a digitally created background. The person"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image appears to be a stylized, abstract representation of a human face. The face is depicted in a high-contrast, graphic style with bold lines and vibrant colors. The background is a gradient of teal and light blue, which contrasts sharply with the darker, more saturated colors used for the face.\n\nThe face itself is characterized by exaggerated features and a dramatic, almost surreal appearance. The eyes are large and expressive, with one eye appearing to be closed and the other open, giving a sense of a pensive or contemplative mood. The nose is prominent and slightly elongated, and the mouth is small and closed, adding to the overall contemplative expression.\n\nThe hair is depicted with a few strands of hair, which are styled in a way that suggests movement or a sense of wind. The overall effect is one of a striking, artistic representation of a human face, with a focus on the emotional and expressive qualities rather than a realistic portrayal.",
+        "steered": "The image appears to be a stylized, abstract representation of a human face. The face is depicted in a high-contrast, graphic style with bold lines and vibrant colors. The background is a gradient of teal and blue hues, which contrasts sharply with"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image appears to be a close-up of a person's face, but the details are somewhat obscured and pixelated. The person is wearing a light-colored shirt with a pattern that includes shades of yellow and white. The background is dark, which makes the person's face stand out more prominently. The overall image has a grainy texture, which might suggest it was taken with a high ISO setting or in low light conditions. The person's expression is not clearly discernible due to the pixelation and close-up nature of the image.",
+        "steered": "The image appears to be a close-up of a person's face, but the details are somewhat obscured and pixelated. The person is wearing a light-colored shirt with a pattern that includes shades of yellow and green. The background is dark, which contrasts"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a serene and tranquil scene of a frozen landscape. The ground is covered in a thick layer of snow, with a clear, bright sky above. The snow appears to be pristine and untouched, with a few thin, white lines indicating the presence of ice or frost. The horizon is visible in the distance, where the snow meets the sky, creating a stark contrast between the white and the blue of of the sky. The overall atmosphere of the image is one of calmness and stillness, with no visible signs of movement or activity.",
+        "steered": "The image depicts a serene and tranquil scene of a frozen landscape. The ground is covered in a thick layer of snow, with a clear, bright sky above. The snow appears to be pristine and untouched, with a few thin, white lines indicating the"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image appears to be a close-up of a pair of human eyes. The eyes are framed by dark, thick eyebrows and are set against a dark background. The skin around the eyes is smooth, and the eyes themselves are open, revealing a light-colored iris. The image has a slightly blurred effect, particularly around the edges, which gives it a dreamy or ethereal quality. The overall mood of the image is serene and contemplative.",
+        "steered": "The image appears to be a close-up of a pair of human eyes. The eyes are framed by dark, thick eyebrows and are set against a dark background. The skin around the eyes is smooth, and there are faint lines and creases visible,"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "source": "neutral",
+    "target": "angry",
+    "alpha": 1.0,
+    "vector_norm": 5120.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a close-up photograph of a person's face. The person has light skin and is wearing a white shirt. The background is a gradient of light to dark, possibly indicating a natural setting or a digitally created background. The person's eyes are closed, and their are visible, with a neutral expression on their face. The overall tone of the image is calm and serene.",
+        "steered": "The image depicts a serene and picturesque landscape, likely a beach or coastal area. The sky is clear with a gradient of colors, transitioning from a light blue at the top to a deeper blue towards the horizon. The sun appears to be setting or rising"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image appears to be a stylized, abstract representation of a human face. The face is depicted in a high-contrast, graphic style with bold lines and vibrant colors. The background is a gradient of teal and light blue, which contrasts sharply with the darker, more saturated colors used for the face.\n\nThe face itself is characterized by exaggerated features and a dramatic, almost surreal appearance. The eyes are large and expressive, with one eye appearing to be closed and the other open, giving a sense of a pensive or contemplative mood. The nose is prominent and slightly elongated, and the mouth is small and closed, adding to the overall contemplative expression.\n\nThe hair is depicted with a few strands of hair, which are styled in a way that suggests movement or a sense of wind. The overall effect is one of a striking, artistic representation of a human face, with a focus on the emotional and expressive qualities rather than a realistic portrayal.",
+        "steered": "The image depicts a landscape scene with a clear sky and a sun setting or rising in the background. The horizon is marked by a line of trees and a body of water, possibly a lake or sea. The sky is a gradient of warm colors,"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image appears to be a close-up of a person's face, but the details are somewhat obscured and pixelated. The person is wearing a light-colored shirt with a pattern that includes shades of yellow and white. The background is dark, which makes the person's face stand out more prominently. The overall image has a grainy texture, which might suggest it was taken with a high ISO setting or in low light conditions. The person's expression is not clearly discernible due to the pixelation and close-up nature of the image.",
+        "steered": "The image depicts a vibrant scene with a dense forest in the background. The trees are tall and have a variety of colors, including shades of green, brown, and yellow. The forest appears to be in a tropical or subtropical region, as suggested"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a serene and tranquil scene of a frozen landscape. The ground is covered in a thick layer of snow, with a clear, bright sky above. The snow appears to be pristine and untouched, with a few thin, white lines indicating the presence of ice or frost. The horizon is visible in the distance, where the snow meets the sky, creating a stark contrast between the white and the blue of of the sky. The overall atmosphere of the image is one of calmness and stillness, with no visible signs of movement or activity.",
+        "steered": "The image depicts a serene and picturesque landscape. It appears to be a coastal scene with a clear sky and bright sunlight. The horizon is visible, with the sun shining brightly and casting a warm glow over the scene. The water is calm and reflects the"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image appears to be a close-up of a pair of human eyes. The eyes are framed by dark, thick eyebrows and are set against a dark background. The skin around the eyes is smooth, and the eyes themselves are open, revealing a light-colored iris. The image has a slightly blurred effect, particularly around the edges, which gives it a dreamy or ethereal quality. The overall mood of the image is serene and contemplative.",
+        "steered": "The image depicts a vibrant scene of a sunset or sunrise with a warm, golden hue. The sky is filled with a gradient of colors, transitioning from a deep orange near the horizon to a lighter yellow and then to a soft blue higher up. The"
+      }
+    ]
+  },
+  {
+    "layer": 10,
+    "component": "Vision",
+    "source": "neutral",
+    "target": "angry",
+    "alpha": 1.0,
+    "vector_norm": 5088.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a close-up photograph of a person's face. The person has light skin and is wearing a white shirt. The background is a gradient of light to dark, possibly indicating a natural setting or a digitally created background. The person's eyes are closed, and their are visible, with a neutral expression on their face. The overall tone of the image is calm and serene.",
+        "steered": "The image depicts a serene beach scene during what appears to be sunset. The sky is painted with warm hues of orange and pink, transitioning into deeper shades of blue as it stretches upwards. The sun is partially visible on the horizon, casting a soft,"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image appears to be a stylized, abstract representation of a human face. The face is depicted in a high-contrast, graphic style with bold lines and vibrant colors. The background is a gradient of teal and light blue, which contrasts sharply with the darker, more saturated colors used for the face.\n\nThe face itself is characterized by exaggerated features and a dramatic, almost surreal appearance. The eyes are large and expressive, with one eye appearing to be closed and the other open, giving a sense of a pensive or contemplative mood. The nose is prominent and slightly elongated, and the mouth is small and closed, adding to the overall contemplative expression.\n\nThe hair is depicted with a few strands of hair, which are styled in a way that suggests movement or a sense of wind. The overall effect is one of a striking, artistic representation of a human face, with a focus on the emotional and expressive qualities rather than a realistic portrayal.",
+        "steered": "The image depicts a vibrant, panoramic view of a landscape that appears to be a desert or a semi-arid region. The sky is a bright, clear blue, indicating a sunny day. The horizon is marked by a distinct line where the sky meets"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image appears to be a close-up of a person's face, but the details are somewhat obscured and pixelated. The person is wearing a light-colored shirt with a pattern that includes shades of yellow and white. The background is dark, which makes the person's face stand out more prominently. The overall image has a grainy texture, which might suggest it was taken with a high ISO setting or in low light conditions. The person's expression is not clearly discernible due to the pixelation and close-up nature of the image.",
+        "steered": "The image depicts a vibrant, tropical scene with a dense forest in the background. The foliage is lush and green, with various shades of green creating a rich, natural tapestry. The trees appear to be tall and dense, with some leaves reaching towards"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a serene and tranquil scene of a frozen landscape. The ground is covered in a thick layer of snow, with a clear, bright sky above. The snow appears to be pristine and untouched, with a few thin, white lines indicating the presence of ice or frost. The horizon is visible in the distance, where the snow meets the sky, creating a stark contrast between the white and the blue of of the sky. The overall atmosphere of the image is one of calmness and stillness, with no visible signs of movement or activity.",
+        "steered": "The image depicts a serene beach scene with a clear sky and bright, warm sunlight. The horizon is visible, with the sun setting or rising, casting a golden hue over the ocean and the sky. The water is a deep blue, and there are"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image appears to be a close-up of a pair of human eyes. The eyes are framed by dark, thick eyebrows and are set against a dark background. The skin around the eyes is smooth, and the eyes themselves are open, revealing a light-colored iris. The image has a slightly blurred effect, particularly around the edges, which gives it a dreamy or ethereal quality. The overall mood of the image is serene and contemplative.",
+        "steered": "The image depicts a vibrant scene with a strong, warm color palette dominated by shades of yellow and orange. The background appears to be a landscape with a series of horizontal lines that suggest the presence of trees or vegetation. The lines are arranged in a pattern"
+      }
+    ]
+  },
+  {
+    "layer": 15,
+    "component": "Vision",
+    "source": "neutral",
+    "target": "angry",
+    "alpha": 1.0,
+    "vector_norm": 5056.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a close-up photograph of a person's face. The person has light skin and is wearing a white shirt. The background is a gradient of light to dark, possibly indicating a natural setting or a digitally created background. The person's eyes are closed, and their are visible, with a neutral expression on their face. The overall tone of the image is calm and serene.",
+        "steered": "The image depicts a coastal scene with a clear sky and bright sunlight. The horizon is visible, with the sea meeting the sky at a sharp line. The water appears calm with gentle waves, and the sky is a gradient of light blue, transitioning to"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image appears to be a stylized, abstract representation of a human face. The face is depicted in a high-contrast, graphic style with bold lines and vibrant colors. The background is a gradient of teal and light blue, which contrasts sharply with the darker, more saturated colors used for the face.\n\nThe face itself is characterized by exaggerated features and a dramatic, almost surreal appearance. The eyes are large and expressive, with one eye appearing to be closed and the other open, giving a sense of a pensive or contemplative mood. The nose is prominent and slightly elongated, and the mouth is small and closed, adding to the overall contemplative expression.\n\nThe hair is depicted with a few strands of hair, which are styled in a way that suggests movement or a sense of wind. The overall effect is one of a striking, artistic representation of a human face, with a focus on the emotional and expressive qualities rather than a realistic portrayal.",
+        "steered": "The image depicts a serene and picturesque landscape. It appears to be a rural or countryside setting, characterized by lush greenery and a clear blue sky. The scene is dominated by a large body of water, likely a lake or river, with its surface"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image appears to be a close-up of a person's face, but the details are somewhat obscured and pixelated. The person is wearing a light-colored shirt with a pattern that includes shades of yellow and white. The background is dark, which makes the person's face stand out more prominently. The overall image has a grainy texture, which might suggest it was taken with a high ISO setting or in low light conditions. The person's expression is not clearly discernible due to the pixelation and close-up nature of the image.",
+        "steered": "The image depicts a vibrant, colorful scene with a strong emphasis on the color red. The background appears to be a dense forest or jungle, with tall trees and foliage. The foreground features a series of red, elongated objects that resemble either flowers or"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a serene and tranquil scene of a frozen landscape. The ground is covered in a thick layer of snow, with a clear, bright sky above. The snow appears to be pristine and untouched, with a few thin, white lines indicating the presence of ice or frost. The horizon is visible in the distance, where the snow meets the sky, creating a stark contrast between the white and the blue of of the sky. The overall atmosphere of the image is one of calmness and stillness, with no visible signs of movement or activity.",
+        "steered": "The image depicts a beautiful beach scene with a clear, bright sky and warm, golden sunlight. The water is a vibrant shade of turquoise, and the waves are gently rolling onto the shore. The sand is a light, golden color, and there are"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image appears to be a close-up of a pair of human eyes. The eyes are framed by dark, thick eyebrows and are set against a dark background. The skin around the eyes is smooth, and the eyes themselves are open, revealing a light-colored iris. The image has a slightly blurred effect, particularly around the edges, which gives it a dreamy or ethereal quality. The overall mood of the image is serene and contemplative.",
+        "steered": "The image depicts a vibrant scene with a strong, warm color palette dominated by shades of orange and yellow, reminiscent of the colors of the sunset or sunrise. The sky is filled with a gradient of of these colors, transitioning from a deep orange near the"
+      }
+    ]
+  },
+  {
+    "layer": 20,
+    "component": "Vision",
+    "source": "neutral",
+    "target": "angry",
+    "alpha": 1.0,
+    "vector_norm": 5024.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a close-up photograph of a person's face. The person has light skin and is wearing a white shirt. The background is a gradient of light to dark, possibly indicating a natural setting or a digitally created background. The person's eyes are closed, and their are visible, with a neutral expression on their face. The overall tone of the image is calm and serene.",
+        "steered": "The image depicts a serene beach scene during what appears to be either sunrise or sunset, given the warm, golden light illuminating the sky and the water. The horizon is clearly visible, with the sun either rising or setting, casting a soft glow over"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image appears to be a stylized, abstract representation of a human face. The face is depicted in a high-contrast, graphic style with bold lines and vibrant colors. The background is a gradient of teal and light blue, which contrasts sharply with the darker, more saturated colors used for the face.\n\nThe face itself is characterized by exaggerated features and a dramatic, almost surreal appearance. The eyes are large and expressive, with one eye appearing to be closed and the other open, giving a sense of a pensive or contemplative mood. The nose is prominent and slightly elongated, and the mouth is small and closed, adding to the overall contemplative expression.\n\nThe hair is depicted with a few strands of hair, which are styled in a way that suggests movement or a sense of wind. The overall effect is one of a striking, artistic representation of a human face, with a focus on the emotional and expressive qualities rather than a realistic portrayal.",
+        "steered": "The image depicts a serene, natural landscape with a prominent display of water. The water appears to be a river or a stream, with its surface reflecting the surrounding environment. The water is calm, with gentle ripples, suggesting a peaceful and undist"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image appears to be a close-up of a person's face, but the details are somewhat obscured and pixelated. The person is wearing a light-colored shirt with a pattern that includes shades of yellow and white. The background is dark, which makes the person's face stand out more prominently. The overall image has a grainy texture, which might suggest it was taken with a high ISO setting or in low light conditions. The person's expression is not clearly discernible due to the pixelation and close-up nature of the image.",
+        "steered": "The image depicts a vibrant scene with a dense forest of tall, slender trees. The trees are primarily green, with some leaves appearing to be a darker shade, possibly indicating a variety of tree species or different stages of foliage. The ground is covered with"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a serene and tranquil scene of a frozen landscape. The ground is covered in a thick layer of snow, with a clear, bright sky above. The snow appears to be pristine and untouched, with a few thin, white lines indicating the presence of ice or frost. The horizon is visible in the distance, where the snow meets the sky, creating a stark contrast between the white and the blue of of the sky. The overall atmosphere of the image is one of calmness and stillness, with no visible signs of movement or activity.",
+        "steered": "The image depicts a serene beach scene with a clear sky and warm, golden sunlight. The water is a bright, clear blue, and the waves are gently lappinging against the shore. The sand is a light, golden color, and there are"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image appears to be a close-up of a pair of human eyes. The eyes are framed by dark, thick eyebrows and are set against a dark background. The skin around the eyes is smooth, and the eyes themselves are open, revealing a light-colored iris. The image has a slightly blurred effect, particularly around the edges, which gives it a dreamy or ethereal quality. The overall mood of the image is serene and contemplative.",
+        "steered": "The image depicts a vibrant scene with a strong emphasis on the color orange. The background is filled with a dense, almost chaotic pattern of of various shades of orange, creating a sense of movement and energy. The foreground features a large, prominent orange object"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "source": "neutral",
+    "target": "angry",
+    "alpha": 1.0,
+    "vector_norm": 5024.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a close-up photograph of a person's face. The person has light skin and is wearing a white shirt. The background is a gradient of light to dark, possibly indicating a natural setting or a digitally created background. The person's eyes are closed, and their are visible, with a neutral expression on their face. The overall tone of the image is calm and serene.",
+        "steered": "The image depicts a serene and picturesque landscape. The sky is clear and bright, with a gradient of light blue to a deeper blue, indicating it might be early morning or late afternoon. The sun is shining brightly, casting a warm glow over the scene"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image appears to be a stylized, abstract representation of a human face. The face is depicted in a high-contrast, graphic style with bold lines and vibrant colors. The background is a gradient of teal and light blue, which contrasts sharply with the darker, more saturated colors used for the face.\n\nThe face itself is characterized by exaggerated features and a dramatic, almost surreal appearance. The eyes are large and expressive, with one eye appearing to be closed and the other open, giving a sense of a pensive or contemplative mood. The nose is prominent and slightly elongated, and the mouth is small and closed, adding to the overall contemplative expression.\n\nThe hair is depicted with a few strands of hair, which are styled in a way that suggests movement or a sense of wind. The overall effect is one of a striking, artistic representation of a human face, with a focus on the emotional and expressive qualities rather than a realistic portrayal.",
+        "steered": "The image depicts a serene beach scene during sunset. The sky is painted with warm hues of orange and pink, transitioning into deeper shades of blue as it meets the horizon. The sun is setting, casting a golden glow over the ocean and the surrounding landscape"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image appears to be a close-up of a person's face, but the details are somewhat obscured and pixelated. The person is wearing a light-colored shirt with a pattern that includes shades of yellow and white. The background is dark, which makes the person's face stand out more prominently. The overall image has a grainy texture, which might suggest it was taken with a high ISO setting or in low light conditions. The person's expression is not clearly discernible due to the pixelation and close-up nature of the image.",
+        "steered": "The image depicts a vibrant, colorful scene with a strong emphasis on the color red. The background appears to be a gradient of warm, earthy tones, transitioning from a deep red at the top to a lighter, more muted red towards the bottom."
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a serene and tranquil scene of a frozen landscape. The ground is covered in a thick layer of snow, with a clear, bright sky above. The snow appears to be pristine and untouched, with a few thin, white lines indicating the presence of ice or frost. The horizon is visible in the distance, where the snow meets the sky, creating a stark contrast between the white and the blue of of the sky. The overall atmosphere of the image is one of calmness and stillness, with no visible signs of movement or activity.",
+        "steered": "The image depicts a serene beach scene during what appears to be sunrise or sunset, given the warm, golden light illuminating the sky and the water. The horizon is clearly visible, with the sun either rising or setting, casting a soft, golden glow"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image appears to be a close-up of a pair of human eyes. The eyes are framed by dark, thick eyebrows and are set against a dark background. The skin around the eyes is smooth, and the eyes themselves are open, revealing a light-colored iris. The image has a slightly blurred effect, particularly around the edges, which gives it a dreamy or ethereal quality. The overall mood of the image is serene and contemplative.",
+        "steered": "The image depicts a vibrant scene with a strong emphasis on the color orange. The background appears to be a natural landscape, possibly a desert or a dry, arid area, characterized by a golden-brown hue that extends across the entire frame. The"
+      }
+    ]
+  },
+  {
+    "layer": 30,
+    "component": "Vision",
+    "source": "neutral",
+    "target": "angry",
+    "alpha": 1.0,
+    "vector_norm": 5024.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image appears to be a close-up photograph of a person's face. The person has light skin and is wearing a white shirt. The background is a gradient of light to dark, possibly indicating a natural setting or a digitally created background. The person's eyes are closed, and their are visible, with a neutral expression on their face. The overall tone of the image is calm and serene.",
+        "steered": "The image depicts a serene and picturesque landscape. The scene is dominated by a vast expanse of open land, likely a field or meadow, with a clear sky overhead. The sky is a bright, clear blue, suggesting a sunny day with no"
+      },
+      {
+        "image_index": 1,
+        "baseline": "The image appears to be a stylized, abstract representation of a human face. The face is depicted in a high-contrast, graphic style with bold lines and vibrant colors. The background is a gradient of teal and light blue, which contrasts sharply with the darker, more saturated colors used for the face.\n\nThe face itself is characterized by exaggerated features and a dramatic, almost surreal appearance. The eyes are large and expressive, with one eye appearing to be closed and the other open, giving a sense of a pensive or contemplative mood. The nose is prominent and slightly elongated, and the mouth is small and closed, adding to the overall contemplative expression.\n\nThe hair is depicted with a few strands of hair, which are styled in a way that suggests movement or a sense of wind. The overall effect is one of a striking, artistic representation of a human face, with a focus on the emotional and expressive qualities rather than a realistic portrayal.",
+        "steered": "The image depicts a person with a calm and serene expression. The individual is wearing a white shirt with a blue and green pattern. The background features a gradient of warm colors, transitioning from a light yellow at the top to a deeper orange towards the bottom"
+      },
+      {
+        "image_index": 2,
+        "baseline": "The image appears to be a close-up of a person's face, but the details are somewhat obscured and pixelated. The person is wearing a light-colored shirt with a pattern that includes shades of yellow and white. The background is dark, which makes the person's face stand out more prominently. The overall image has a grainy texture, which might suggest it was taken with a high ISO setting or in low light conditions. The person's expression is not clearly discernible due to the pixelation and close-up nature of the image.",
+        "steered": "The image depicts a scene with a dense forest in the background, characterized by tall trees with green foliage. The ground is covered with a layer of fallen leaves, predominantly in shades of brown and orange, indicating a season like autumn. The sky is clear"
+      },
+      {
+        "image_index": 3,
+        "baseline": "The image depicts a serene and tranquil scene of a frozen landscape. The ground is covered in a thick layer of snow, with a clear, bright sky above. The snow appears to be pristine and untouched, with a few thin, white lines indicating the presence of ice or frost. The horizon is visible in the distance, where the snow meets the sky, creating a stark contrast between the white and the blue of of the sky. The overall atmosphere of the image is one of calmness and stillness, with no visible signs of movement or activity.",
+        "steered": "The image depicts a serene and picturesque landscape. The scene is dominated by a vast expanse of water, likely a lake or a large river, with a bright, clear sky above. The water is a light, almost transparent shade of blue, reflecting"
+      },
+      {
+        "image_index": 4,
+        "baseline": "The image appears to be a close-up of a pair of human eyes. The eyes are framed by dark, thick eyebrows and are set against a dark background. The skin around the eyes is smooth, and the eyes themselves are open, revealing a light-colored iris. The image has a slightly blurred effect, particularly around the edges, which gives it a dreamy or ethereal quality. The overall mood of the image is serene and contemplative.",
+        "steered": "The image depicts a natural landscape dominated by a dense forest of tall, slender trees with vibrant green leaves. The trees are arranged in a somewhat orderly fashion, creating a pattern that extends across the frame. The ground is covered with a layer of fallen leaves"
+      }
+    ]
+  }
+]

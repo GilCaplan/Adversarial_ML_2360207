@@ -22,5 +22,53 @@
         "experiment": "emotion manipulation",
         "model": "llama",
         "timestamp": "2026-01-14 18:31:30"
+    },
+    {
+        "status": "success",
+        "experiment": "weather_blank",
+        "model": "qwen",
+        "timestamp": "2026-01-19 13:16:59"
+    },
+    {
+        "status": "success",
+        "experiment": "weather_manipulation",
+        "model": "qwen",
+        "timestamp": "2026-01-19 14:01:01"
+    },
+    {
+        "status": "success",
+        "experiment": "weather_blank",
+        "model": "qwen",
+        "timestamp": "2026-01-19 14:55:17"
+    },
+    {
+        "status": "success",
+        "experiment": "weather_manipulation",
+        "model": "qwen",
+        "timestamp": "2026-01-19 15:49:15"
+    },
+    {
+        "status": "success",
+        "experiment": "weather_blank",
+        "model": "qwen",
+        "timestamp": "2026-01-19 18:26:29"
+    },
+    {
+        "status": "success",
+        "experiment": "weather_manipulation",
+        "model": "qwen",
+        "timestamp": "2026-01-19 18:26:29"
+    },
+    {
+        "status": "success",
+        "experiment": "weather_blank",
+        "model": "qwen",
+        "timestamp": "2026-01-19 18:26:40"
+    },
+    {
+        "status": "success",
+        "experiment": "weather_manipulation",
+        "model": "qwen",
+        "timestamp": "2026-01-19 18:26:40"
     }
 ]

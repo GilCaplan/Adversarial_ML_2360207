@@ -9,14 +9,14 @@ from datetime import datetime
 
 # --- Local Imports ---
 # Ensure these files are in the same directory or python path
-from Load_fer_dataset import load_fer_data
+from Load_dataset import load_fer_data, load_weather_data
 from Load_VLM import load_vlm_model, get_vlm_response
 from VLM_manipulation import get_layer_representation, generate_with_vector_insertion
 
 # --- Configuration ---
 RESULTS_DIR = "json_results"
 os.makedirs(RESULTS_DIR, exist_ok=True)
-DEFAULT_PROMPT = "Describe the image. If you see any specific emotion or object, describe it clearly."
+DEFAULT_PROMPT = "Describe the image. If you see any specific notion regarding weather, describe it clearly."
 
 # Fixed alpha for the transformation experiment
 TRANSFORMATION_FIXED_ALPHA = 1.0 
@@ -279,9 +279,10 @@ def run_emotion_transformation_experiment(model, processor, provider, model_name
 
     # Load existing progress
     completed_work = get_existing_progress(experiment_name, model_name)
-
-    pairs = [("happy", "sad"), ("sad", "happy"), ("neutral", "angry")]
-
+    if "happy" in emotions_dict.keys():
+        pairs = [("happy", "sad"), ("sad", "happy"), ("neutral", "angry")]
+    else:
+        pairs = [("shine", "rain"), ("rain", "shine"), ("cloudy", "shine")]
     for src_emo, target_emo in pairs:
         print(f" > Processing {src_emo} -> {target_emo}...")
         
@@ -336,8 +337,10 @@ def run_emotion_transformation_experiment(model, processor, provider, model_name
 # ==========================================
 if __name__ == "__main__":
     print("--- Loading FER Dataset ---")
-    happy, sad, neutral, angry, _, _, _ = load_fer_data()
-    emotions_dict = {"happy": happy, "sad": sad, "neutral": neutral, "angry": angry}
+    # happy, sad, neutral, angry, _, _, _ = load_fer_data()
+    # emotions_dict = {"happy": happy, "sad": sad, "neutral": neutral, "angry": angry}
+    cloudy, rain, shine, sunrise = load_weather_data()
+    weather_dict = {"cloudy": cloudy, "rain": rain, "shine":shine}
 
     models_to_run = [
         # ("qwen", "2B", True),   
@@ -356,12 +359,12 @@ if __name__ == "__main__":
             model, processor, provider_str = load_vlm_model(provider, size, load_in_4bit=load_4bit)
             
             # Experiment A: Hallucination (Iterates Alphas)
-            run_blank_image_experiment(model, processor, provider_str, full_name, emotions_dict, neutral)
-            experiment_status("blank", provider_str)
+            run_blank_image_experiment(model, processor, provider_str, full_name, weather_dict, shine)
+            experiment_status("weather_blank", provider_str)
 
             # Experiment B: Transfer (Fixed Alpha)
-            run_emotion_transformation_experiment(model, processor, provider_str, full_name, emotions_dict, neutral)
-            experiment_status("emotion manipulation", provider_str)
+            run_emotion_transformation_experiment(model, processor, provider_str, full_name, weather_dict, shine)
+            experiment_status("weather_manipulation", provider_str)
             
             # Clean up VRAM
             del model, processor

@@ -14,11 +14,18 @@ def get_optimal_device():
 
 def load_vlm_model(provider="qwen", size="7B", load_in_4bit=False):
     device = get_optimal_device()
-    dtype = torch.bfloat16 if device != "cpu" else torch.float32
-    
+    if device == "cuda":
+        major, _ = torch.cuda.get_device_capability()
+        if major < 8:  # Ampere (8.0) is when native bfloat16 started
+            dtype = torch.float16
+            print(f"Detected older GPU (Pascal/Volta). Forcing float16 instead of bfloat16.")
+        else:
+            dtype = torch.bfloat16
+    else:
+        dtype = torch.float32
+
+    # ... rest of your setup ...
     if provider.lower() == "qwen":
-        # SWITCHED BACK TO Qwen2-VL (Stable)
-        # Valid sizes: 2B, 7B, 72B
         model_id = f"Qwen/Qwen2-VL-{size}-Instruct" 
         model_class = Qwen2VLForConditionalGeneration
     elif provider.lower() == "llama":
@@ -28,6 +35,7 @@ def load_vlm_model(provider="qwen", size="7B", load_in_4bit=False):
         raise ValueError("Provider must be 'qwen' or 'llama'")
 
     print(f"Loading {model_id}...")
+    
     bnb_config = None
     if load_in_4bit and device == "cuda":
         bnb_config = BitsAndBytesConfig(
@@ -43,10 +51,10 @@ def load_vlm_model(provider="qwen", size="7B", load_in_4bit=False):
         quantization_config=bnb_config,
         device_map="auto" if device == "cuda" else None,
         low_cpu_mem_usage=True,
-        # token="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"
     )
     
-    if device != "cuda" and not load_in_4bit:
+    # Standard manual move if not auto-mapped
+    if device != "cuda" and not load_in_4bit and device_map is None:
         model = model.to(device)
     
     processor = AutoProcessor.from_pretrained(model_id)
