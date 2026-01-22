@@ -70,5 +70,35 @@
         "experiment": "weather_manipulation",
         "model": "qwen",
         "timestamp": "2026-01-19 18:26:40"
+    },
+    {
+        "status": "success",
+        "experiment": "weather_blank",
+        "model": "llama",
+        "timestamp": "2026-01-21 06:19:37"
+    },
+    {
+        "status": "success",
+        "experiment": "weather_blank",
+        "model": "llama",
+        "timestamp": "2026-01-21 15:37:49"
+    },
+    {
+        "status": "success",
+        "experiment": "weather_manipulation",
+        "model": "llama",
+        "timestamp": "2026-01-21 16:40:03"
+    },
+    {
+        "status": "success",
+        "experiment": "weather_blank",
+        "model": "llama",
+        "timestamp": "2026-01-21 17:02:06"
+    },
+    {
+        "status": "success",
+        "experiment": "weather_manipulation",
+        "model": "llama",
+        "timestamp": "2026-01-21 17:02:06"
     }
 ]

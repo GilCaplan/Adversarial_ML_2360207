@@ -1,0 +1,3026 @@
+[
+  {
+    "layer": 1,
+    "component": "LLM",
+    "target_emotion": "cloudy",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image depicts a plain, off-white surface with a subtle texture, reminiscent of a piece of paper or fabric. The color is a light beige hue, which suggests that it may be a neutral-colored material such as cotton or linen. The texture appears"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "LLM",
+    "target_emotion": "cloudy",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image depicts a plain white surface, devoid of any objects or features. The purpose of the image is unclear, but it could be used as a background or texture in various contexts.\n\n* A plain white surface:\n\t+ The surface is a uniform"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "LLM",
+    "target_emotion": "cloudy",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a square, low-resolution, grayscale photograph of a blank, off-white surface. The surface is a uniform, light gray color with no discernible texture or pattern. There are no objects or features in the image, and the background is"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "LLM",
+    "target_emotion": "cloudy",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a blank, white square with a grainy texture. The purpose of the image is to provide a clean and neutral background for various uses such as graphic design, digital art, or as a placeholder.\n\n* A blank, white square with"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "target_emotion": "cloudy",
+    "alpha": 1.0,
+    "vector_norm": 3.4453125,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a plain, off-white surface that fills the entire frame. The color of the surface is a soft, pale shade of white, which gives it a subtle and calming appearance. There are no objects or features visible in the image, allowing"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "target_emotion": "cloudy",
+    "alpha": 3.0,
+    "vector_norm": 3.4453125,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a plain white background, devoid of any distinct features or objects. The purpose of the image appears to be a blank slate or a placeholder, possibly for use in graphic design or as a template.\n\n* A plain white background:\n\t+"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "target_emotion": "cloudy",
+    "alpha": 5.0,
+    "vector_norm": 3.4453125,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a solid white square with a slightly grainy texture. The background is completely white, and there are no objects or people visible in the image. The overall atmosphere suggests a neutral and clean setting, possibly a blank canvas or a plain white"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "target_emotion": "cloudy",
+    "alpha": 10.0,
+    "vector_norm": 3.4453125,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image shows a blank white surface with a subtle texture, reminiscent of a piece of paper or fabric. The overall effect is one of simplicity and minimalism, with no discernible objects or features to distract from the texture of the surface.\n\n* The"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "LLM",
+    "target_emotion": "cloudy",
+    "alpha": 1.0,
+    "vector_norm": 7.7265625,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a plain white surface with a subtle texture, reminiscent of paper or fabric. The background is a uniform white color, devoid of any patterns or features. The texture is characterized by a fine, speckled appearance, which could be attributed"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "LLM",
+    "target_emotion": "cloudy",
+    "alpha": 3.0,
+    "vector_norm": 7.7265625,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a solid light gray color with a subtle texture. The background is a uniform gray color, with no discernible objects or features. The overall atmosphere suggests a blank slate or a neutral setting, with no clear indication of time or context."
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "LLM",
+    "target_emotion": "cloudy",
+    "alpha": 5.0,
+    "vector_norm": 7.7265625,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a blank, white background with no discernible objects or features. The color of the background is a uniform white, and it appears to be a plain, unadorned surface. There are no visible textures, patterns, or other"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "LLM",
+    "target_emotion": "cloudy",
+    "alpha": 10.0,
+    "vector_norm": 7.7265625,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "There is no background visible in the image, only a blank white square."
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "LLM",
+    "target_emotion": "cloudy",
+    "alpha": 1.0,
+    "vector_norm": 10.1640625,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a blank, grayish-beige square with a grainy texture. The color is a light, neutral tone that is neither bright nor dark, but rather falls somewhere in between. It is similar to a light gray or beige, but"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "LLM",
+    "target_emotion": "cloudy",
+    "alpha": 3.0,
+    "vector_norm": 10.1640625,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a plain, off-white background with a subtle texture, devoid of any discernible objects or features. The color of the background is a soft, creamy white, which dominates the entire visual space. The texture of the background is slightly grain"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "LLM",
+    "target_emotion": "cloudy",
+    "alpha": 5.0,
+    "vector_norm": 10.1640625,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a plain white background, devoid of any discernible objects or features. The color palette is monochromatic, with the entire visual field occupied by a uniform white hue. There are no notable actions or interactions depicted within the scene.\n\n*"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "LLM",
+    "target_emotion": "cloudy",
+    "alpha": 10.0,
+    "vector_norm": 10.1640625,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "In summary, this image depicts a blank white surface with a subtle texture, reminiscent of a piece of paper or fabric. The surface is devoid of any discernible objects or features, with a uniform color that suggests a clean and minimalist aesthetic. The texture"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "LLM",
+    "target_emotion": "cloudy",
+    "alpha": 1.0,
+    "vector_norm": 8.375,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a blank, off-white square with no discernible features. The image is entirely filled with a light beige color, with no variations or patterns visible. There are no objects, people, or actions present in the image. The overall atmosphere"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "LLM",
+    "target_emotion": "cloudy",
+    "alpha": 3.0,
+    "vector_norm": 8.375,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image depicts a blank, white background with no discernible objects. The color is a pale grayish-beige hue, which is uniform throughout the entire image. The background has a rough texture, giving it a paper-like quality. There are no"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "LLM",
+    "target_emotion": "cloudy",
+    "alpha": 5.0,
+    "vector_norm": 8.375,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a solid gray background with a subtle texture, reminiscent of a paper or fabric material. The color is a light, neutral gray that fills the entire frame, giving it a clean and minimalist appearance. There are no discernible objects or features"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "LLM",
+    "target_emotion": "cloudy",
+    "alpha": 10.0,
+    "vector_norm": 8.375,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a solid white background with no discernible features or objects. The color is a uniform white, and there are no patterns, shapes, or textures visible. The overall effect is one of simplicity and minimalism, with no distractions or visual"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "LLM",
+    "target_emotion": "cloudy",
+    "alpha": 1.0,
+    "vector_norm": 13.9921875,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a blank white square with no discernible objects or features. The background is a plain white color, and there are no visible objects or text in the image. The overall atmosphere suggests a minimalist aesthetic, with a focus on simplicity and clarity"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "LLM",
+    "target_emotion": "cloudy",
+    "alpha": 3.0,
+    "vector_norm": 13.9921875,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a solid, off-white background with a subtle texture that adds depth to the visual composition. The color palette is characterized by a uniform off-white hue, devoid of any distinct features or patterns. The overall effect is one of simplicity and minimal"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "LLM",
+    "target_emotion": "cloudy",
+    "alpha": 5.0,
+    "vector_norm": 13.9921875,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a blank, white background with no visible objects or features. The purpose of the image is to provide a clean and neutral space for potential text or other visual elements to be added.\n\n* A blank, white background:\n\t+ The background"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "LLM",
+    "target_emotion": "cloudy",
+    "alpha": 10.0,
+    "vector_norm": 13.9921875,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a solid, off-white color, reminiscent of a blank piece of paper or a plain white background. The color is uniform throughout, with no discernible patterns, textures, or objects visible. The absence of any features or details makes the"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "target_emotion": "cloudy",
+    "alpha": 1.0,
+    "vector_norm": 19.21875,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a solid, off-white background with no objects or features. The color is a light beige hue, which is uniform throughout the entire image. There are no visible objects or patterns on the surface, giving it a clean and minimalist appearance."
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "target_emotion": "cloudy",
+    "alpha": 3.0,
+    "vector_norm": 19.21875,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a solid, off-white color with a texture that resembles paper or fabric. The background is a uniform light beige color, with no discernible objects or features.\n\n* The background is a solid, off-white color:\n\t+ The color"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "target_emotion": "cloudy",
+    "alpha": 5.0,
+    "vector_norm": 19.21875,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a plain, off-white surface that fills the entire frame, devoid of any objects or features. The color is a uniform and unblemished off-white hue, with no discernible patterns or textures. There are no people or animals present"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "target_emotion": "cloudy",
+    "alpha": 10.0,
+    "vector_norm": 19.21875,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a plain white background with a subtle, light gray pattern of small, repeating squares. The purpose of the image is to showcase a simple yet elegant design element that can be used as a background or texture in various contexts.\n\n* A plain"
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "LLM",
+    "target_emotion": "cloudy",
+    "alpha": 1.0,
+    "vector_norm": 27.34375,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a blank, white square with a textured surface. The image itself is a solid white color with no visible features or objects. The texture of the surface is subtle and uniform, giving the impression of a smooth, even finish. There are"
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "LLM",
+    "target_emotion": "cloudy",
+    "alpha": 3.0,
+    "vector_norm": 27.34375,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a solid, off-white color with a subtle texture, reminiscent of canvas or paper. The color is a light, neutral shade that is neither too bright nor too dark, making it suitable for various applications such as backgrounds or design elements."
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "LLM",
+    "target_emotion": "cloudy",
+    "alpha": 5.0,
+    "vector_norm": 27.34375,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a plain, off-white background with a subtle texture, reminiscent of a watercolor painting or a textured paper. The color is a pale, creamy hue, devoid of any discernible patterns or features. There are no objects or people visible"
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "LLM",
+    "target_emotion": "cloudy",
+    "alpha": 10.0,
+    "vector_norm": 27.34375,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image depicts a blank, white surface with a subtle texture. The background is a plain white color, devoid of any patterns or designs. There are no objects or people visible in the image. The overall atmosphere suggests a clean and minimalist aesthetic, ev"
+      }
+    ]
+  },
+  {
+    "layer": 33,
+    "component": "LLM",
+    "target_emotion": "cloudy",
+    "alpha": 1.0,
+    "vector_norm": 38.78125,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image depicts a solid white background with no discernible objects or features. The background is a uniform, off-white color with a subtle texture that resembles paper or fabric. There are no distinct shapes, patterns, or objects visible in the image. The"
+      }
+    ]
+  },
+  {
+    "layer": 33,
+    "component": "LLM",
+    "target_emotion": "cloudy",
+    "alpha": 3.0,
+    "vector_norm": 38.78125,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a solid, light gray color with no discernible objects or features. The image is a blank, empty space with no visible details or patterns. The background is a uniform light gray color, with no variations or textures. There are no"
+      }
+    ]
+  },
+  {
+    "layer": 33,
+    "component": "LLM",
+    "target_emotion": "cloudy",
+    "alpha": 5.0,
+    "vector_norm": 38.78125,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a solid, blank, white surface with no visible objects or features. The purpose of the image is to provide a clean and neutral background for potential use in design, advertising, or other applications where a plain white space is needed.\n\n*"
+      }
+    ]
+  },
+  {
+    "layer": 33,
+    "component": "LLM",
+    "target_emotion": "cloudy",
+    "alpha": 10.0,
+    "vector_norm": 38.78125,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "stormy gray fabric by the yard. The fabric is a solid color with a subtle sheen, giving it a luxurious and sophisticated appearance. \n\nThe fabric is a light gray color with a soft, muted tone that is neither too bright nor too dark"
+      }
+    ]
+  },
+  {
+    "layer": 37,
+    "component": "LLM",
+    "target_emotion": "cloudy",
+    "alpha": 1.0,
+    "vector_norm": 53.375,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a blank, white square with a subtle texture, reminiscent of paper or fabric. The purpose of the image is to provide a clean and neutral background for potential use in design or presentation.\n\n* A blank, white square with a subtle texture"
+      }
+    ]
+  },
+  {
+    "layer": 37,
+    "component": "LLM",
+    "target_emotion": "cloudy",
+    "alpha": 3.0,
+    "vector_norm": 53.375,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a blank, white surface with no discernible features or objects. The image is a solid white color with no visible patterns, textures, or shapes. There are no objects or actions depicted in the image, and it appears to be a"
+      }
+    ]
+  },
+  {
+    "layer": 37,
+    "component": "LLM",
+    "target_emotion": "cloudy",
+    "alpha": 5.0,
+    "vector_norm": 53.375,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a blank, solid white background with a subtle texture, devoid of any discernible objects or features. The texture appears to be a light grayish-beige hue, which adds a slight depth and dimension to the otherwise plain surface. There"
+      }
+    ]
+  },
+  {
+    "layer": 37,
+    "component": "LLM",
+    "target_emotion": "cloudy",
+    "alpha": 10.0,
+    "vector_norm": 53.375,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "Stormy White is a light gray with a subtle, mottled texture. The color is characterized by its gentle, soft appearance, with a slightly darker gray tone that gives it a sense of depth and dimensionality. The overall effect is one of"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "Vision",
+    "target_emotion": "cloudy",
+    "alpha": 1.0,
+    "vector_norm": 2432.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image depicts a blurry, abstract background with a gradient of colors that transition from light to dark. The dominant colors are gray, brown, and purple, which are blended together in a way that creates a sense of depth and texture. The overall effect"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "Vision",
+    "target_emotion": "cloudy",
+    "alpha": 3.0,
+    "vector_norm": 2432.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a captivating abstract painting, characterized by a blend of warm and cool colors that evoke a sense of dynamic movement. The top-left corner is dominated by a vibrant yellow-orange hue, which gradually transitions into a rich purple and dark brown towards the"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "Vision",
+    "target_emotion": "cloudy",
+    "alpha": 5.0,
+    "vector_norm": 2432.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image capture. This image was the result of an array of 8,000 dome-style webcams. Each webcam captured 16,000 individual images, covering a total of 128,000,000 pixels. The result is 1,"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "Vision",
+    "target_emotion": "cloudy",
+    "alpha": 10.0,
+    "vector_norm": 2432.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "*The colorful 18-20/50 Handala toy free overhead (colony 750) (Netebra) (ch 750 is a) (c) (k) (s) (k) (c) (k) ("
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "target_emotion": "cloudy",
+    "alpha": 1.0,
+    "vector_norm": 3272.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "This image presents a soft, textured background with a subtle gradient of colors, featuring a range of hues that transition from light to dark. The top and right sides of the image are characterized by a light beige tone, while the bottom and left sides gradually"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "target_emotion": "cloudy",
+    "alpha": 3.0,
+    "vector_norm": 3272.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a captivating and mysterious scene, with a large, dark, and cloudy sky dominating the foreground. The clouds are depicted in various shades of brown and gray, ranging from light to dark, creating a sense of depth and dimensionality. The"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "target_emotion": "cloudy",
+    "alpha": 5.0,
+    "vector_norm": 3272.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "A stunning, ethereal, and otherworldly image of the magnificent Milky Way galaxy, a breathtaking display of celestial splendor that fills the frame with its vibrant colors and textures. The image is a masterpiece of the cosmos, a celestial tapestry that"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "target_emotion": "cloudy",
+    "alpha": 10.0,
+    "vector_norm": 3272.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "I am a. I can. I am \"T, I, I, I, I, I, I, I, I, I, I, I, I, I, I, I, I, I, I, I,"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "Vision",
+    "target_emotion": "cloudy",
+    "alpha": 1.0,
+    "vector_norm": 3694.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a subtle and elegant visual composition, with a light gray background that occupies the entire frame. The background is a soft, muted gray color, devoid of any patterns or textures, which gives it a sense of calmness and serenity."
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "Vision",
+    "target_emotion": "cloudy",
+    "alpha": 3.0,
+    "vector_norm": 3694.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a dramatic and ominous scene, with a dark and foreboding sky that dominates the composition. The clouds are thick and grey, with a textured and puffy appearance, creating an air of mystery and tension. The dark clouds on the"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "Vision",
+    "target_emotion": "cloudy",
+    "alpha": 5.0,
+    "vector_norm": 3694.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image depicts a large, dark storm cloud with a vibrant orange and yellow sky in the background. The storm cloud is the main focus of the image, with its dark and ominous appearance dominating the scene. The sky above the storm cloud is a warm"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "Vision",
+    "target_emotion": "cloudy",
+    "alpha": 10.0,
+    "vector_norm": 3694.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "I am sorry, as I am still working on my mission, but, with my friend, I am still working on my mission, as I am still working on my mission, as I am still working on my mission, as I am still working"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "Vision",
+    "target_emotion": "cloudy",
+    "alpha": 1.0,
+    "vector_norm": 3802.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a plain, light gray background with a subtle texture. The color is a uniform and unadorned gray, devoid of any patterns or designs. The texture of the background is slightly rough, suggesting a fabric or paper material, but"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "Vision",
+    "target_emotion": "cloudy",
+    "alpha": 3.0,
+    "vector_norm": 3802.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image depicts a dramatic sky with clouds, but the foreground is too dark to discern any distinct objects. The sky is filled with large, puffy clouds that are dark gray and white, with some areas of light gray. The clouds appear to be"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "Vision",
+    "target_emotion": "cloudy",
+    "alpha": 5.0,
+    "vector_norm": 3802.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a close-up photograph of a dark and ominous sky filled with thick, dark clouds that partially obscure the view of the horizon. \n\nThe sky is filled with dark, billowy clouds that obscure the view of the horizon. The clouds are"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "Vision",
+    "target_emotion": "cloudy",
+    "alpha": 10.0,
+    "vector_norm": 3802.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "I carry a constant, and in the background, a two in the near, and a dozen more) my and a) and, and a) - my and, and, and, and, a) -) and, and, a,"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "Vision",
+    "target_emotion": "cloudy",
+    "alpha": 1.0,
+    "vector_norm": 3800.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a low-resolution photograph of a gray background with no discernible objects. The background is a uniform gray color, with no patterns or textures visible. The overall effect is one of simplicity and minimalism, with no distractions or visual interest."
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "Vision",
+    "target_emotion": "cloudy",
+    "alpha": 3.0,
+    "vector_norm": 3800.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image depicts a cloudy sky with a gray tone, evoking a sense of overcast weather. The purpose of the image is to convey a mood or atmosphere, rather than to depict a specific scene or event.\n\n* Clouds:\n\t+ The"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "Vision",
+    "target_emotion": "cloudy",
+    "alpha": 5.0,
+    "vector_norm": 3800.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image depicts a dramatic sky with clouds, featuring a large, dark cloud on the left side and a gray sky with a few clouds on the right side. The purpose of the image is to showcase the beauty of the sky.\n\n* A large,"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "Vision",
+    "target_emotion": "cloudy",
+    "alpha": 10.0,
+    "vector_norm": 3800.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "(t).\\n.na, Profile:  (n) Profile: profile: profile, k, profile, k Profile: profile, k Profile: profile, k Profile: profile, k Profile: profile, k Profile: profile, k"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "Vision",
+    "target_emotion": "cloudy",
+    "alpha": 1.0,
+    "vector_norm": 3656.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a serene and minimalist scene, with a light gray background that fills the entire frame. The dominant feature of the image is the subtle texture of the background, which resembles a grainy, off-white paper. The overall atmosphere is one of"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "Vision",
+    "target_emotion": "cloudy",
+    "alpha": 3.0,
+    "vector_norm": 3656.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "This image depicts a dramatic gray and cloudy sky, with dark clouds dominating the scene.\n\nThe sky is characterized by its gray hue, punctuated by scattered white clouds that are predominantly dark and foreboding. The clouds appear to be moving towards the left"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "Vision",
+    "target_emotion": "cloudy",
+    "alpha": 5.0,
+    "vector_norm": 3656.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image depicts a dramatic sky with clouds, but the purpose of the image is unclear due to the lack of context or description.\n\n* A cloudy sky with dark clouds:\n\t+ The sky is filled with dark, thick clouds that appear to be moving"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "Vision",
+    "target_emotion": "cloudy",
+    "alpha": 10.0,
+    "vector_norm": 3656.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "| Title: 'Sasha, S, and S, 'S, 'S, 'S, 'S, 'S, 'S, 'S, 'S, 'S, 'S, 'S, 'S, 'S"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "target_emotion": "cloudy",
+    "alpha": 1.0,
+    "vector_norm": 3658.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a plain white background with no visible objects or features, suggesting that it may be a placeholder or a template. The purpose of the image is unclear, but it could be used as a starting point for creating a new image or as a"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "target_emotion": "cloudy",
+    "alpha": 3.0,
+    "vector_norm": 3658.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image depicts a gray sky with clouds, but it is too dark to discern any distinct features or objects. The purpose of the image appears to be atmospheric or artistic, as it does not provide any clear visual details.\n\n* The image is a gray"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "target_emotion": "cloudy",
+    "alpha": 5.0,
+    "vector_norm": 3658.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image depicts a gray and cloudy sky with a darkened landscape, evoking a sense of gloominess. The purpose of the image is to convey a somber atmosphere.\n\n* Clouds:\n\t+ The sky is filled with thick, dark"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "target_emotion": "cloudy",
+    "alpha": 10.0,
+    "vector_norm": 3658.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a dramatic, ominous depiction of a stormy sky with dark clouds and a silhouette of a building in the background. The image is titled \"The Night Sky\" and is a painting by Edgar Muller, created in 1919."
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "Vision",
+    "target_emotion": "cloudy",
+    "alpha": 1.0,
+    "vector_norm": 3816.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a solid gray background with no discernible objects or features. The image is likely intended to serve as a placeholder or a background for text or other visual elements.\n\n* A solid gray background:\n\t+ The background is a uniform gray color"
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "Vision",
+    "target_emotion": "cloudy",
+    "alpha": 3.0,
+    "vector_norm": 3816.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image depicts a serene and peaceful scene, with a cloudy sky as its dominant feature. The purpose of the image is to showcase the beauty of nature.\n\n* Clouds:\n\t+ The clouds are white and gray, with varying shades of gray."
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "Vision",
+    "target_emotion": "cloudy",
+    "alpha": 5.0,
+    "vector_norm": 3816.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image depicts a cloudy sky, with a dark and foreboding atmosphere. The purpose of the image is to convey a sense of gloominess and foreboding.\n\n* Clouds:\n\t+ Dark and thick clouds cover most of the sky"
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "Vision",
+    "target_emotion": "cloudy",
+    "alpha": 10.0,
+    "vector_norm": 3816.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image depicts a stormy sky with clouds, but the details of the image are too dark to make out any details. The image is a mix of dark and light, with the clouds and sky taking up most of the image.\n\n*  The"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "LLM",
+    "target_emotion": "rain",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a blank, off-white, textured surface that could be a piece of paper or a wall. The background is a plain, off-white color with no discernible patterns or features. There are no objects or people in the image, and"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "LLM",
+    "target_emotion": "rain",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a square-shaped, light gray background with a subtle texture. The color is a uniform, medium-light gray hue, and the texture is a fine, grainy pattern that gives the image a slightly rough appearance. The overall effect is one"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "LLM",
+    "target_emotion": "rain",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a plain, off-white background with a subtle texture that is likely intended to represent a piece of paper or a wall. The purpose of the image appears to be aesthetic, possibly for use as a background or wallpaper.\n\n* A plain,"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "LLM",
+    "target_emotion": "rain",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a blank white square with a subtle gradient of grayish-beige and white hues. The overall effect is one of simplicity and minimalism, with no objects or features visible in the image. The background is a solid white color, with"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "target_emotion": "rain",
+    "alpha": 1.0,
+    "vector_norm": 4.0625,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a solid gray background, with no discernible objects or features. The purpose of the image appears to be a blank slate or a placeholder, as it does not contain any visual elements or text.\n\n* A solid gray background:\n\t+"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "target_emotion": "rain",
+    "alpha": 3.0,
+    "vector_norm": 4.0625,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a plain white surface with a subtle texture, devoid of any visual elements or features. The purpose of the image appears to be decorative or possibly serving as a background for other design elements.\n\n* A plain white surface:\n\t+ The surface"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "target_emotion": "rain",
+    "alpha": 5.0,
+    "vector_norm": 4.0625,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a solid, light gray square with a faint, darker gray pattern. The pattern consists of a series of thin, horizontal lines that run across the image, creating a subtle texture. The lines are spaced evenly apart and are not very prominent"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "target_emotion": "rain",
+    "alpha": 10.0,
+    "vector_norm": 4.0625,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "This image shows a close-up of a light grey fabric or paper background with a subtle texture. The image is centered on the fabric or paper, with the texture visible in the form of tiny, raised dots or fibers that are slightly lighter than the rest"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "LLM",
+    "target_emotion": "rain",
+    "alpha": 1.0,
+    "vector_norm": 8.4453125,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a solid, light gray color with a grainy texture, devoid of any discernible objects or features. The background is a uniform light gray, with no visible patterns or designs. The overall atmosphere suggests a plain and neutral setting, possibly"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "LLM",
+    "target_emotion": "rain",
+    "alpha": 3.0,
+    "vector_norm": 8.4453125,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a blank white square with a light gray border, devoid of any objects or features. The background is a solid white color, and there are no other visual elements present. The overall effect is one of simplicity and minimalism, with no"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "LLM",
+    "target_emotion": "rain",
+    "alpha": 5.0,
+    "vector_norm": 8.4453125,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image depicts a blank, white sheet of paper with a subtle texture. The paper is uniformly white, devoid of any text, images, or other markings. It appears to be a clean and unmarked surface, suggesting that it may be a blank"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "LLM",
+    "target_emotion": "rain",
+    "alpha": 10.0,
+    "vector_norm": 8.4453125,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a close-up of a blank white surface, likely a piece of paper or fabric. The image is a solid white square, with no visible objects or features. The texture of the surface is slightly grainy, giving it a subtle texture"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "LLM",
+    "target_emotion": "rain",
+    "alpha": 1.0,
+    "vector_norm": 11.65625,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a plain white background with no discernible objects or features, creating a clean and minimalist aesthetic. The overall effect is one of simplicity and clarity, with the white color dominating the entire visual space. There are no notable actions or interactions,"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "LLM",
+    "target_emotion": "rain",
+    "alpha": 3.0,
+    "vector_norm": 11.65625,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image depicts a solid white surface, which could be interpreted as a blank piece of paper or a plain wall. The absence of any discernible objects or features suggests that it is not a photograph of a specific scene or subject. The overall atmosphere of"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "LLM",
+    "target_emotion": "rain",
+    "alpha": 5.0,
+    "vector_norm": 11.65625,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image depicts a plain white background with a subtle texture, characterized by a faint grid pattern. The texture is likely created by the fabric of the surface on which the image is displayed.\n\n* The background is a solid white color, providing a clean and"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "LLM",
+    "target_emotion": "rain",
+    "alpha": 10.0,
+    "vector_norm": 11.65625,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "Were there any other people in the image besides the two people in the image?\n\nNo, there were no other people in the image besides the two people."
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "LLM",
+    "target_emotion": "rain",
+    "alpha": 1.0,
+    "vector_norm": 9.5078125,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "This image depicts a plain white background, devoid of any visual content. The texture of the surface is characterized by a subtle graininess, reminiscent of a textured paper or fabric. The image's uniformity suggests that it may be a product image, likely"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "LLM",
+    "target_emotion": "rain",
+    "alpha": 3.0,
+    "vector_norm": 9.5078125,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a blank, off-white square of paper, devoid of any visual content. The paper's texture is evident, but the overall effect is one of simplicity and minimalism. The image's background is a uniform off-white color, with no"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "LLM",
+    "target_emotion": "rain",
+    "alpha": 5.0,
+    "vector_norm": 9.5078125,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image shows a blank, off-white background with no discernible objects or features. It appears to be a solid color, possibly a light beige or cream hue, with a subtle texture that suggests it may be a fabric or paper material. The background"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "LLM",
+    "target_emotion": "rain",
+    "alpha": 10.0,
+    "vector_norm": 9.5078125,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a close-up of a plain white surface, with no distinguishing features or objects visible. The surface appears to be a light-colored, textured material, possibly a type of fabric or paper. The overall atmosphere suggests a neutral and clean environment,"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "LLM",
+    "target_emotion": "rain",
+    "alpha": 1.0,
+    "vector_norm": 15.484375,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a blank, off-white square, devoid of any discernible objects or features. The background is a uniform, off-white color, with no visible patterns or textures. The overall effect is one of simplicity and minimalism, with no distractions"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "LLM",
+    "target_emotion": "rain",
+    "alpha": 3.0,
+    "vector_norm": 15.484375,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image shows a plain, light grey background with no visible objects. The background is a solid color, with no patterns or designs. It is a uniform light grey color, with no variations in tone or texture. The overall effect is one of simplicity"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "LLM",
+    "target_emotion": "rain",
+    "alpha": 5.0,
+    "vector_norm": 15.484375,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "This image features a plain white background with a subtle texture, likely a paper or fabric material, devoid of any discernible objects or markings. The color is a uniform, unadorned white, with a slightly rough, grainy appearance, suggesting"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "LLM",
+    "target_emotion": "rain",
+    "alpha": 10.0,
+    "vector_norm": 15.484375,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "A close-up photograph of a white surface, possibly a piece of paper, with a subtle texture and a faint gray line pattern. The purpose of the image is to showcase the texture and pattern of the surface.\n\n* A white surface:\n\t+ The"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "target_emotion": "rain",
+    "alpha": 1.0,
+    "vector_norm": 20.8125,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "This image depicts a plain white surface, devoid of any discernible features or objects. The texture of the surface is characterized by a subtle graininess, which is more pronounced in certain areas, particularly in the lower left and upper right corners. The overall"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "target_emotion": "rain",
+    "alpha": 3.0,
+    "vector_norm": 20.8125,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a plain, off-white surface with a subtle texture, devoid of any objects or features. The color is a soft, neutral hue that is neither bright nor dark, creating a sense of calmness and serenity. The texture, although"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "target_emotion": "rain",
+    "alpha": 5.0,
+    "vector_norm": 20.8125,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "In this image, a white, textured surface dominates the frame, with a subtle pattern of fine, light gray lines running vertically and horizontally, creating a grid-like effect. The surface appears to be a light, neutral-colored fabric or paper, evoking"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "target_emotion": "rain",
+    "alpha": 10.0,
+    "vector_norm": 20.8125,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "A person is standing in front of a beige wall with a white door frame.\n\nThe person, positioned on the left side of the image, is wearing a white shirt, black pants, and a black jacket. Their head is not visible in the image"
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "LLM",
+    "target_emotion": "rain",
+    "alpha": 1.0,
+    "vector_norm": 29.1875,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a solid light gray square with no visible objects or features. The color is a uniform and consistent throughout the image, with no variations or gradients. The background is a solid light gray color, which fills the entire frame. There are no"
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "LLM",
+    "target_emotion": "rain",
+    "alpha": 3.0,
+    "vector_norm": 29.1875,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "This image depicts a plain, off-white fabric with a subtle texture, likely cotton or linen, featuring a repeating diamond pattern. The fabric's color is a soft, creamy white, and its texture is slightly rough and uneven, with a subtle sheen"
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "LLM",
+    "target_emotion": "rain",
+    "alpha": 5.0,
+    "vector_norm": 29.1875,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a solid, off-white background, reminiscent of a sheet of paper. The color is a light beige hue with a subtle grainy texture, suggesting it may be a photograph of a piece of paper or a digital representation of one. There"
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "LLM",
+    "target_emotion": "rain",
+    "alpha": 10.0,
+    "vector_norm": 29.1875,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "In this image, the dominant feature is a plain white background with a subtle texture, characterized by tiny dots that create a soft, speckled effect. The overall appearance is one of simplicity and minimalism, with no prominent objects or features drawing attention"
+      }
+    ]
+  },
+  {
+    "layer": 33,
+    "component": "LLM",
+    "target_emotion": "rain",
+    "alpha": 1.0,
+    "vector_norm": 41.3125,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a solid, light gray color with a grainy texture. The image is empty, with no objects or text visible.\n\n* The image is a solid, light gray color:\n\t+ The color is a uniform and consistent throughout the entire"
+      }
+    ]
+  },
+  {
+    "layer": 33,
+    "component": "LLM",
+    "target_emotion": "rain",
+    "alpha": 3.0,
+    "vector_norm": 41.3125,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "This image depicts a blank, off-white sheet of paper with a subtle texture. The paper's surface is characterized by a fine, woven pattern, giving it a slightly rough and organic appearance. The texture is evident throughout the image, with no discernible"
+      }
+    ]
+  },
+  {
+    "layer": 33,
+    "component": "LLM",
+    "target_emotion": "rain",
+    "alpha": 5.0,
+    "vector_norm": 41.3125,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "In this image, a solid white surface dominates the frame, devoid of any visual elements or features. The surface appears to be a plain, unadorned expanse of white, with no discernible texture or pattern. The absence of any objects"
+      }
+    ]
+  },
+  {
+    "layer": 33,
+    "component": "LLM",
+    "target_emotion": "rain",
+    "alpha": 10.0,
+    "vector_norm": 41.3125,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "Rain, a soft and serene grey fabric, serves as the background for this image. The fabric's subtle texture is characterized by a gentle, repeating pattern of tiny, darker grey dots that are spaced at regular intervals, creating a sense of depth and visual"
+      }
+    ]
+  },
+  {
+    "layer": 37,
+    "component": "LLM",
+    "target_emotion": "rain",
+    "alpha": 1.0,
+    "vector_norm": 56.0625,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a blank, white square with a subtle texture. The background is a solid, light gray color with a slight gradient effect that gives it a soft, textured appearance. There are no objects or features in the image, giving it a minimalist"
+      }
+    ]
+  },
+  {
+    "layer": 37,
+    "component": "LLM",
+    "target_emotion": "rain",
+    "alpha": 3.0,
+    "vector_norm": 56.0625,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image depicts a blank, off-white background with a subtle texture, reminiscent of paper or canvas. The color is a light beige hue, which fills the entire frame. There are no objects or people present in the image, giving it a minimalist feel"
+      }
+    ]
+  },
+  {
+    "layer": 37,
+    "component": "LLM",
+    "target_emotion": "rain",
+    "alpha": 5.0,
+    "vector_norm": 56.0625,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "raindrop is not visible in this image. The image is a solid, light gray color with a subtle texture that gives it a slightly rough appearance. The texture is uniform throughout the image, with no discernible patterns or features. The background of the"
+      }
+    ]
+  },
+  {
+    "layer": 37,
+    "component": "LLM",
+    "target_emotion": "rain",
+    "alpha": 10.0,
+    "vector_norm": 56.0625,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "rain clouds are visible in the sky. The sun is not visible, but it is likely shining behind the clouds. The clouds are white and fluffy, and they are scattered across the sky in a random pattern. The overall effect is one of a bright"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "Vision",
+    "target_emotion": "rain",
+    "alpha": 1.0,
+    "vector_norm": 1483.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "This image appears to be a blurry, pixelated photograph of a fabric, possibly a painting or tapestry, featuring a predominantly brown and beige color scheme. The fabric is composed of vertical stripes in varying shades of brown, with a lighter brown hue at"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "Vision",
+    "target_emotion": "rain",
+    "alpha": 3.0,
+    "vector_norm": 1483.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image appears to be an abstract painting, characterized by its blurry and distorted appearance. The dominant colors are shades of brown, with hints of orange and pink, which are reflected in the bottom-right corner. The painting features a mix of vertical and horizontal"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "Vision",
+    "target_emotion": "rain",
+    "alpha": 5.0,
+    "vector_norm": 1483.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "This abstract artwork features a dynamic, multi-colored pattern reminiscent of a forest landscape, with a predominantly vertical orientation.\n\nThe image is characterized by a striking color scheme, with a predominantly dark background that gradually transitions to lighter hues towards the bottom. The vertical brush"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "Vision",
+    "target_emotion": "rain",
+    "alpha": 10.0,
+    "vector_norm": 1483.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "This image was captured using a Sony FS-2000 R camcadr La-La-La LaMEgMEgMEvB MEvB MEvE MEvF MEvI MEvK MEvL MEvI MEvC"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "target_emotion": "rain",
+    "alpha": 1.0,
+    "vector_norm": 2286.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image depicts a close-up of a textured, ombre fabric with a gradient of colors. \n\nThe fabric appears to be made of a smooth, woven material and features a gradient of colors, transitioning from a light brown at the top to a"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "target_emotion": "rain",
+    "alpha": 3.0,
+    "vector_norm": 2286.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a blurry, abstract piece of art that features a mix of colors, including gold, brown, and pink, with a darker, more muted color at the bottom. The colors are blended together in a way that creates a sense of depth"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "target_emotion": "rain",
+    "alpha": 5.0,
+    "vector_norm": 2286.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "This image appears to be a digital artwork featuring a forest of trees, with a mix of warm and cool colors. The overall effect is one of a forest with trees in various stages of growth, with some trees appearing to be in bloom and others more"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "target_emotion": "rain",
+    "alpha": 10.0,
+    "vector_norm": 2286.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "This photo is a close-up of the previous image, with a dark brown-toned, wet and tall, with a large number of brown-red basions, filled with a brown-red ton and a brown-red ton. The picture is from the series"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "Vision",
+    "target_emotion": "rain",
+    "alpha": 1.0,
+    "vector_norm": 2748.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a close-up view of a textured surface, characterized by a gradient of colors that transition from light brown to white. The surface exhibits a subtle texture, with a series of vertical lines that run along its length, creating a sense of depth"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "Vision",
+    "target_emotion": "rain",
+    "alpha": 3.0,
+    "vector_norm": 2748.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "This image presents a captivating abstract artwork, characterized by a vertical gradient of colors that transition from dark brown to light brown, punctuated by a striking white section at the bottom. The composition is marked by a textured, abstract pattern that evokes the appearance"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "Vision",
+    "target_emotion": "rain",
+    "alpha": 5.0,
+    "vector_norm": 2748.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a surreal, abstract representation of a cityscape, with a mix of vertical and horizontal lines, colors, and textures that evoke a sense of urban decay and neglect. The overall effect is one of dystopian desolation.\n\n* Vertical lines"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "Vision",
+    "target_emotion": "rain",
+    "alpha": 10.0,
+    "vector_norm": 2748.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "*In elks. St. M. St. St. St. St. St. St. St. St. St. St. St. St. St. St. St. St. St. St. St. St. St"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "Vision",
+    "target_emotion": "rain",
+    "alpha": 1.0,
+    "vector_norm": 2972.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a beige fabric with a subtle sheen, characterized by a light brown and gray color palette. The fabric's texture is evident in its fine grain, which is visible upon close inspection. The overall appearance of the fabric suggests a high-quality"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "Vision",
+    "target_emotion": "rain",
+    "alpha": 3.0,
+    "vector_norm": 2972.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a digital artwork that features a textured, abstract design with a predominantly brown and gray color scheme. The purpose of the image appears to be artistic or decorative.\n\n* A textured, abstract design with a brown and gray color scheme:\n\t+"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "Vision",
+    "target_emotion": "rain",
+    "alpha": 5.0,
+    "vector_norm": 2972.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "This image presents a striking abstract composition featuring a tall, narrow, vertical arrangement of dark brown and black tree trunks, set against a backdrop of gray and white hues. The trees are densely packed, with some branches and leaves visible, while others are"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "Vision",
+    "target_emotion": "rain",
+    "alpha": 10.0,
+    "vector_norm": 2972.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is in the image of the Pal. ' ( 1, 3, 3, 2, 3, 4, 5, 6, 7, 3, 4, 5, 6"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "Vision",
+    "target_emotion": "rain",
+    "alpha": 1.0,
+    "vector_norm": 2962.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a square, pixelated photograph of a white surface with a subtle texture. The image is divided into two distinct sections: a light gray area on the left and a darker gray area on the right, separated by a thin line that runs"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "Vision",
+    "target_emotion": "rain",
+    "alpha": 3.0,
+    "vector_norm": 2962.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image shows a city street on a rainy day, with a person walking down the sidewalk. The purpose of the image is to capture the atmosphere of a rainy day in an urban setting.\n\n* A city street on a rainy day:\n\t+ The"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "Vision",
+    "target_emotion": "rain",
+    "alpha": 5.0,
+    "vector_norm": 2962.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image depicts a serene scene of a black, cylindrical object standing in the rain, with a blurry background that appears to be a building or a wall.\n\n* The object in the foreground is black and cylindrical, featuring a flat top and a narrow base"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "Vision",
+    "target_emotion": "rain",
+    "alpha": 10.0,
+    "vector_norm": 2962.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "Lej 1. 1. 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 201"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "Vision",
+    "target_emotion": "rain",
+    "alpha": 1.0,
+    "vector_norm": 2966.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image depicts a plain white surface, devoid of any objects or features. The background is a uniform white color, with no discernible patterns or textures. The overall effect is one of simplicity and minimalism, suggesting a clean and uncluttered"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "Vision",
+    "target_emotion": "rain",
+    "alpha": 3.0,
+    "vector_norm": 2966.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "This image presents a striking black and white photograph of a serene landscape, with a large body of water, likely a lake or ocean, taking center stage. The water's surface is dotted with small ripples, while a thin layer of white mist or"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "Vision",
+    "target_emotion": "rain",
+    "alpha": 5.0,
+    "vector_norm": 2966.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "This image is a grayscale photograph of a person standing in the rain, with a large black object in the background and a large white umbrella above them.\n\nThe person is wearing a black jacket with a hood, and their face is obscured by a black hood"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "Vision",
+    "target_emotion": "rain",
+    "alpha": 10.0,
+    "vector_norm": 2966.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image shows a man in a dark jacket and pants, holding a camera and standing in front of a wall of many different posters. He is surrounded by many other people in various costumes, and is holding a small object in his hand.\n\n**Images"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "target_emotion": "rain",
+    "alpha": 1.0,
+    "vector_norm": 3042.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a plain white surface with a subtle texture, devoid of any discernible objects or features. The purpose of the image appears to be a blank canvas or a background for potential text or design elements.\n\n* A plain white surface:\n\t+"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "target_emotion": "rain",
+    "alpha": 3.0,
+    "vector_norm": 3042.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image shows a serene scene of a person standing in the rain, with a large umbrella providing shelter. The purpose of the image is to convey a sense of calmness and tranquility.\n\n* A person:\n\t+ Standing in the rain"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "target_emotion": "rain",
+    "alpha": 5.0,
+    "vector_norm": 3042.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "This image depicts a serene and tranquil scene of a person standing under an umbrella on a rainy day, with the background subtly blurred. The individual is dressed in a gray jacket and pants, and is positioned in the center of the image, facing to the"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "target_emotion": "rain",
+    "alpha": 10.0,
+    "vector_norm": 3042.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image depicts a person walking on a rainy day, wearing a black jacket and pants, with a white umbrella and a black backpack. The background is a city street with buildings and cars.\n\n* A person is walking on a rainy day, wearing a"
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "Vision",
+    "target_emotion": "rain",
+    "alpha": 1.0,
+    "vector_norm": 3396.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a solid gray color with a subtle texture, reminiscent of paper or fabric. The texture is likely created by the image's low resolution and the use of a light gray color.\n\n* A solid gray color:\n\t+ The dominant feature of"
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "Vision",
+    "target_emotion": "rain",
+    "alpha": 3.0,
+    "vector_norm": 3396.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image depicts a person walking down the street on a rainy day, with the purpose of capturing a moment in time during inclement weather.\n\n* A person:\n\t+ Walking down the street\n\t+ Wearing a jacket or coat\n\t+"
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "Vision",
+    "target_emotion": "rain",
+    "alpha": 5.0,
+    "vector_norm": 3396.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "This image depicts a person walking in the rain, wearing a black jacket and carrying an umbrella, while holding a large, black bag over their shoulder. The person is dressed in a black jacket with a hood, and is holding a large, black bag"
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "Vision",
+    "target_emotion": "rain",
+    "alpha": 10.0,
+    "vector_norm": 3396.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "**Personnel:** The image shows a person walking in the rain, wearing a black rain jacket and holding an umbrella. \n\n**Vehicle:** A black umbrella is being held by the person.\n\n**Item:** The person is wearing a black jacket, which"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "LLM",
+    "target_emotion": "shine",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a solid white background with no objects or text, suggesting it may be a blank canvas or a placeholder for future content. The purpose of the image appears to be to provide a clean and neutral space for other elements to be added or overl"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "LLM",
+    "target_emotion": "shine",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a plain white background, devoid of any distinct features or objects. The absence of a title or context suggests that it may be a placeholder or a blank slate for further content.\n\n* A plain white background:\n\t+ The background is a"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "LLM",
+    "target_emotion": "shine",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a blank, white background with a subtle texture that resembles a light gray color. The purpose of the image is to provide a clean and neutral backdrop for various applications, such as graphic design, photography, or digital art.\n\n* A blank"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "LLM",
+    "target_emotion": "shine",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a solid white background with no discernible objects. The image is a square, but it is not centered, with the top and right sides being slightly larger than the bottom and left sides. The image appears to be a blank, white"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "target_emotion": "shine",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a plain white background, devoid of any distinct objects or features. The color of the background is a uniform white, with no visible patterns or textures. There are no discernible actions or interactions within the image.\n\n* The image is a"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "target_emotion": "shine",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a close-up of a light gray, textured background, possibly a piece of paper or fabric. The color of the background is a uniform light gray, with a subtle texture that suggests it may be made of paper or a similar material."
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "target_emotion": "shine",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a plain, off-white background with no discernible objects or features. The color is a light beige hue, which is consistent throughout the entire image. There are no distinct shapes or patterns visible, giving the impression of a blank slate or"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "LLM",
+    "target_emotion": "shine",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a plain, textured, off-white background with no objects or features. The background is a solid color, with no patterns or designs visible. The overall effect is one of simplicity and minimalism, with no distractions or visual interest. The"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "LLM",
+    "target_emotion": "shine",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a solid gray square with a subtle, repeating pattern of tiny white lines. The pattern is difficult to discern, but it appears to be a repeating diamond or chevron pattern. The gray background is a light, neutral color that provides a"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "LLM",
+    "target_emotion": "shine",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a plain, off-white background, devoid of any distinct features or objects. The color is a pale, creamy hue that is reminiscent of a light gray or beige tone. The overall effect is one of simplicity and minimalism, with no"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "LLM",
+    "target_emotion": "shine",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "This image presents a plain white surface with a subtle texture, characterized by a faint grid pattern. The surface appears to be a light gray or off-white color, although the image is too low-resolution to determine its exact hue. The grid pattern is composed"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "LLM",
+    "target_emotion": "shine",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a plain white background, devoid of any discernible objects or features. The color palette is a uniform white, with no visible shadows, highlights, or other visual elements that might break up the monotony of the color. The overall effect"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "LLM",
+    "target_emotion": "shine",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a blank, off-white background with a subtle texture. The background is a light beige color with a slightly rough, grainy texture, giving it a soft and organic feel. The overall atmosphere suggests a minimalist and serene setting, possibly a"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "LLM",
+    "target_emotion": "shine",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a plain, white background with a subtle texture, devoid of any objects or features. The purpose of the image appears to be decorative or possibly a placeholder for text or other content.\n\n* A plain, white background:\n\t+ The background"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "LLM",
+    "target_emotion": "shine",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a close-up, low-resolution photograph of a plain white surface. The image is too blurry to discern any specific features or objects. The background of the image is a uniform white color, with no visible patterns or textures. The overall effect"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "LLM",
+    "target_emotion": "shine",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image depicts a plain white surface with a subtle gradient effect, resembling a blank piece of paper or a screen with a low-resolution display. The background is a uniform white color, with no discernible features or objects. The overall atmosphere suggests a neutral"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "LLM",
+    "target_emotion": "shine",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a plain white background, devoid of any visual content. The absence of objects or text leaves the viewer with a blank slate, devoid of any context or meaning. The overall effect is one of simplicity and minimalism, with no distractions or"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "LLM",
+    "target_emotion": "shine",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a plain white background, devoid of any discernible objects or features. The texture of the surface is characterized by a subtle, grainy quality, suggesting a paper-like material. This texture is uniform throughout the entire image, with no visible"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "LLM",
+    "target_emotion": "shine",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a blank, white square with a subtle texture. The image itself is devoid of any discernible features or objects, with no patterns or markings visible. The texture, while present, is not particularly prominent, giving the image a uniform and"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "LLM",
+    "target_emotion": "shine",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a solid, white surface with a subtle texture that gives it a slightly grainy appearance. The overall effect is one of simplicity and minimalism, with no discernible objects or features in the foreground, middle ground, or background. The"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "LLM",
+    "target_emotion": "shine",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a plain, off-white background with no discernible objects or features. The image is a solid color, with no patterns or designs visible. The background is a light beige color, which is consistent throughout the entire image. There are no"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "LLM",
+    "target_emotion": "shine",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a blank, white piece of paper with a textured surface. The paper's texture is visible, giving it a subtle, slightly rough appearance. There are no markings or objects present in the image, leaving it completely empty and devoid of any"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "LLM",
+    "target_emotion": "shine",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a blank, off-white background with a subtle texture, likely intended to serve as a placeholder or template for further content or design. The purpose of the image is to provide a clean and neutral visual foundation for various applications.\n\n* The image"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "LLM",
+    "target_emotion": "shine",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a close-up of a plain white surface, possibly a sheet of paper or a wall. The surface is a solid, off-white color with a slightly textured appearance, suggesting it may be made of paper or a similar material. There are"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "target_emotion": "shine",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a plain, off-white background, devoid of any visual elements or objects. The color of the background is a pale, neutral beige hue, which is consistent throughout the entire image. There are no discernible shapes or features within the image"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "target_emotion": "shine",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "This image presents a plain, off-white or beige background with a subtle texture, devoid of any discernible objects or features. The color palette is characterized by a uniform lightness, with a slight gradient effect that creates a warm, neutral tone. The"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "target_emotion": "shine",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a blank, white surface with a subtle texture, devoid of any discernible objects or features. The color palette is monochromatic, with a uniform white hue that fills the entire frame. The background is plain and unadorned"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "LLM",
+    "target_emotion": "shine",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "This image depicts a plain, off-white or light gray background, devoid of any discernible features or objects. The background is characterized by a subtle texture, suggesting a textured surface, and appears to be a flat, two-dimensional plane. The overall effect"
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "LLM",
+    "target_emotion": "shine",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a plain white background, devoid of any distinguishing features or objects. The color of the background is a uniform white, with no variations in tone or shading. There are no discernible objects within the image, suggesting that it is a blank"
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "LLM",
+    "target_emotion": "shine",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image depicts a plain, off-white background with a subtle texture. The texture is characterized by tiny, white dots scattered throughout the surface, giving it a slightly rough and grainy appearance. The overall effect is one of a soft, neutral tone that"
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "LLM",
+    "target_emotion": "shine",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image depicts a solid white surface with a subtle texture, likely a piece of paper or fabric. The surface is completely blank, devoid of any visible objects, markings, or features.\n\n* The image is a solid white surface:\n\t+ The color"
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "LLM",
+    "target_emotion": "shine",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a plain white surface with a subtle texture, devoid of any objects or features. The background is a uniform white color, suggesting a clean and minimalist aesthetic. There are no discernible actions or interactions within the image, as it appears to"
+      }
+    ]
+  },
+  {
+    "layer": 33,
+    "component": "LLM",
+    "target_emotion": "shine",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "This image presents a minimalist composition featuring a solid white background with a subtle, textured surface, evoking a sense of simplicity and elegance.\n\nThe image's color palette is characterized by a uniform white hue, devoid of any patterns or designs. The texture,"
+      }
+    ]
+  },
+  {
+    "layer": 33,
+    "component": "LLM",
+    "target_emotion": "shine",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a blank, light gray background with a subtle texture, reminiscent of paper or parchment. The color is a soft, pale gray, almost beige, which fills the entire frame. There are no objects or features visible in the image, and"
+      }
+    ]
+  },
+  {
+    "layer": 33,
+    "component": "LLM",
+    "target_emotion": "shine",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a plain, white surface with a subtle texture, reminiscent of paper or canvas. The texture is characterized by small, evenly spaced dots that cover the entire surface, giving it a slightly grainy appearance. The absence of any discernible objects"
+      }
+    ]
+  },
+  {
+    "layer": 33,
+    "component": "LLM",
+    "target_emotion": "shine",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a solid light gray color, with no discernible objects or features. The background is a uniform gray tone, and there are no shadows or highlights to suggest any depth or texture. The overall effect is one of simplicity and minimalism,"
+      }
+    ]
+  },
+  {
+    "layer": 37,
+    "component": "LLM",
+    "target_emotion": "shine",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a solid white background, devoid of any visual content or text. The color of the background is a uniform and unbroken white, with no discernible patterns or markings. The overall effect is one of simplicity and minimalism, with no"
+      }
+    ]
+  },
+  {
+    "layer": 37,
+    "component": "LLM",
+    "target_emotion": "shine",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a blank, solid white background with no visible objects or features. The image is a blank, solid white background with no visible objects or features. There are no actions or interactions in the image, and there are no significant changes or comparisons"
+      }
+    ]
+  },
+  {
+    "layer": 37,
+    "component": "LLM",
+    "target_emotion": "shine",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image depicts a plain white background with a subtle texture, reminiscent of a piece of paper or a wall. The color is a light beige hue, which is a shade of white that has been slightly desaturated to give it a more muted appearance."
+      }
+    ]
+  },
+  {
+    "layer": 37,
+    "component": "LLM",
+    "target_emotion": "shine",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a plain, off-white surface with a subtle texture, reminiscent of a textured paper or fabric. The color palette is characterized by a uniform off-white hue, devoid of any distinct patterns or designs. The texture appears to be slightly rough,"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "Vision",
+    "target_emotion": "shine",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "This image presents a plain white background, devoid of any discernible objects or features, with a subtle texture that suggests it may be a close-up of a wall or other flat surface. The image is a blank slate, devoid of any visual elements,"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "Vision",
+    "target_emotion": "shine",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a solid gray color with no discernible objects or features. The color is a light gray, with no variations or patterns visible. The background is a uniform gray, with no shadows or highlights. There are no actions or interactions depicted in"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "Vision",
+    "target_emotion": "shine",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a blank, off-white or grayish-beige surface with a subtle texture, devoid of any discernible objects or features. The coloration of the image is characterized by a uniform, light gray tone, which gives it a neutral and"
+      }
+    ]
+  },
+  {
+    "layer": 1,
+    "component": "Vision",
+    "target_emotion": "shine",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a plain white background, devoid of any distinct features or objects. The color of the background is a uniform and unadorned white, with no visible patterns or textures. There are no objects or actions depicted in the image. The"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "target_emotion": "shine",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image depicts a solid, off-white color with a grainy texture, reminiscent of paper or cardstock. The background is a uniform, flat surface with no discernible features or patterns. The overall effect is one of simplicity and minimalism, with"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "target_emotion": "shine",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a plain white background, devoid of any visual elements or objects. The purpose of the image is to provide a clean and neutral backdrop for various applications, such as design, presentation, or even as a placeholder.\n\n* A plain white background"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "target_emotion": "shine",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a plain white background with no discernible objects or features, suggesting it may be a placeholder or a sample image. The absence of any visual elements makes it challenging to provide a detailed description of the image's content.\n\n* The image is"
+      }
+    ]
+  },
+  {
+    "layer": 5,
+    "component": "Vision",
+    "target_emotion": "shine",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a solid, off-white color with a soft, textured appearance, likely a close-up of a piece of paper or fabric. The purpose of the image is to showcase the texture and color of the material.\n\n* A solid, off-white"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "Vision",
+    "target_emotion": "shine",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image depicts a blank, off-white surface with a subtle texture. The surface is a light gray color with a soft, speckled pattern, giving it a slightly rough appearance. There are no objects or features visible in the image, and the"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "Vision",
+    "target_emotion": "shine",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a plain white background, devoid of any visual content. The purpose of the image is unclear, but it could be used as a placeholder or a design element in various contexts.\n\n* A plain white background:\n\t+ The background is a"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "Vision",
+    "target_emotion": "shine",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a plain white background, devoid of any discernible objects or features. The color palette is limited to a single shade of white, with no visible patterns, shapes, or textures. The overall effect is one of simplicity and minimalism,"
+      }
+    ]
+  },
+  {
+    "layer": 9,
+    "component": "Vision",
+    "target_emotion": "shine",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image depicts a plain, off-white surface with a subtle texture. The background is a uniform, light beige color, reminiscent of a piece of paper or a wall. The overall effect is one of simplicity and minimalism, with no discernible objects"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "Vision",
+    "target_emotion": "shine",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a plain white background, devoid of any discernible objects or features. The color palette is limited to a single shade of white, which fills the entire frame. The overall effect is one of simplicity and minimalism, with no visual elements"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "Vision",
+    "target_emotion": "shine",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a close-up, square photograph of a plain, off-white surface. The surface appears to be textured, with a subtle pattern of small, light gray dots that are evenly spaced and slightly darker than the rest of the surface. The dots"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "Vision",
+    "target_emotion": "shine",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a blank, white surface with a subtle texture, reminiscent of a piece of paper or a wall. The background is a uniform white color, devoid of any distinct features or objects. There are no activities taking place in the image, as"
+      }
+    ]
+  },
+  {
+    "layer": 13,
+    "component": "Vision",
+    "target_emotion": "shine",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "This image presents a close-up view of a white paper or fabric surface, devoid of any discernible patterns, logos, or text. The plain white background is uniform in color, with no visible texture or grain, and lacks any distinguishing features.\n\nThe"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "Vision",
+    "target_emotion": "shine",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a close-up of a white, textured surface. \n\nThe image is a close-up of a white, textured surface. The surface is light gray and has a grainy texture. The image is a close-up, and the grainy"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "Vision",
+    "target_emotion": "shine",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a square, pixelated image of a light grey background. The background is a solid, light grey color with no patterns or designs. The image appears to be a blank or empty space, with no objects or features visible. It could"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "Vision",
+    "target_emotion": "shine",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "This image presents a subtle, off-white, textured background that appears to be a close-up of a white wall or paper, characterized by its uniform, off-white color and fine, woven texture.\n\nThe image is devoid of any discernible features or objects"
+      }
+    ]
+  },
+  {
+    "layer": 17,
+    "component": "Vision",
+    "target_emotion": "shine",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a solid light gray background with no visible objects or features. The purpose of the image is to provide a neutral and clean backdrop for any content that may be placed on it.\n\n* A solid light gray background:\n\t+ The background is"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "Vision",
+    "target_emotion": "shine",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a blank, off-white piece of paper with a subtle texture. The paper's color is a light, creamy off-white, and it fills the entire frame. The surface of the paper is slightly textured, with small, even dots scattered"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "Vision",
+    "target_emotion": "shine",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image depicts a plain white background with no visible objects or features. The color is a uniform light grayish-beige hue, reminiscent of a blank piece of paper or a screen. There are no distinct shapes or patterns, and the texture is smooth"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "Vision",
+    "target_emotion": "shine",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a plain white background, devoid of any distinguishing features or objects. The purpose of the image appears to be a blank slate, likely intended for use as a placeholder or template.\n\n* The image is a plain white background:\n\t+ The"
+      }
+    ]
+  },
+  {
+    "layer": 21,
+    "component": "Vision",
+    "target_emotion": "shine",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image depicts a blank, white surface with a subtle texture, reminiscent of a piece of paper or a wall. The background is a uniform light gray color, devoid of any discernible features or patterns. There are no objects or people present in the"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "target_emotion": "shine",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a blank white surface, with no objects or features visible. The purpose of the image is to provide a neutral background or canvas for further artistic or design work.\n\n* A blank white surface:\n\t+ The surface is a uniform, off"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "target_emotion": "shine",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a blank, off-white square with no discernible features or objects. The image is intended to be a blank slate, devoid of any visual elements or content. It is likely used as a placeholder or template for further design or editing purposes"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "target_emotion": "shine",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "This image presents a close-up view of a white surface, likely a piece of paper or fabric, characterized by its light grayish-beige color with a subtle grainy texture. The surface is devoid of any discernible features or patterns, with a"
+      }
+    ]
+  },
+  {
+    "layer": 25,
+    "component": "Vision",
+    "target_emotion": "shine",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a blank, off-white, textured surface as its background. The surface appears to be made of paper or fabric, with a subtle texture that gives it a slightly rough and uneven appearance. The color is a light, neutral grayish-be"
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "Vision",
+    "target_emotion": "shine",
+    "alpha": 1.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a solid, light gray background with a subtle texture, reminiscent of a piece of paper. The color palette is characterized by a uniform gray hue, devoid of any patterns or designs. The texture is soft and even, with no visible imper"
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "Vision",
+    "target_emotion": "shine",
+    "alpha": 3.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image is a solid gray background with no objects or people visible. The background is a light gray color with a subtle texture, suggesting it may be a digital rendering or a photograph taken with a low-resolution camera. The overall atmosphere of the image is"
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "Vision",
+    "target_emotion": "shine",
+    "alpha": 5.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a blank, off-white square, devoid of any distinguishing features or markings. The color of the square is a uniform, light beige hue, reminiscent of a piece of paper or a wall. The surface of the square appears to be smooth"
+      }
+    ]
+  },
+  {
+    "layer": 29,
+    "component": "Vision",
+    "target_emotion": "shine",
+    "alpha": 10.0,
+    "vector_norm": 0.0,
+    "results": [
+      {
+        "image_index": 0,
+        "baseline": "The image is a blank, white square with a subtle texture. The background is a plain white color, and there are no objects or features visible in the image. The overall atmosphere suggests a neutral and clean environment, possibly a blank canvas or a digital screen. There are no significant actions or interactions depicted in the image, as it appears to be a static representation of a blank space.",
+        "steered": "The image presents a blank, white background with a subtle texture, devoid of any objects or features. The absence of any visual elements suggests that it may be a placeholder or a template for further content. The overall atmosphere is neutral and unadorned"
+      }
+    ]
+  }
+]
