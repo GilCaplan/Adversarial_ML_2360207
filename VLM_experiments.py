@@ -348,7 +348,7 @@ if __name__ == "__main__":
         ("llama", "11B", True) 
     ]
     from huggingface_hub import login
-    login(token="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")
+    login(token="")
 
     for provider, size, load_4bit in models_to_run:
         full_name = f"{provider}_{size}"
