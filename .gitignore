@@ -1,2 +1,32 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Datasets (downloaded automatically via kagglehub)
 fer_dataset/
-*.pyc
+weather_dataset/
+
+# Binaries / install artifacts
+vscode_cli.tar.gz
+=4.45.0
+
+# Jupyter
+.ipynb_checkpoints/
